@@ -1,0 +1,51 @@
+!!!
+%html.no-js{:lang => "en"}
+	%head
+		%meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+		%meta{:charset => "utf-8"}/
+		%meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
+		%meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+		%meta{:name => "pinterest", :content => "nopin"}/
+		%title Dayne Arron Watai
+		%link{:href => "css/app.css", :rel => "stylesheet"}/
+		%link{:href => "bower_components/slick-carousel/slick/slick.css", :rel => "stylesheet"}
+	%body
+		.hero	
+			.row
+				.container
+					%h1 Welcome to Foundation
+		.row
+			.container
+				.project-grid
+					.desktop-mock	
+						.carousel	
+							%img{:src => "img/balboa/desktop_01.png", :alt => ""}/
+							%img{:src => "img/balboa/desktop_02.png", :alt => ""}/
+							%img{:src => "img/balboa/desktop_03.png", :alt => ""}/
+					.mobile-mock	
+						.carousel
+							%img{:src => "img/balboa/desktop_01.png", :alt => ""}/
+							%img{:src => "img/balboa/desktop_02.png", :alt => ""}/
+							%img{:src => "img/balboa/desktop_03.png", :alt => ""}/
+					.logo-square
+						.logo-color-bg
+							%img{:src => "img/balboa/logo-color.svg", :alt => ""}/
+					.logo-square
+						.logo-color-bg.white
+							%img{:src => "img/balboa/logo-white.svg", :alt => ""}/
+		%script{:src => "bower_components/jquery/dist/jquery.js"}
+		%script{:src => "bower_components/what-input/dist/what-input.js"}
+		%script{:src => "bower_components/foundation-sites/dist/js/foundation.js"}
+		%script{:src => "bower_components/slick-carousel/slick/slick.js"}
+		%script{:src => "js/min/app-min.js"}
+		:javascript
+			$(document).ready(function(){
+				$('.carousel').slick({
+					dots: false,
+					infinite: true,
+					speed: 300,
+					slidesToShow: 1,
+					arrows : false,
+					adaptiveHeight: true
+				});
+			});
