@@ -471,8 +471,38 @@
     .logo-square .logo-color-bg.white {
       background-color: #333B63; }
 
+.color-specs li {
+  height: 130px;
+  position: relative;
+  overflow: hidden; }
+  .color-specs li p {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    transform: translateX(70%) translateY(-50%) rotate(-90deg);
+    -ms-transform: translateX(70%) translateY(-50%) rotate(-90deg);
+    -webkit-transform: translateX(70%) translateY(-50%) rotate(-90deg);
+    -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1); }
+  .color-specs li:hover p {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(-90deg); }
+
 .carousel {
   cursor: move; }
+
+.color-specs ul {
+  margin: 0;
+  padding: 0; }
+  .color-specs ul li {
+    list-style-type: none;
+    border: 1px solid; }
 
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 /* Document
@@ -968,7 +998,8 @@ pre {
   .row::after {
     clear: both; }
   .row.collapse > .column, .row.collapse > .columns, .row.collapse > .container, .row.collapse > .project-grid, .row.collapse > .desktop-mock, .row.collapse > .mobile-mock, .row.collapse >
-  .logo-square {
+  .logo-square, .row.collapse >
+  .color-specs, .color-specs .row.collapse > li {
     padding-right: 0;
     padding-left: 0; }
   .row .row {
@@ -993,38 +1024,46 @@ pre {
   .row:not(.expanded) .row {
     max-width: none; }
   .row.gutter-small > .column, .row.gutter-small > .columns, .row.gutter-small > .container, .row.gutter-small > .project-grid, .row.gutter-small > .desktop-mock, .row.gutter-small > .mobile-mock, .row.gutter-small >
-  .logo-square {
+  .logo-square, .row.gutter-small >
+  .color-specs, .color-specs .row.gutter-small > li {
     padding-right: 0.625rem;
     padding-left: 0.625rem; }
   .row.gutter-medium > .column, .row.gutter-medium > .columns, .row.gutter-medium > .container, .row.gutter-medium > .project-grid, .row.gutter-medium > .desktop-mock, .row.gutter-medium > .mobile-mock, .row.gutter-medium >
-  .logo-square {
+  .logo-square, .row.gutter-medium >
+  .color-specs, .color-specs .row.gutter-medium > li {
     padding-right: 0.9375rem;
     padding-left: 0.9375rem; }
 
 .column, .columns, .container, .project-grid, .desktop-mock, .mobile-mock,
-.logo-square {
+.logo-square,
+.color-specs, .color-specs li {
   width: 100%;
   float: left;
   padding-right: 0.625rem;
   padding-left: 0.625rem; }
   @media print, screen and (min-width: 40em) {
     .column, .columns, .container, .project-grid, .desktop-mock, .mobile-mock,
-    .logo-square {
+    .logo-square,
+    .color-specs, .color-specs li {
       padding-right: 0.9375rem;
       padding-left: 0.9375rem; } }
   .column:last-child:not(:first-child), .columns:last-child:not(:first-child), .container:last-child:not(:first-child), .project-grid:last-child:not(:first-child), .desktop-mock:last-child:not(:first-child), .mobile-mock:last-child:not(:first-child),
-  .logo-square:last-child:not(:first-child) {
+  .logo-square:last-child:not(:first-child),
+  .color-specs:last-child:not(:first-child), .color-specs li:last-child:not(:first-child) {
     float: right; }
   .column.end:last-child:last-child, .end.columns:last-child:last-child, .end.container:last-child:last-child, .end.project-grid:last-child:last-child, .end.desktop-mock:last-child:last-child, .end.mobile-mock:last-child:last-child,
-  .end.logo-square:last-child:last-child {
+  .end.logo-square:last-child:last-child,
+  .end.color-specs:last-child:last-child, .color-specs li.end:last-child:last-child {
     float: left; }
 
 .column.row.row, .row.row.columns, .row.row.container, .row.row.project-grid, .row.row.desktop-mock, .row.row.mobile-mock,
-.row.row.logo-square {
+.row.row.logo-square,
+.row.row.color-specs, .color-specs li.row.row {
   float: none; }
 
 .row .column.row.row, .row .row.row.columns, .row .row.row.container, .row .row.row.project-grid, .row .row.row.desktop-mock, .row .row.row.mobile-mock, .row
-.row.row.logo-square {
+.row.row.logo-square, .row
+.row.row.color-specs, .row .color-specs li.row.row, .color-specs .row li.row.row {
   margin-right: 0;
   margin-left: 0;
   padding-right: 0;
@@ -1191,119 +1230,152 @@ pre {
   margin-left: 91.6666666667%; }
 
 .small-up-1 > .column, .small-up-1 > .columns, .small-up-1 > .container, .small-up-1 > .project-grid, .small-up-1 > .desktop-mock, .small-up-1 > .mobile-mock, .small-up-1 >
-.logo-square {
+.logo-square, .small-up-1 >
+.color-specs, .color-specs .small-up-1 > li {
   float: left;
   width: 100%; }
   .small-up-1 > .column:nth-of-type(1n), .small-up-1 > .columns:nth-of-type(1n), .small-up-1 > .container:nth-of-type(1n), .small-up-1 > .project-grid:nth-of-type(1n), .small-up-1 > .desktop-mock:nth-of-type(1n), .small-up-1 > .mobile-mock:nth-of-type(1n), .small-up-1 >
-  .logo-square:nth-of-type(1n) {
+  .logo-square:nth-of-type(1n), .small-up-1 >
+  .color-specs:nth-of-type(1n), .color-specs .small-up-1 > li:nth-of-type(1n) {
     clear: none; }
   .small-up-1 > .column:nth-of-type(1n+1), .small-up-1 > .columns:nth-of-type(1n+1), .small-up-1 > .container:nth-of-type(1n+1), .small-up-1 > .project-grid:nth-of-type(1n+1), .small-up-1 > .desktop-mock:nth-of-type(1n+1), .small-up-1 > .mobile-mock:nth-of-type(1n+1), .small-up-1 >
-  .logo-square:nth-of-type(1n+1) {
+  .logo-square:nth-of-type(1n+1), .small-up-1 >
+  .color-specs:nth-of-type(1n+1), .color-specs .small-up-1 > li:nth-of-type(1n+1) {
     clear: both; }
   .small-up-1 > .column:last-child, .small-up-1 > .columns:last-child, .small-up-1 > .container:last-child, .small-up-1 > .project-grid:last-child, .small-up-1 > .desktop-mock:last-child, .small-up-1 > .mobile-mock:last-child, .small-up-1 >
-  .logo-square:last-child {
+  .logo-square:last-child, .small-up-1 >
+  .color-specs:last-child, .color-specs .small-up-1 > li:last-child {
     float: left; }
 
 .small-up-2 > .column, .small-up-2 > .columns, .small-up-2 > .container, .small-up-2 > .project-grid, .small-up-2 > .desktop-mock, .small-up-2 > .mobile-mock, .small-up-2 >
-.logo-square {
+.logo-square, .small-up-2 >
+.color-specs, .color-specs .small-up-2 > li {
   float: left;
   width: 50%; }
   .small-up-2 > .column:nth-of-type(1n), .small-up-2 > .columns:nth-of-type(1n), .small-up-2 > .container:nth-of-type(1n), .small-up-2 > .project-grid:nth-of-type(1n), .small-up-2 > .desktop-mock:nth-of-type(1n), .small-up-2 > .mobile-mock:nth-of-type(1n), .small-up-2 >
-  .logo-square:nth-of-type(1n) {
+  .logo-square:nth-of-type(1n), .small-up-2 >
+  .color-specs:nth-of-type(1n), .color-specs .small-up-2 > li:nth-of-type(1n) {
     clear: none; }
   .small-up-2 > .column:nth-of-type(2n+1), .small-up-2 > .columns:nth-of-type(2n+1), .small-up-2 > .container:nth-of-type(2n+1), .small-up-2 > .project-grid:nth-of-type(2n+1), .small-up-2 > .desktop-mock:nth-of-type(2n+1), .small-up-2 > .mobile-mock:nth-of-type(2n+1), .small-up-2 >
-  .logo-square:nth-of-type(2n+1) {
+  .logo-square:nth-of-type(2n+1), .small-up-2 >
+  .color-specs:nth-of-type(2n+1), .color-specs .small-up-2 > li:nth-of-type(2n+1) {
     clear: both; }
   .small-up-2 > .column:last-child, .small-up-2 > .columns:last-child, .small-up-2 > .container:last-child, .small-up-2 > .project-grid:last-child, .small-up-2 > .desktop-mock:last-child, .small-up-2 > .mobile-mock:last-child, .small-up-2 >
-  .logo-square:last-child {
+  .logo-square:last-child, .small-up-2 >
+  .color-specs:last-child, .color-specs .small-up-2 > li:last-child {
     float: left; }
 
 .small-up-3 > .column, .small-up-3 > .columns, .small-up-3 > .container, .small-up-3 > .project-grid, .small-up-3 > .desktop-mock, .small-up-3 > .mobile-mock, .small-up-3 >
-.logo-square {
+.logo-square, .small-up-3 >
+.color-specs, .color-specs .small-up-3 > li {
   float: left;
   width: 33.3333333333%; }
   .small-up-3 > .column:nth-of-type(1n), .small-up-3 > .columns:nth-of-type(1n), .small-up-3 > .container:nth-of-type(1n), .small-up-3 > .project-grid:nth-of-type(1n), .small-up-3 > .desktop-mock:nth-of-type(1n), .small-up-3 > .mobile-mock:nth-of-type(1n), .small-up-3 >
-  .logo-square:nth-of-type(1n) {
+  .logo-square:nth-of-type(1n), .small-up-3 >
+  .color-specs:nth-of-type(1n), .color-specs .small-up-3 > li:nth-of-type(1n) {
     clear: none; }
   .small-up-3 > .column:nth-of-type(3n+1), .small-up-3 > .columns:nth-of-type(3n+1), .small-up-3 > .container:nth-of-type(3n+1), .small-up-3 > .project-grid:nth-of-type(3n+1), .small-up-3 > .desktop-mock:nth-of-type(3n+1), .small-up-3 > .mobile-mock:nth-of-type(3n+1), .small-up-3 >
-  .logo-square:nth-of-type(3n+1) {
+  .logo-square:nth-of-type(3n+1), .small-up-3 >
+  .color-specs:nth-of-type(3n+1), .color-specs .small-up-3 > li:nth-of-type(3n+1) {
     clear: both; }
   .small-up-3 > .column:last-child, .small-up-3 > .columns:last-child, .small-up-3 > .container:last-child, .small-up-3 > .project-grid:last-child, .small-up-3 > .desktop-mock:last-child, .small-up-3 > .mobile-mock:last-child, .small-up-3 >
-  .logo-square:last-child {
+  .logo-square:last-child, .small-up-3 >
+  .color-specs:last-child, .color-specs .small-up-3 > li:last-child {
     float: left; }
 
 .small-up-4 > .column, .small-up-4 > .columns, .small-up-4 > .container, .small-up-4 > .project-grid, .small-up-4 > .desktop-mock, .small-up-4 > .mobile-mock, .small-up-4 >
-.logo-square {
+.logo-square, .small-up-4 >
+.color-specs, .color-specs .small-up-4 > li {
   float: left;
   width: 25%; }
   .small-up-4 > .column:nth-of-type(1n), .small-up-4 > .columns:nth-of-type(1n), .small-up-4 > .container:nth-of-type(1n), .small-up-4 > .project-grid:nth-of-type(1n), .small-up-4 > .desktop-mock:nth-of-type(1n), .small-up-4 > .mobile-mock:nth-of-type(1n), .small-up-4 >
-  .logo-square:nth-of-type(1n) {
+  .logo-square:nth-of-type(1n), .small-up-4 >
+  .color-specs:nth-of-type(1n), .color-specs .small-up-4 > li:nth-of-type(1n) {
     clear: none; }
   .small-up-4 > .column:nth-of-type(4n+1), .small-up-4 > .columns:nth-of-type(4n+1), .small-up-4 > .container:nth-of-type(4n+1), .small-up-4 > .project-grid:nth-of-type(4n+1), .small-up-4 > .desktop-mock:nth-of-type(4n+1), .small-up-4 > .mobile-mock:nth-of-type(4n+1), .small-up-4 >
-  .logo-square:nth-of-type(4n+1) {
+  .logo-square:nth-of-type(4n+1), .small-up-4 >
+  .color-specs:nth-of-type(4n+1), .color-specs .small-up-4 > li:nth-of-type(4n+1) {
     clear: both; }
   .small-up-4 > .column:last-child, .small-up-4 > .columns:last-child, .small-up-4 > .container:last-child, .small-up-4 > .project-grid:last-child, .small-up-4 > .desktop-mock:last-child, .small-up-4 > .mobile-mock:last-child, .small-up-4 >
-  .logo-square:last-child {
+  .logo-square:last-child, .small-up-4 >
+  .color-specs:last-child, .color-specs .small-up-4 > li:last-child {
     float: left; }
 
 .small-up-5 > .column, .small-up-5 > .columns, .small-up-5 > .container, .small-up-5 > .project-grid, .small-up-5 > .desktop-mock, .small-up-5 > .mobile-mock, .small-up-5 >
-.logo-square {
+.logo-square, .small-up-5 >
+.color-specs, .color-specs .small-up-5 > li {
   float: left;
   width: 20%; }
   .small-up-5 > .column:nth-of-type(1n), .small-up-5 > .columns:nth-of-type(1n), .small-up-5 > .container:nth-of-type(1n), .small-up-5 > .project-grid:nth-of-type(1n), .small-up-5 > .desktop-mock:nth-of-type(1n), .small-up-5 > .mobile-mock:nth-of-type(1n), .small-up-5 >
-  .logo-square:nth-of-type(1n) {
+  .logo-square:nth-of-type(1n), .small-up-5 >
+  .color-specs:nth-of-type(1n), .color-specs .small-up-5 > li:nth-of-type(1n) {
     clear: none; }
   .small-up-5 > .column:nth-of-type(5n+1), .small-up-5 > .columns:nth-of-type(5n+1), .small-up-5 > .container:nth-of-type(5n+1), .small-up-5 > .project-grid:nth-of-type(5n+1), .small-up-5 > .desktop-mock:nth-of-type(5n+1), .small-up-5 > .mobile-mock:nth-of-type(5n+1), .small-up-5 >
-  .logo-square:nth-of-type(5n+1) {
+  .logo-square:nth-of-type(5n+1), .small-up-5 >
+  .color-specs:nth-of-type(5n+1), .color-specs .small-up-5 > li:nth-of-type(5n+1) {
     clear: both; }
   .small-up-5 > .column:last-child, .small-up-5 > .columns:last-child, .small-up-5 > .container:last-child, .small-up-5 > .project-grid:last-child, .small-up-5 > .desktop-mock:last-child, .small-up-5 > .mobile-mock:last-child, .small-up-5 >
-  .logo-square:last-child {
+  .logo-square:last-child, .small-up-5 >
+  .color-specs:last-child, .color-specs .small-up-5 > li:last-child {
     float: left; }
 
 .small-up-6 > .column, .small-up-6 > .columns, .small-up-6 > .container, .small-up-6 > .project-grid, .small-up-6 > .desktop-mock, .small-up-6 > .mobile-mock, .small-up-6 >
-.logo-square {
+.logo-square, .small-up-6 >
+.color-specs, .color-specs .small-up-6 > li {
   float: left;
   width: 16.6666666667%; }
   .small-up-6 > .column:nth-of-type(1n), .small-up-6 > .columns:nth-of-type(1n), .small-up-6 > .container:nth-of-type(1n), .small-up-6 > .project-grid:nth-of-type(1n), .small-up-6 > .desktop-mock:nth-of-type(1n), .small-up-6 > .mobile-mock:nth-of-type(1n), .small-up-6 >
-  .logo-square:nth-of-type(1n) {
+  .logo-square:nth-of-type(1n), .small-up-6 >
+  .color-specs:nth-of-type(1n), .color-specs .small-up-6 > li:nth-of-type(1n) {
     clear: none; }
   .small-up-6 > .column:nth-of-type(6n+1), .small-up-6 > .columns:nth-of-type(6n+1), .small-up-6 > .container:nth-of-type(6n+1), .small-up-6 > .project-grid:nth-of-type(6n+1), .small-up-6 > .desktop-mock:nth-of-type(6n+1), .small-up-6 > .mobile-mock:nth-of-type(6n+1), .small-up-6 >
-  .logo-square:nth-of-type(6n+1) {
+  .logo-square:nth-of-type(6n+1), .small-up-6 >
+  .color-specs:nth-of-type(6n+1), .color-specs .small-up-6 > li:nth-of-type(6n+1) {
     clear: both; }
   .small-up-6 > .column:last-child, .small-up-6 > .columns:last-child, .small-up-6 > .container:last-child, .small-up-6 > .project-grid:last-child, .small-up-6 > .desktop-mock:last-child, .small-up-6 > .mobile-mock:last-child, .small-up-6 >
-  .logo-square:last-child {
+  .logo-square:last-child, .small-up-6 >
+  .color-specs:last-child, .color-specs .small-up-6 > li:last-child {
     float: left; }
 
 .small-up-7 > .column, .small-up-7 > .columns, .small-up-7 > .container, .small-up-7 > .project-grid, .small-up-7 > .desktop-mock, .small-up-7 > .mobile-mock, .small-up-7 >
-.logo-square {
+.logo-square, .small-up-7 >
+.color-specs, .color-specs .small-up-7 > li {
   float: left;
   width: 14.2857142857%; }
   .small-up-7 > .column:nth-of-type(1n), .small-up-7 > .columns:nth-of-type(1n), .small-up-7 > .container:nth-of-type(1n), .small-up-7 > .project-grid:nth-of-type(1n), .small-up-7 > .desktop-mock:nth-of-type(1n), .small-up-7 > .mobile-mock:nth-of-type(1n), .small-up-7 >
-  .logo-square:nth-of-type(1n) {
+  .logo-square:nth-of-type(1n), .small-up-7 >
+  .color-specs:nth-of-type(1n), .color-specs .small-up-7 > li:nth-of-type(1n) {
     clear: none; }
   .small-up-7 > .column:nth-of-type(7n+1), .small-up-7 > .columns:nth-of-type(7n+1), .small-up-7 > .container:nth-of-type(7n+1), .small-up-7 > .project-grid:nth-of-type(7n+1), .small-up-7 > .desktop-mock:nth-of-type(7n+1), .small-up-7 > .mobile-mock:nth-of-type(7n+1), .small-up-7 >
-  .logo-square:nth-of-type(7n+1) {
+  .logo-square:nth-of-type(7n+1), .small-up-7 >
+  .color-specs:nth-of-type(7n+1), .color-specs .small-up-7 > li:nth-of-type(7n+1) {
     clear: both; }
   .small-up-7 > .column:last-child, .small-up-7 > .columns:last-child, .small-up-7 > .container:last-child, .small-up-7 > .project-grid:last-child, .small-up-7 > .desktop-mock:last-child, .small-up-7 > .mobile-mock:last-child, .small-up-7 >
-  .logo-square:last-child {
+  .logo-square:last-child, .small-up-7 >
+  .color-specs:last-child, .color-specs .small-up-7 > li:last-child {
     float: left; }
 
 .small-up-8 > .column, .small-up-8 > .columns, .small-up-8 > .container, .small-up-8 > .project-grid, .small-up-8 > .desktop-mock, .small-up-8 > .mobile-mock, .small-up-8 >
-.logo-square {
+.logo-square, .small-up-8 >
+.color-specs, .color-specs .small-up-8 > li {
   float: left;
   width: 12.5%; }
   .small-up-8 > .column:nth-of-type(1n), .small-up-8 > .columns:nth-of-type(1n), .small-up-8 > .container:nth-of-type(1n), .small-up-8 > .project-grid:nth-of-type(1n), .small-up-8 > .desktop-mock:nth-of-type(1n), .small-up-8 > .mobile-mock:nth-of-type(1n), .small-up-8 >
-  .logo-square:nth-of-type(1n) {
+  .logo-square:nth-of-type(1n), .small-up-8 >
+  .color-specs:nth-of-type(1n), .color-specs .small-up-8 > li:nth-of-type(1n) {
     clear: none; }
   .small-up-8 > .column:nth-of-type(8n+1), .small-up-8 > .columns:nth-of-type(8n+1), .small-up-8 > .container:nth-of-type(8n+1), .small-up-8 > .project-grid:nth-of-type(8n+1), .small-up-8 > .desktop-mock:nth-of-type(8n+1), .small-up-8 > .mobile-mock:nth-of-type(8n+1), .small-up-8 >
-  .logo-square:nth-of-type(8n+1) {
+  .logo-square:nth-of-type(8n+1), .small-up-8 >
+  .color-specs:nth-of-type(8n+1), .color-specs .small-up-8 > li:nth-of-type(8n+1) {
     clear: both; }
   .small-up-8 > .column:last-child, .small-up-8 > .columns:last-child, .small-up-8 > .container:last-child, .small-up-8 > .project-grid:last-child, .small-up-8 > .desktop-mock:last-child, .small-up-8 > .mobile-mock:last-child, .small-up-8 >
-  .logo-square:last-child {
+  .logo-square:last-child, .small-up-8 >
+  .color-specs:last-child, .color-specs .small-up-8 > li:last-child {
     float: left; }
 
 .small-collapse > .column, .small-collapse > .columns, .small-collapse > .container, .small-collapse > .project-grid, .small-collapse > .desktop-mock, .small-collapse > .mobile-mock, .small-collapse >
-.logo-square {
+.logo-square, .small-collapse >
+.color-specs, .color-specs .small-collapse > li {
   padding-right: 0;
   padding-left: 0; }
 
@@ -1316,7 +1388,8 @@ pre {
   margin-left: 0; }
 
 .small-uncollapse > .column, .small-uncollapse > .columns, .small-uncollapse > .container, .small-uncollapse > .project-grid, .small-uncollapse > .desktop-mock, .small-uncollapse > .mobile-mock, .small-uncollapse >
-.logo-square {
+.logo-square, .small-uncollapse >
+.color-specs, .color-specs .small-uncollapse > li {
   padding-right: 0.625rem;
   padding-left: 0.625rem; }
 
@@ -1346,7 +1419,7 @@ pre {
     left: -8.3333333333%; }
   .medium-offset-0 {
     margin-left: 0%; }
-  .medium-2 {
+  .medium-2, .color-specs li {
     width: 16.6666666667%; }
   .medium-push-2 {
     position: relative;
@@ -1367,7 +1440,8 @@ pre {
   .medium-offset-2 {
     margin-left: 16.6666666667%; }
   .medium-4, .mobile-mock,
-  .logo-square {
+  .logo-square,
+  .color-specs {
     width: 33.3333333333%; }
   .medium-push-4 {
     position: relative;
@@ -1427,7 +1501,7 @@ pre {
     left: -75%; }
   .medium-offset-8 {
     margin-left: 66.6666666667%; }
-  .medium-10 {
+  .medium-10, .project-grid {
     width: 83.3333333333%; }
   .medium-push-10 {
     position: relative;
@@ -1447,116 +1521,149 @@ pre {
     left: -91.6666666667%; }
   .medium-offset-10 {
     margin-left: 83.3333333333%; }
-  .medium-12, .project-grid {
+  .medium-12 {
     width: 100%; }
   .medium-offset-11 {
     margin-left: 91.6666666667%; }
   .medium-up-1 > .column, .medium-up-1 > .columns, .medium-up-1 > .container, .medium-up-1 > .project-grid, .medium-up-1 > .desktop-mock, .medium-up-1 > .mobile-mock, .medium-up-1 >
-  .logo-square {
+  .logo-square, .medium-up-1 >
+  .color-specs, .color-specs .medium-up-1 > li {
     float: left;
     width: 100%; }
     .medium-up-1 > .column:nth-of-type(1n), .medium-up-1 > .columns:nth-of-type(1n), .medium-up-1 > .container:nth-of-type(1n), .medium-up-1 > .project-grid:nth-of-type(1n), .medium-up-1 > .desktop-mock:nth-of-type(1n), .medium-up-1 > .mobile-mock:nth-of-type(1n), .medium-up-1 >
-    .logo-square:nth-of-type(1n) {
+    .logo-square:nth-of-type(1n), .medium-up-1 >
+    .color-specs:nth-of-type(1n), .color-specs .medium-up-1 > li:nth-of-type(1n) {
       clear: none; }
     .medium-up-1 > .column:nth-of-type(1n+1), .medium-up-1 > .columns:nth-of-type(1n+1), .medium-up-1 > .container:nth-of-type(1n+1), .medium-up-1 > .project-grid:nth-of-type(1n+1), .medium-up-1 > .desktop-mock:nth-of-type(1n+1), .medium-up-1 > .mobile-mock:nth-of-type(1n+1), .medium-up-1 >
-    .logo-square:nth-of-type(1n+1) {
+    .logo-square:nth-of-type(1n+1), .medium-up-1 >
+    .color-specs:nth-of-type(1n+1), .color-specs .medium-up-1 > li:nth-of-type(1n+1) {
       clear: both; }
     .medium-up-1 > .column:last-child, .medium-up-1 > .columns:last-child, .medium-up-1 > .container:last-child, .medium-up-1 > .project-grid:last-child, .medium-up-1 > .desktop-mock:last-child, .medium-up-1 > .mobile-mock:last-child, .medium-up-1 >
-    .logo-square:last-child {
+    .logo-square:last-child, .medium-up-1 >
+    .color-specs:last-child, .color-specs .medium-up-1 > li:last-child {
       float: left; }
   .medium-up-2 > .column, .medium-up-2 > .columns, .medium-up-2 > .container, .medium-up-2 > .project-grid, .medium-up-2 > .desktop-mock, .medium-up-2 > .mobile-mock, .medium-up-2 >
-  .logo-square {
+  .logo-square, .medium-up-2 >
+  .color-specs, .color-specs .medium-up-2 > li {
     float: left;
     width: 50%; }
     .medium-up-2 > .column:nth-of-type(1n), .medium-up-2 > .columns:nth-of-type(1n), .medium-up-2 > .container:nth-of-type(1n), .medium-up-2 > .project-grid:nth-of-type(1n), .medium-up-2 > .desktop-mock:nth-of-type(1n), .medium-up-2 > .mobile-mock:nth-of-type(1n), .medium-up-2 >
-    .logo-square:nth-of-type(1n) {
+    .logo-square:nth-of-type(1n), .medium-up-2 >
+    .color-specs:nth-of-type(1n), .color-specs .medium-up-2 > li:nth-of-type(1n) {
       clear: none; }
     .medium-up-2 > .column:nth-of-type(2n+1), .medium-up-2 > .columns:nth-of-type(2n+1), .medium-up-2 > .container:nth-of-type(2n+1), .medium-up-2 > .project-grid:nth-of-type(2n+1), .medium-up-2 > .desktop-mock:nth-of-type(2n+1), .medium-up-2 > .mobile-mock:nth-of-type(2n+1), .medium-up-2 >
-    .logo-square:nth-of-type(2n+1) {
+    .logo-square:nth-of-type(2n+1), .medium-up-2 >
+    .color-specs:nth-of-type(2n+1), .color-specs .medium-up-2 > li:nth-of-type(2n+1) {
       clear: both; }
     .medium-up-2 > .column:last-child, .medium-up-2 > .columns:last-child, .medium-up-2 > .container:last-child, .medium-up-2 > .project-grid:last-child, .medium-up-2 > .desktop-mock:last-child, .medium-up-2 > .mobile-mock:last-child, .medium-up-2 >
-    .logo-square:last-child {
+    .logo-square:last-child, .medium-up-2 >
+    .color-specs:last-child, .color-specs .medium-up-2 > li:last-child {
       float: left; }
   .medium-up-3 > .column, .medium-up-3 > .columns, .medium-up-3 > .container, .medium-up-3 > .project-grid, .medium-up-3 > .desktop-mock, .medium-up-3 > .mobile-mock, .medium-up-3 >
-  .logo-square {
+  .logo-square, .medium-up-3 >
+  .color-specs, .color-specs .medium-up-3 > li {
     float: left;
     width: 33.3333333333%; }
     .medium-up-3 > .column:nth-of-type(1n), .medium-up-3 > .columns:nth-of-type(1n), .medium-up-3 > .container:nth-of-type(1n), .medium-up-3 > .project-grid:nth-of-type(1n), .medium-up-3 > .desktop-mock:nth-of-type(1n), .medium-up-3 > .mobile-mock:nth-of-type(1n), .medium-up-3 >
-    .logo-square:nth-of-type(1n) {
+    .logo-square:nth-of-type(1n), .medium-up-3 >
+    .color-specs:nth-of-type(1n), .color-specs .medium-up-3 > li:nth-of-type(1n) {
       clear: none; }
     .medium-up-3 > .column:nth-of-type(3n+1), .medium-up-3 > .columns:nth-of-type(3n+1), .medium-up-3 > .container:nth-of-type(3n+1), .medium-up-3 > .project-grid:nth-of-type(3n+1), .medium-up-3 > .desktop-mock:nth-of-type(3n+1), .medium-up-3 > .mobile-mock:nth-of-type(3n+1), .medium-up-3 >
-    .logo-square:nth-of-type(3n+1) {
+    .logo-square:nth-of-type(3n+1), .medium-up-3 >
+    .color-specs:nth-of-type(3n+1), .color-specs .medium-up-3 > li:nth-of-type(3n+1) {
       clear: both; }
     .medium-up-3 > .column:last-child, .medium-up-3 > .columns:last-child, .medium-up-3 > .container:last-child, .medium-up-3 > .project-grid:last-child, .medium-up-3 > .desktop-mock:last-child, .medium-up-3 > .mobile-mock:last-child, .medium-up-3 >
-    .logo-square:last-child {
+    .logo-square:last-child, .medium-up-3 >
+    .color-specs:last-child, .color-specs .medium-up-3 > li:last-child {
       float: left; }
   .medium-up-4 > .column, .medium-up-4 > .columns, .medium-up-4 > .container, .medium-up-4 > .project-grid, .medium-up-4 > .desktop-mock, .medium-up-4 > .mobile-mock, .medium-up-4 >
-  .logo-square {
+  .logo-square, .medium-up-4 >
+  .color-specs, .color-specs .medium-up-4 > li {
     float: left;
     width: 25%; }
     .medium-up-4 > .column:nth-of-type(1n), .medium-up-4 > .columns:nth-of-type(1n), .medium-up-4 > .container:nth-of-type(1n), .medium-up-4 > .project-grid:nth-of-type(1n), .medium-up-4 > .desktop-mock:nth-of-type(1n), .medium-up-4 > .mobile-mock:nth-of-type(1n), .medium-up-4 >
-    .logo-square:nth-of-type(1n) {
+    .logo-square:nth-of-type(1n), .medium-up-4 >
+    .color-specs:nth-of-type(1n), .color-specs .medium-up-4 > li:nth-of-type(1n) {
       clear: none; }
     .medium-up-4 > .column:nth-of-type(4n+1), .medium-up-4 > .columns:nth-of-type(4n+1), .medium-up-4 > .container:nth-of-type(4n+1), .medium-up-4 > .project-grid:nth-of-type(4n+1), .medium-up-4 > .desktop-mock:nth-of-type(4n+1), .medium-up-4 > .mobile-mock:nth-of-type(4n+1), .medium-up-4 >
-    .logo-square:nth-of-type(4n+1) {
+    .logo-square:nth-of-type(4n+1), .medium-up-4 >
+    .color-specs:nth-of-type(4n+1), .color-specs .medium-up-4 > li:nth-of-type(4n+1) {
       clear: both; }
     .medium-up-4 > .column:last-child, .medium-up-4 > .columns:last-child, .medium-up-4 > .container:last-child, .medium-up-4 > .project-grid:last-child, .medium-up-4 > .desktop-mock:last-child, .medium-up-4 > .mobile-mock:last-child, .medium-up-4 >
-    .logo-square:last-child {
+    .logo-square:last-child, .medium-up-4 >
+    .color-specs:last-child, .color-specs .medium-up-4 > li:last-child {
       float: left; }
   .medium-up-5 > .column, .medium-up-5 > .columns, .medium-up-5 > .container, .medium-up-5 > .project-grid, .medium-up-5 > .desktop-mock, .medium-up-5 > .mobile-mock, .medium-up-5 >
-  .logo-square {
+  .logo-square, .medium-up-5 >
+  .color-specs, .color-specs .medium-up-5 > li {
     float: left;
     width: 20%; }
     .medium-up-5 > .column:nth-of-type(1n), .medium-up-5 > .columns:nth-of-type(1n), .medium-up-5 > .container:nth-of-type(1n), .medium-up-5 > .project-grid:nth-of-type(1n), .medium-up-5 > .desktop-mock:nth-of-type(1n), .medium-up-5 > .mobile-mock:nth-of-type(1n), .medium-up-5 >
-    .logo-square:nth-of-type(1n) {
+    .logo-square:nth-of-type(1n), .medium-up-5 >
+    .color-specs:nth-of-type(1n), .color-specs .medium-up-5 > li:nth-of-type(1n) {
       clear: none; }
     .medium-up-5 > .column:nth-of-type(5n+1), .medium-up-5 > .columns:nth-of-type(5n+1), .medium-up-5 > .container:nth-of-type(5n+1), .medium-up-5 > .project-grid:nth-of-type(5n+1), .medium-up-5 > .desktop-mock:nth-of-type(5n+1), .medium-up-5 > .mobile-mock:nth-of-type(5n+1), .medium-up-5 >
-    .logo-square:nth-of-type(5n+1) {
+    .logo-square:nth-of-type(5n+1), .medium-up-5 >
+    .color-specs:nth-of-type(5n+1), .color-specs .medium-up-5 > li:nth-of-type(5n+1) {
       clear: both; }
     .medium-up-5 > .column:last-child, .medium-up-5 > .columns:last-child, .medium-up-5 > .container:last-child, .medium-up-5 > .project-grid:last-child, .medium-up-5 > .desktop-mock:last-child, .medium-up-5 > .mobile-mock:last-child, .medium-up-5 >
-    .logo-square:last-child {
+    .logo-square:last-child, .medium-up-5 >
+    .color-specs:last-child, .color-specs .medium-up-5 > li:last-child {
       float: left; }
   .medium-up-6 > .column, .medium-up-6 > .columns, .medium-up-6 > .container, .medium-up-6 > .project-grid, .medium-up-6 > .desktop-mock, .medium-up-6 > .mobile-mock, .medium-up-6 >
-  .logo-square {
+  .logo-square, .medium-up-6 >
+  .color-specs, .color-specs .medium-up-6 > li {
     float: left;
     width: 16.6666666667%; }
     .medium-up-6 > .column:nth-of-type(1n), .medium-up-6 > .columns:nth-of-type(1n), .medium-up-6 > .container:nth-of-type(1n), .medium-up-6 > .project-grid:nth-of-type(1n), .medium-up-6 > .desktop-mock:nth-of-type(1n), .medium-up-6 > .mobile-mock:nth-of-type(1n), .medium-up-6 >
-    .logo-square:nth-of-type(1n) {
+    .logo-square:nth-of-type(1n), .medium-up-6 >
+    .color-specs:nth-of-type(1n), .color-specs .medium-up-6 > li:nth-of-type(1n) {
       clear: none; }
     .medium-up-6 > .column:nth-of-type(6n+1), .medium-up-6 > .columns:nth-of-type(6n+1), .medium-up-6 > .container:nth-of-type(6n+1), .medium-up-6 > .project-grid:nth-of-type(6n+1), .medium-up-6 > .desktop-mock:nth-of-type(6n+1), .medium-up-6 > .mobile-mock:nth-of-type(6n+1), .medium-up-6 >
-    .logo-square:nth-of-type(6n+1) {
+    .logo-square:nth-of-type(6n+1), .medium-up-6 >
+    .color-specs:nth-of-type(6n+1), .color-specs .medium-up-6 > li:nth-of-type(6n+1) {
       clear: both; }
     .medium-up-6 > .column:last-child, .medium-up-6 > .columns:last-child, .medium-up-6 > .container:last-child, .medium-up-6 > .project-grid:last-child, .medium-up-6 > .desktop-mock:last-child, .medium-up-6 > .mobile-mock:last-child, .medium-up-6 >
-    .logo-square:last-child {
+    .logo-square:last-child, .medium-up-6 >
+    .color-specs:last-child, .color-specs .medium-up-6 > li:last-child {
       float: left; }
   .medium-up-7 > .column, .medium-up-7 > .columns, .medium-up-7 > .container, .medium-up-7 > .project-grid, .medium-up-7 > .desktop-mock, .medium-up-7 > .mobile-mock, .medium-up-7 >
-  .logo-square {
+  .logo-square, .medium-up-7 >
+  .color-specs, .color-specs .medium-up-7 > li {
     float: left;
     width: 14.2857142857%; }
     .medium-up-7 > .column:nth-of-type(1n), .medium-up-7 > .columns:nth-of-type(1n), .medium-up-7 > .container:nth-of-type(1n), .medium-up-7 > .project-grid:nth-of-type(1n), .medium-up-7 > .desktop-mock:nth-of-type(1n), .medium-up-7 > .mobile-mock:nth-of-type(1n), .medium-up-7 >
-    .logo-square:nth-of-type(1n) {
+    .logo-square:nth-of-type(1n), .medium-up-7 >
+    .color-specs:nth-of-type(1n), .color-specs .medium-up-7 > li:nth-of-type(1n) {
       clear: none; }
     .medium-up-7 > .column:nth-of-type(7n+1), .medium-up-7 > .columns:nth-of-type(7n+1), .medium-up-7 > .container:nth-of-type(7n+1), .medium-up-7 > .project-grid:nth-of-type(7n+1), .medium-up-7 > .desktop-mock:nth-of-type(7n+1), .medium-up-7 > .mobile-mock:nth-of-type(7n+1), .medium-up-7 >
-    .logo-square:nth-of-type(7n+1) {
+    .logo-square:nth-of-type(7n+1), .medium-up-7 >
+    .color-specs:nth-of-type(7n+1), .color-specs .medium-up-7 > li:nth-of-type(7n+1) {
       clear: both; }
     .medium-up-7 > .column:last-child, .medium-up-7 > .columns:last-child, .medium-up-7 > .container:last-child, .medium-up-7 > .project-grid:last-child, .medium-up-7 > .desktop-mock:last-child, .medium-up-7 > .mobile-mock:last-child, .medium-up-7 >
-    .logo-square:last-child {
+    .logo-square:last-child, .medium-up-7 >
+    .color-specs:last-child, .color-specs .medium-up-7 > li:last-child {
       float: left; }
   .medium-up-8 > .column, .medium-up-8 > .columns, .medium-up-8 > .container, .medium-up-8 > .project-grid, .medium-up-8 > .desktop-mock, .medium-up-8 > .mobile-mock, .medium-up-8 >
-  .logo-square {
+  .logo-square, .medium-up-8 >
+  .color-specs, .color-specs .medium-up-8 > li {
     float: left;
     width: 12.5%; }
     .medium-up-8 > .column:nth-of-type(1n), .medium-up-8 > .columns:nth-of-type(1n), .medium-up-8 > .container:nth-of-type(1n), .medium-up-8 > .project-grid:nth-of-type(1n), .medium-up-8 > .desktop-mock:nth-of-type(1n), .medium-up-8 > .mobile-mock:nth-of-type(1n), .medium-up-8 >
-    .logo-square:nth-of-type(1n) {
+    .logo-square:nth-of-type(1n), .medium-up-8 >
+    .color-specs:nth-of-type(1n), .color-specs .medium-up-8 > li:nth-of-type(1n) {
       clear: none; }
     .medium-up-8 > .column:nth-of-type(8n+1), .medium-up-8 > .columns:nth-of-type(8n+1), .medium-up-8 > .container:nth-of-type(8n+1), .medium-up-8 > .project-grid:nth-of-type(8n+1), .medium-up-8 > .desktop-mock:nth-of-type(8n+1), .medium-up-8 > .mobile-mock:nth-of-type(8n+1), .medium-up-8 >
-    .logo-square:nth-of-type(8n+1) {
+    .logo-square:nth-of-type(8n+1), .medium-up-8 >
+    .color-specs:nth-of-type(8n+1), .color-specs .medium-up-8 > li:nth-of-type(8n+1) {
       clear: both; }
     .medium-up-8 > .column:last-child, .medium-up-8 > .columns:last-child, .medium-up-8 > .container:last-child, .medium-up-8 > .project-grid:last-child, .medium-up-8 > .desktop-mock:last-child, .medium-up-8 > .mobile-mock:last-child, .medium-up-8 >
-    .logo-square:last-child {
+    .logo-square:last-child, .medium-up-8 >
+    .color-specs:last-child, .color-specs .medium-up-8 > li:last-child {
       float: left; }
   .medium-collapse > .column, .medium-collapse > .columns, .medium-collapse > .container, .medium-collapse > .project-grid, .medium-collapse > .desktop-mock, .medium-collapse > .mobile-mock, .medium-collapse >
-  .logo-square {
+  .logo-square, .medium-collapse >
+  .color-specs, .color-specs .medium-collapse > li {
     padding-right: 0;
     padding-left: 0; }
   .medium-collapse .row {
@@ -1566,7 +1673,8 @@ pre {
     margin-right: 0;
     margin-left: 0; }
   .medium-uncollapse > .column, .medium-uncollapse > .columns, .medium-uncollapse > .container, .medium-uncollapse > .project-grid, .medium-uncollapse > .desktop-mock, .medium-uncollapse > .mobile-mock, .medium-uncollapse >
-  .logo-square {
+  .logo-square, .medium-uncollapse >
+  .color-specs, .color-specs .medium-uncollapse > li {
     padding-right: 0.9375rem;
     padding-left: 0.9375rem; }
   .medium-centered {
@@ -1594,7 +1702,7 @@ pre {
     left: -8.3333333333%; }
   .large-offset-0 {
     margin-left: 0%; }
-  .large-2 {
+  .large-2, .color-specs li {
     width: 16.6666666667%; }
   .large-push-2 {
     position: relative;
@@ -1615,7 +1723,8 @@ pre {
   .large-offset-2 {
     margin-left: 16.6666666667%; }
   .large-4, .mobile-mock,
-  .logo-square {
+  .logo-square,
+  .color-specs {
     width: 33.3333333333%; }
   .large-push-4 {
     position: relative;
@@ -1675,7 +1784,7 @@ pre {
     left: -75%; }
   .large-offset-8 {
     margin-left: 66.6666666667%; }
-  .large-10 {
+  .large-10, .project-grid {
     width: 83.3333333333%; }
   .large-push-10 {
     position: relative;
@@ -1695,116 +1804,149 @@ pre {
     left: -91.6666666667%; }
   .large-offset-10 {
     margin-left: 83.3333333333%; }
-  .large-12, .container, .project-grid {
+  .large-12, .container {
     width: 100%; }
   .large-offset-11 {
     margin-left: 91.6666666667%; }
   .large-up-1 > .column, .large-up-1 > .columns, .large-up-1 > .container, .large-up-1 > .project-grid, .large-up-1 > .desktop-mock, .large-up-1 > .mobile-mock, .large-up-1 >
-  .logo-square {
+  .logo-square, .large-up-1 >
+  .color-specs, .color-specs .large-up-1 > li {
     float: left;
     width: 100%; }
     .large-up-1 > .column:nth-of-type(1n), .large-up-1 > .columns:nth-of-type(1n), .large-up-1 > .container:nth-of-type(1n), .large-up-1 > .project-grid:nth-of-type(1n), .large-up-1 > .desktop-mock:nth-of-type(1n), .large-up-1 > .mobile-mock:nth-of-type(1n), .large-up-1 >
-    .logo-square:nth-of-type(1n) {
+    .logo-square:nth-of-type(1n), .large-up-1 >
+    .color-specs:nth-of-type(1n), .color-specs .large-up-1 > li:nth-of-type(1n) {
       clear: none; }
     .large-up-1 > .column:nth-of-type(1n+1), .large-up-1 > .columns:nth-of-type(1n+1), .large-up-1 > .container:nth-of-type(1n+1), .large-up-1 > .project-grid:nth-of-type(1n+1), .large-up-1 > .desktop-mock:nth-of-type(1n+1), .large-up-1 > .mobile-mock:nth-of-type(1n+1), .large-up-1 >
-    .logo-square:nth-of-type(1n+1) {
+    .logo-square:nth-of-type(1n+1), .large-up-1 >
+    .color-specs:nth-of-type(1n+1), .color-specs .large-up-1 > li:nth-of-type(1n+1) {
       clear: both; }
     .large-up-1 > .column:last-child, .large-up-1 > .columns:last-child, .large-up-1 > .container:last-child, .large-up-1 > .project-grid:last-child, .large-up-1 > .desktop-mock:last-child, .large-up-1 > .mobile-mock:last-child, .large-up-1 >
-    .logo-square:last-child {
+    .logo-square:last-child, .large-up-1 >
+    .color-specs:last-child, .color-specs .large-up-1 > li:last-child {
       float: left; }
   .large-up-2 > .column, .large-up-2 > .columns, .large-up-2 > .container, .large-up-2 > .project-grid, .large-up-2 > .desktop-mock, .large-up-2 > .mobile-mock, .large-up-2 >
-  .logo-square {
+  .logo-square, .large-up-2 >
+  .color-specs, .color-specs .large-up-2 > li {
     float: left;
     width: 50%; }
     .large-up-2 > .column:nth-of-type(1n), .large-up-2 > .columns:nth-of-type(1n), .large-up-2 > .container:nth-of-type(1n), .large-up-2 > .project-grid:nth-of-type(1n), .large-up-2 > .desktop-mock:nth-of-type(1n), .large-up-2 > .mobile-mock:nth-of-type(1n), .large-up-2 >
-    .logo-square:nth-of-type(1n) {
+    .logo-square:nth-of-type(1n), .large-up-2 >
+    .color-specs:nth-of-type(1n), .color-specs .large-up-2 > li:nth-of-type(1n) {
       clear: none; }
     .large-up-2 > .column:nth-of-type(2n+1), .large-up-2 > .columns:nth-of-type(2n+1), .large-up-2 > .container:nth-of-type(2n+1), .large-up-2 > .project-grid:nth-of-type(2n+1), .large-up-2 > .desktop-mock:nth-of-type(2n+1), .large-up-2 > .mobile-mock:nth-of-type(2n+1), .large-up-2 >
-    .logo-square:nth-of-type(2n+1) {
+    .logo-square:nth-of-type(2n+1), .large-up-2 >
+    .color-specs:nth-of-type(2n+1), .color-specs .large-up-2 > li:nth-of-type(2n+1) {
       clear: both; }
     .large-up-2 > .column:last-child, .large-up-2 > .columns:last-child, .large-up-2 > .container:last-child, .large-up-2 > .project-grid:last-child, .large-up-2 > .desktop-mock:last-child, .large-up-2 > .mobile-mock:last-child, .large-up-2 >
-    .logo-square:last-child {
+    .logo-square:last-child, .large-up-2 >
+    .color-specs:last-child, .color-specs .large-up-2 > li:last-child {
       float: left; }
   .large-up-3 > .column, .large-up-3 > .columns, .large-up-3 > .container, .large-up-3 > .project-grid, .large-up-3 > .desktop-mock, .large-up-3 > .mobile-mock, .large-up-3 >
-  .logo-square {
+  .logo-square, .large-up-3 >
+  .color-specs, .color-specs .large-up-3 > li {
     float: left;
     width: 33.3333333333%; }
     .large-up-3 > .column:nth-of-type(1n), .large-up-3 > .columns:nth-of-type(1n), .large-up-3 > .container:nth-of-type(1n), .large-up-3 > .project-grid:nth-of-type(1n), .large-up-3 > .desktop-mock:nth-of-type(1n), .large-up-3 > .mobile-mock:nth-of-type(1n), .large-up-3 >
-    .logo-square:nth-of-type(1n) {
+    .logo-square:nth-of-type(1n), .large-up-3 >
+    .color-specs:nth-of-type(1n), .color-specs .large-up-3 > li:nth-of-type(1n) {
       clear: none; }
     .large-up-3 > .column:nth-of-type(3n+1), .large-up-3 > .columns:nth-of-type(3n+1), .large-up-3 > .container:nth-of-type(3n+1), .large-up-3 > .project-grid:nth-of-type(3n+1), .large-up-3 > .desktop-mock:nth-of-type(3n+1), .large-up-3 > .mobile-mock:nth-of-type(3n+1), .large-up-3 >
-    .logo-square:nth-of-type(3n+1) {
+    .logo-square:nth-of-type(3n+1), .large-up-3 >
+    .color-specs:nth-of-type(3n+1), .color-specs .large-up-3 > li:nth-of-type(3n+1) {
       clear: both; }
     .large-up-3 > .column:last-child, .large-up-3 > .columns:last-child, .large-up-3 > .container:last-child, .large-up-3 > .project-grid:last-child, .large-up-3 > .desktop-mock:last-child, .large-up-3 > .mobile-mock:last-child, .large-up-3 >
-    .logo-square:last-child {
+    .logo-square:last-child, .large-up-3 >
+    .color-specs:last-child, .color-specs .large-up-3 > li:last-child {
       float: left; }
   .large-up-4 > .column, .large-up-4 > .columns, .large-up-4 > .container, .large-up-4 > .project-grid, .large-up-4 > .desktop-mock, .large-up-4 > .mobile-mock, .large-up-4 >
-  .logo-square {
+  .logo-square, .large-up-4 >
+  .color-specs, .color-specs .large-up-4 > li {
     float: left;
     width: 25%; }
     .large-up-4 > .column:nth-of-type(1n), .large-up-4 > .columns:nth-of-type(1n), .large-up-4 > .container:nth-of-type(1n), .large-up-4 > .project-grid:nth-of-type(1n), .large-up-4 > .desktop-mock:nth-of-type(1n), .large-up-4 > .mobile-mock:nth-of-type(1n), .large-up-4 >
-    .logo-square:nth-of-type(1n) {
+    .logo-square:nth-of-type(1n), .large-up-4 >
+    .color-specs:nth-of-type(1n), .color-specs .large-up-4 > li:nth-of-type(1n) {
       clear: none; }
     .large-up-4 > .column:nth-of-type(4n+1), .large-up-4 > .columns:nth-of-type(4n+1), .large-up-4 > .container:nth-of-type(4n+1), .large-up-4 > .project-grid:nth-of-type(4n+1), .large-up-4 > .desktop-mock:nth-of-type(4n+1), .large-up-4 > .mobile-mock:nth-of-type(4n+1), .large-up-4 >
-    .logo-square:nth-of-type(4n+1) {
+    .logo-square:nth-of-type(4n+1), .large-up-4 >
+    .color-specs:nth-of-type(4n+1), .color-specs .large-up-4 > li:nth-of-type(4n+1) {
       clear: both; }
     .large-up-4 > .column:last-child, .large-up-4 > .columns:last-child, .large-up-4 > .container:last-child, .large-up-4 > .project-grid:last-child, .large-up-4 > .desktop-mock:last-child, .large-up-4 > .mobile-mock:last-child, .large-up-4 >
-    .logo-square:last-child {
+    .logo-square:last-child, .large-up-4 >
+    .color-specs:last-child, .color-specs .large-up-4 > li:last-child {
       float: left; }
   .large-up-5 > .column, .large-up-5 > .columns, .large-up-5 > .container, .large-up-5 > .project-grid, .large-up-5 > .desktop-mock, .large-up-5 > .mobile-mock, .large-up-5 >
-  .logo-square {
+  .logo-square, .large-up-5 >
+  .color-specs, .color-specs .large-up-5 > li {
     float: left;
     width: 20%; }
     .large-up-5 > .column:nth-of-type(1n), .large-up-5 > .columns:nth-of-type(1n), .large-up-5 > .container:nth-of-type(1n), .large-up-5 > .project-grid:nth-of-type(1n), .large-up-5 > .desktop-mock:nth-of-type(1n), .large-up-5 > .mobile-mock:nth-of-type(1n), .large-up-5 >
-    .logo-square:nth-of-type(1n) {
+    .logo-square:nth-of-type(1n), .large-up-5 >
+    .color-specs:nth-of-type(1n), .color-specs .large-up-5 > li:nth-of-type(1n) {
       clear: none; }
     .large-up-5 > .column:nth-of-type(5n+1), .large-up-5 > .columns:nth-of-type(5n+1), .large-up-5 > .container:nth-of-type(5n+1), .large-up-5 > .project-grid:nth-of-type(5n+1), .large-up-5 > .desktop-mock:nth-of-type(5n+1), .large-up-5 > .mobile-mock:nth-of-type(5n+1), .large-up-5 >
-    .logo-square:nth-of-type(5n+1) {
+    .logo-square:nth-of-type(5n+1), .large-up-5 >
+    .color-specs:nth-of-type(5n+1), .color-specs .large-up-5 > li:nth-of-type(5n+1) {
       clear: both; }
     .large-up-5 > .column:last-child, .large-up-5 > .columns:last-child, .large-up-5 > .container:last-child, .large-up-5 > .project-grid:last-child, .large-up-5 > .desktop-mock:last-child, .large-up-5 > .mobile-mock:last-child, .large-up-5 >
-    .logo-square:last-child {
+    .logo-square:last-child, .large-up-5 >
+    .color-specs:last-child, .color-specs .large-up-5 > li:last-child {
       float: left; }
   .large-up-6 > .column, .large-up-6 > .columns, .large-up-6 > .container, .large-up-6 > .project-grid, .large-up-6 > .desktop-mock, .large-up-6 > .mobile-mock, .large-up-6 >
-  .logo-square {
+  .logo-square, .large-up-6 >
+  .color-specs, .color-specs .large-up-6 > li {
     float: left;
     width: 16.6666666667%; }
     .large-up-6 > .column:nth-of-type(1n), .large-up-6 > .columns:nth-of-type(1n), .large-up-6 > .container:nth-of-type(1n), .large-up-6 > .project-grid:nth-of-type(1n), .large-up-6 > .desktop-mock:nth-of-type(1n), .large-up-6 > .mobile-mock:nth-of-type(1n), .large-up-6 >
-    .logo-square:nth-of-type(1n) {
+    .logo-square:nth-of-type(1n), .large-up-6 >
+    .color-specs:nth-of-type(1n), .color-specs .large-up-6 > li:nth-of-type(1n) {
       clear: none; }
     .large-up-6 > .column:nth-of-type(6n+1), .large-up-6 > .columns:nth-of-type(6n+1), .large-up-6 > .container:nth-of-type(6n+1), .large-up-6 > .project-grid:nth-of-type(6n+1), .large-up-6 > .desktop-mock:nth-of-type(6n+1), .large-up-6 > .mobile-mock:nth-of-type(6n+1), .large-up-6 >
-    .logo-square:nth-of-type(6n+1) {
+    .logo-square:nth-of-type(6n+1), .large-up-6 >
+    .color-specs:nth-of-type(6n+1), .color-specs .large-up-6 > li:nth-of-type(6n+1) {
       clear: both; }
     .large-up-6 > .column:last-child, .large-up-6 > .columns:last-child, .large-up-6 > .container:last-child, .large-up-6 > .project-grid:last-child, .large-up-6 > .desktop-mock:last-child, .large-up-6 > .mobile-mock:last-child, .large-up-6 >
-    .logo-square:last-child {
+    .logo-square:last-child, .large-up-6 >
+    .color-specs:last-child, .color-specs .large-up-6 > li:last-child {
       float: left; }
   .large-up-7 > .column, .large-up-7 > .columns, .large-up-7 > .container, .large-up-7 > .project-grid, .large-up-7 > .desktop-mock, .large-up-7 > .mobile-mock, .large-up-7 >
-  .logo-square {
+  .logo-square, .large-up-7 >
+  .color-specs, .color-specs .large-up-7 > li {
     float: left;
     width: 14.2857142857%; }
     .large-up-7 > .column:nth-of-type(1n), .large-up-7 > .columns:nth-of-type(1n), .large-up-7 > .container:nth-of-type(1n), .large-up-7 > .project-grid:nth-of-type(1n), .large-up-7 > .desktop-mock:nth-of-type(1n), .large-up-7 > .mobile-mock:nth-of-type(1n), .large-up-7 >
-    .logo-square:nth-of-type(1n) {
+    .logo-square:nth-of-type(1n), .large-up-7 >
+    .color-specs:nth-of-type(1n), .color-specs .large-up-7 > li:nth-of-type(1n) {
       clear: none; }
     .large-up-7 > .column:nth-of-type(7n+1), .large-up-7 > .columns:nth-of-type(7n+1), .large-up-7 > .container:nth-of-type(7n+1), .large-up-7 > .project-grid:nth-of-type(7n+1), .large-up-7 > .desktop-mock:nth-of-type(7n+1), .large-up-7 > .mobile-mock:nth-of-type(7n+1), .large-up-7 >
-    .logo-square:nth-of-type(7n+1) {
+    .logo-square:nth-of-type(7n+1), .large-up-7 >
+    .color-specs:nth-of-type(7n+1), .color-specs .large-up-7 > li:nth-of-type(7n+1) {
       clear: both; }
     .large-up-7 > .column:last-child, .large-up-7 > .columns:last-child, .large-up-7 > .container:last-child, .large-up-7 > .project-grid:last-child, .large-up-7 > .desktop-mock:last-child, .large-up-7 > .mobile-mock:last-child, .large-up-7 >
-    .logo-square:last-child {
+    .logo-square:last-child, .large-up-7 >
+    .color-specs:last-child, .color-specs .large-up-7 > li:last-child {
       float: left; }
   .large-up-8 > .column, .large-up-8 > .columns, .large-up-8 > .container, .large-up-8 > .project-grid, .large-up-8 > .desktop-mock, .large-up-8 > .mobile-mock, .large-up-8 >
-  .logo-square {
+  .logo-square, .large-up-8 >
+  .color-specs, .color-specs .large-up-8 > li {
     float: left;
     width: 12.5%; }
     .large-up-8 > .column:nth-of-type(1n), .large-up-8 > .columns:nth-of-type(1n), .large-up-8 > .container:nth-of-type(1n), .large-up-8 > .project-grid:nth-of-type(1n), .large-up-8 > .desktop-mock:nth-of-type(1n), .large-up-8 > .mobile-mock:nth-of-type(1n), .large-up-8 >
-    .logo-square:nth-of-type(1n) {
+    .logo-square:nth-of-type(1n), .large-up-8 >
+    .color-specs:nth-of-type(1n), .color-specs .large-up-8 > li:nth-of-type(1n) {
       clear: none; }
     .large-up-8 > .column:nth-of-type(8n+1), .large-up-8 > .columns:nth-of-type(8n+1), .large-up-8 > .container:nth-of-type(8n+1), .large-up-8 > .project-grid:nth-of-type(8n+1), .large-up-8 > .desktop-mock:nth-of-type(8n+1), .large-up-8 > .mobile-mock:nth-of-type(8n+1), .large-up-8 >
-    .logo-square:nth-of-type(8n+1) {
+    .logo-square:nth-of-type(8n+1), .large-up-8 >
+    .color-specs:nth-of-type(8n+1), .color-specs .large-up-8 > li:nth-of-type(8n+1) {
       clear: both; }
     .large-up-8 > .column:last-child, .large-up-8 > .columns:last-child, .large-up-8 > .container:last-child, .large-up-8 > .project-grid:last-child, .large-up-8 > .desktop-mock:last-child, .large-up-8 > .mobile-mock:last-child, .large-up-8 >
-    .logo-square:last-child {
+    .logo-square:last-child, .large-up-8 >
+    .color-specs:last-child, .color-specs .large-up-8 > li:last-child {
       float: left; }
   .large-collapse > .column, .large-collapse > .columns, .large-collapse > .container, .large-collapse > .project-grid, .large-collapse > .desktop-mock, .large-collapse > .mobile-mock, .large-collapse >
-  .logo-square {
+  .logo-square, .large-collapse >
+  .color-specs, .color-specs .large-collapse > li {
     padding-right: 0;
     padding-left: 0; }
   .large-collapse .row {
@@ -1814,7 +1956,8 @@ pre {
     margin-right: 0;
     margin-left: 0; }
   .large-uncollapse > .column, .large-uncollapse > .columns, .large-uncollapse > .container, .large-uncollapse > .project-grid, .large-uncollapse > .desktop-mock, .large-uncollapse > .mobile-mock, .large-uncollapse >
-  .logo-square {
+  .logo-square, .large-uncollapse >
+  .color-specs, .color-specs .large-uncollapse > li {
     padding-right: 0.9375rem;
     padding-left: 0.9375rem; }
   .large-centered {
@@ -3864,7 +4007,8 @@ html.is-reveal-open body {
     .reveal {
       min-height: 0; } }
   .reveal .column, .reveal .columns, .reveal .container, .reveal .project-grid, .reveal .desktop-mock, .reveal .mobile-mock, .reveal
-  .logo-square {
+  .logo-square, .reveal
+  .color-specs, .reveal .color-specs li, .color-specs .reveal li {
     min-width: 0; }
   .reveal > :last-child {
     margin-bottom: 0; }

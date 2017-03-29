@@ -17,8 +17,8 @@ $balboa-blue-bright: #7DD4E2
 
 .project-grid
 	border: 1px solid
-	@extend .large-12
-	@extend .medium-12
+	@extend .large-10
+	@extend .medium-10
 	@extend .columns
 
 .desktop-mock
@@ -27,7 +27,8 @@ $balboa-blue-bright: #7DD4E2
 	@extend .columns
 
 .mobile-mock,
-.logo-square
+.logo-square,
+.color-specs
 	@extend .large-4
 	@extend .medium-4
 	@extend .columns
@@ -40,10 +41,43 @@ $balboa-blue-bright: #7DD4E2
 		&.white
 			background-color: $balboa-blue
 			
+.color-specs li
+	height: 130px
+	position: relative
+	overflow: hidden
 
+	@extend .large-2
+	@extend .medium-2
+	@extend .columns
+	p
+		display: block
+		position: absolute
+		top: 50%
+		left: 50%
+		
+		margin: 0
+		padding: 0
+
+		opacity: 0
+
+		transform:  translateX(70%) translateY(-50%) rotate(-90deg)
+		-ms-transform:  translateX(70%) translateY(-50%) rotate(-90deg)
+		-webkit-transform:  translateX(70%) translateY(-50%) rotate(-90deg)
+
+		-webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+		transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+
+	&:hover
+		p
+			opacity: 1
+
+			transform:  translateX(-50%) translateY(-50%) rotate(-90deg)
+			-ms-transform:  translateX(-50%) translateY(-50%) rotate(-90deg)
+			-webkit-transform:  translateX(-50%) translateY(-50%) rotate(-90deg)
 
 
 // Slider
 
 .carousel
 	cursor: move
+
