@@ -14,28 +14,38 @@
 		.hero	
 			.row
 				.container
-					%h1 Welcome to Foundation
+					%span Case Study
+					%h1 Balboa Pacific Insurance
+					%p Independant Insurance Broker
 		.row
 			.container
 				.project-grid
-					.desktop-mock	
+					.desktop-mock
+						.headline
+							Desktop	
 						.carousel	
 							%img{:src => "img/balboa/desktop_01.png", :alt => ""}/
 							%img{:src => "img/balboa/desktop_02.png", :alt => ""}/
 							%img{:src => "img/balboa/desktop_03.png", :alt => ""}/
-					.mobile-mock	
+					.mobile-mock
+						.headline
+							Mobile
 						.carousel
 							%img{:src => "img/balboa/desktop_01.png", :alt => ""}/
 							%img{:src => "img/balboa/desktop_02.png", :alt => ""}/
 							%img{:src => "img/balboa/desktop_03.png", :alt => ""}/
 					.logo-square
+						.headline
+							Logo Variations
 						.logo-color-bg
 							%img{:src => "img/balboa/logo-color.svg", :alt => ""}/
 					.logo-square
 						.logo-color-bg.white
 							%img{:src => "img/balboa/logo-white.svg", :alt => ""}/
 					.color-specs
-						%ul.parent
+						.headline
+							Color Palette
+						%ul.darken
 							%li
 								%p
 									fafafa
@@ -54,6 +64,7 @@
 							%li
 								%p
 									fafafa
+						%ul.fade
 							%li
 								%p
 									fafafa
@@ -72,24 +83,41 @@
 							%li
 								%p
 									fafafa
-							%li
-								%p
-									fafafa
-							%li
-								%p
-									fafafa
-							%li
-								%p
-									fafafa
-							%li
-								%p
-									fafafa
-							%li
-								%p
-									fafafa
-							%li
-								%p
-									fafafa
+					.gradient-map
+						.headline
+							Gradient Map
+						.gradient-map-inner.gradient-map-highlight
+							%p
+								Bright
+					.gradient-map
+						.gradient-map-inner.gradient-map-low	
+							%p
+								Dark
+		.row
+			.container
+				.project-grid
+					.type
+						.headline
+							Type Hierarchy
+						%h1
+							Headline
+						%h2
+							Sub-Header
+						%p
+							Paragraph
+						%span
+							Section Headers
+					.btn-styles
+						.headline
+							Button Styles
+						.btn.btn-light
+							CTA
+						.btn.btn-light-transparent
+							CTA
+						.btn.btn-dark
+							CTA
+						.btn.btn-dark-transparent
+							CTA
 		%script{:src => "bower_components/jquery/dist/jquery.js"}
 		%script{:src => "bower_components/what-input/dist/what-input.js"}
 		%script{:src => "bower_components/foundation-sites/dist/js/foundation.js"}
@@ -105,5 +133,4 @@
 					arrows : false,
 					adaptiveHeight: true
 				});
-				$('.parent').addClass('is-animating');
 			});

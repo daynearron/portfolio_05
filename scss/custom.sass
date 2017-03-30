@@ -1,83 +1,121 @@
-//variables
-
-$balboa-blue: #333B63
-$balboa-blue-bright: #7DD4E2
-
-
-
 
 .hero
 	padding: 6em 0
-	background: red
 
 .container
-	border: 1px solid
+	// border: 1px solid
 	@extend .large-12
 	@extend .columns
 
 .project-grid
-	border: 1px solid
+	// border: 1px solid
+	padding: 0 !important
 	@extend .large-10
 	@extend .medium-10
 	@extend .columns
 
-.desktop-mock
+.desktop-mock,
+.type
 	@extend .large-8
 	@extend .medium-8
 	@extend .columns
 
 .mobile-mock,
 .logo-square,
-.color-specs
+.color-specs,
+.gradient-map,
+.btn-styles
 	@extend .large-4
 	@extend .medium-4
 	@extend .columns
 
 .logo-square
 	padding: 1em 0
-	// border: 1px solid
 	.logo-color-bg
 		padding: 25px
 		&.white
 			background-color: $balboa-blue
 			
-.color-specs li
-	height: 130px
-	position: relative
-	overflow: hidden
-
-	@extend .large-2
-	@extend .medium-2
-	@extend .columns
-	p
-		display: block
-		position: absolute
-		top: 50%
-		left: 50%
-		
-		margin: 0
-		padding: 0
-
-		opacity: 0
-
-		transform:  translateX(70%) translateY(-50%) rotate(-90deg)
-		-ms-transform:  translateX(70%) translateY(-50%) rotate(-90deg)
-		-webkit-transform:  translateX(70%) translateY(-50%) rotate(-90deg)
-
-		-webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
-		transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
-
-	&:hover
-		p
-			opacity: 1
-
-			transform:  translateX(-50%) translateY(-50%) rotate(-90deg)
-			-ms-transform:  translateX(-50%) translateY(-50%) rotate(-90deg)
-			-webkit-transform:  translateX(-50%) translateY(-50%) rotate(-90deg)
+.color-specs 
+	ul
+		margin: 0 !important
+		padding: 0 !important
+		@extend .large-6
+		@extend .medium-6
+		@extend .columns
 
 
+		-webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1)
+		transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1)
+
+		li
+			height: 40px
+			position: relative
+			overflow: hidden
+
+			@extend .large-12
+			@extend .medium-12
+			@extend .columns
+
+
+			-webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1)
+			transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1)
+
+			p
+				display: block
+				position: absolute
+				top: 50%
+				left: 50%
+				
+				margin: 0
+				padding: 0
+
+				opacity: 0
+
+				transform:  translateX(50%) translateY(50%) 
+				-ms-transform:  translateX(50%) translateY(50%) 
+				-webkit-transform:  translateX(50%) translateY(50%) 
+
+				-webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1)
+				transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1)
+
+			&:hover
+				opacity: 1 !important
+				p
+					opacity: 1
+					
+					transform:  translateX(-50%) translateY(-50%) 
+					-ms-transform:  translateX(-50%) translateY(-50%) 
+					-webkit-transform:  translateX(-50%) translateY(-50%) 
+		&:hover li
+			opacity: 0.8
+			li:hover
+				opacity: 1
+			
+// Gradient Maps
+
+.gradient-map
+	padding: 2em 0 0 0
+	&-inner
+		padding: 2em
+
+	
 // Slider
 
 .carousel
 	cursor: move
 
+
+// btns
+.btn
+	padding: 10px 5px
+	margin: 15px 0
+	&-light
+		background-color: $balboa-blue-bright
+		&-transparent
+			background-color: rgba($balboa-blue-bright, 0.6)
+
+	&-dark
+		background-color: $balboa-blue
+		&-transparent
+			background-color: rgba($balboa-blue, 0.6)
