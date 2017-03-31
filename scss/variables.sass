@@ -7,40 +7,40 @@ $balboa-blue-bright: #7DD4E2
 
 
 
+.balboa
+	// Color Steps
+	$white: white
 
-// Color Steps
-$white: white
+	$darken-color: $balboa-blue
 
-$darken-color: $balboa-blue
+	$fade-color: $balboa-blue-bright
 
-$fade-color: $balboa-blue-bright
+	$hue-color: $balboa-blue-bright
 
-$hue-color: $balboa-blue-bright
-
-$start-color: #387F6C
-$end-color: purple
+	$start-color: #387F6C
+	$end-color: purple
 
 
-$step: 1 // Set the initial step value
+	$step: 1 // Set the initial step value
 
-//Here's the start of the while function
-//The "<= #" determines the number of steps you want this while loop to create
-@while $step <=10
-	// darkens color step by step
-	.darken li:nth-child(#{$step})
-		background-color: darken($darken-color, ($step * 2%))
+	//Here's the start of the while function
+	//The "<= #" determines the number of steps you want this while loop to create
+	@while $step <=10
+		// darkens color step by step
+		.darken li:nth-child(#{$step})
+			background-color: darken($darken-color, ($step * 2%))
 
-	// makes color more transparent
-	.fade li:nth-child(#{$step})
-		background-color: transparentize($fade-color, (($step * .019) * 5))
+		// makes color more transparent
+		.fade li:nth-child(#{$step})
+			background-color: transparentize($fade-color, (($step * .019) * 5))
 
-	// moves color around color wheel
-	.hue li:nth-child(#{$step})
-		background-color: adjust-hue($hue-color, $step*4)
+		// moves color around color wheel
+		.hue li:nth-child(#{$step})
+			background-color: adjust-hue($hue-color, $step*4)
 
-	// changes from one color to another
-	.mix li:nth-child(#{$step})
-		background-color: mix($end-color, $start-color, ($step * 10))
+		// changes from one color to another
+		.mix li:nth-child(#{$step})
+			background-color: mix($end-color, $start-color, ($step * 10))
 
-	// increment the step up by 1 so it continues until you've reached 10 (which you specified at the beginning of the function)
-	$step: $step + 1
+		// increment the step up by 1 so it continues until you've reached 10 (which you specified at the beginning of the function)
+		$step: $step + 1

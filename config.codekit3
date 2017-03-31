@@ -15,6 +15,19 @@
 		"oAP": "\/.bowerrc",
 		"oF": 0
 		},
+	"\/balboa.haml": {
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/balboa.html",
+		"oF": 0,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
 	"\/bower.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -5052,6 +5065,24 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/balboa\/gradient-map-balboa-dark.jpg": {
+		"ft": 16384,
+		"iS": 1179095,
+		"oA": 0,
+		"oAP": "\/img\/balboa\/gradient-map-balboa-dark.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/balboa\/gradient-map-balboa-light.jpg": {
+		"ft": 16384,
+		"iS": 1153056,
+		"oA": 0,
+		"oAP": "\/img\/balboa\/gradient-map-balboa-light.jpg",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/img\/balboa\/logo-color.png": {
 		"ft": 32768,
 		"iS": 6357,
@@ -5081,6 +5112,33 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/balboa\/sample-image-01.jpg": {
+		"ft": 16384,
+		"iS": 2209856,
+		"oA": 0,
+		"oAP": "\/img\/balboa\/sample-image-01.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/balboa\/sample-image-02.jpg": {
+		"ft": 16384,
+		"iS": 2557650,
+		"oA": 0,
+		"oAP": "\/img\/balboa\/sample-image-02.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/balboa\/sample-image-03.jpg": {
+		"ft": 16384,
+		"iS": 1891150,
+		"oA": 0,
+		"oAP": "\/img\/balboa\/sample-image-03.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/index.haml": {
 		"cDA": 0,
@@ -5173,6 +5231,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "css\/app.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/balboa.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/balboa.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

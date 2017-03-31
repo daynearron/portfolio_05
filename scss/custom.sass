@@ -15,7 +15,10 @@
 	@extend .columns
 
 .desktop-mock,
-.type
+.type,
+.gradient-map,
+.image-guides,
+.intro
 	@extend .large-8
 	@extend .medium-8
 	@extend .columns
@@ -23,7 +26,6 @@
 .mobile-mock,
 .logo-square,
 .color-specs,
-.gradient-map,
 .btn-styles
 	@extend .large-4
 	@extend .medium-4
@@ -60,6 +62,11 @@
 
 			-webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1)
 			transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1)
+			&:first-child
+				height: 80px
+
+			&:nth-child(2)
+				height: 60px
 
 			p
 				display: block
@@ -96,9 +103,15 @@
 
 .gradient-map
 	padding: 2em 0 0 0
-	&-inner
-		padding: 2em
-
+	// height: 400px
+	&-highlight,
+	&-low
+		height: 100%
+		background-size: cover
+		background-position: center center
+		background-repeat: no-repeat	
+	p
+		line-height: 350px
 	
 // Slider
 
@@ -107,15 +120,18 @@
 
 
 // btns
-.btn
-	padding: 10px 5px
-	margin: 15px 0
-	&-light
-		background-color: $balboa-blue-bright
-		&-transparent
-			background-color: rgba($balboa-blue-bright, 0.6)
+.btn-styles
+	padding-top: 25px
 
-	&-dark
-		background-color: $balboa-blue
-		&-transparent
-			background-color: rgba($balboa-blue, 0.6)
+.btn
+	position: relative
+	padding: 10px 5px
+	display: inline-block
+	// margin: 5px 5px
+	border: 5px solid #fff
+	@extend .large-6
+	@extend .medium-6
+	@extend .columns
+
+.image-guides
+	padding-top: 25px

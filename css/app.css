@@ -454,124 +454,124 @@
 .long-delay {
   animation-delay: 700ms !important; }
 
-.darken li:nth-child(1) {
+.balboa .darken li:nth-child(1) {
   background-color: #30375c; }
 
-.fade li:nth-child(1) {
+.balboa .fade li:nth-child(1) {
   background-color: rgba(125, 212, 226, 0.905); }
 
-.hue li:nth-child(1) {
+.balboa .hue li:nth-child(1) {
   background-color: #7dcde2; }
 
-.mix li:nth-child(1) {
+.balboa .mix li:nth-child(1) {
   background-color: #3f726e; }
 
-.darken li:nth-child(2) {
+.balboa .darken li:nth-child(2) {
   background-color: #2c3356; }
 
-.fade li:nth-child(2) {
+.balboa .fade li:nth-child(2) {
   background-color: rgba(125, 212, 226, 0.81); }
 
-.hue li:nth-child(2) {
+.balboa .hue li:nth-child(2) {
   background-color: #7dc7e2; }
 
-.mix li:nth-child(2) {
+.balboa .mix li:nth-child(2) {
   background-color: #466670; }
 
-.darken li:nth-child(3) {
+.balboa .darken li:nth-child(3) {
   background-color: #292f4f; }
 
-.fade li:nth-child(3) {
+.balboa .fade li:nth-child(3) {
   background-color: rgba(125, 212, 226, 0.715); }
 
-.hue li:nth-child(3) {
+.balboa .hue li:nth-child(3) {
   background-color: #7dc0e2; }
 
-.mix li:nth-child(3) {
+.balboa .mix li:nth-child(3) {
   background-color: #4e5972; }
 
-.darken li:nth-child(4) {
+.balboa .darken li:nth-child(4) {
   background-color: #252b48; }
 
-.fade li:nth-child(4) {
+.balboa .fade li:nth-child(4) {
   background-color: rgba(125, 212, 226, 0.62); }
 
-.hue li:nth-child(4) {
+.balboa .hue li:nth-child(4) {
   background-color: #7db9e2; }
 
-.mix li:nth-child(4) {
+.balboa .mix li:nth-child(4) {
   background-color: #554c74; }
 
-.darken li:nth-child(5) {
+.balboa .darken li:nth-child(5) {
   background-color: #222741; }
 
-.fade li:nth-child(5) {
+.balboa .fade li:nth-child(5) {
   background-color: rgba(125, 212, 226, 0.525); }
 
-.hue li:nth-child(5) {
+.balboa .hue li:nth-child(5) {
   background-color: #7db2e2; }
 
-.mix li:nth-child(5) {
+.balboa .mix li:nth-child(5) {
   background-color: #5c4076; }
 
-.darken li:nth-child(6) {
+.balboa .darken li:nth-child(6) {
   background-color: #1e233b; }
 
-.fade li:nth-child(6) {
+.balboa .fade li:nth-child(6) {
   background-color: rgba(125, 212, 226, 0.43); }
 
-.hue li:nth-child(6) {
+.balboa .hue li:nth-child(6) {
   background-color: #7dace2; }
 
-.mix li:nth-child(6) {
+.balboa .mix li:nth-child(6) {
   background-color: #633378; }
 
-.darken li:nth-child(7) {
+.balboa .darken li:nth-child(7) {
   background-color: #1b1f34; }
 
-.fade li:nth-child(7) {
+.balboa .fade li:nth-child(7) {
   background-color: rgba(125, 212, 226, 0.335); }
 
-.hue li:nth-child(7) {
+.balboa .hue li:nth-child(7) {
   background-color: #7da5e2; }
 
-.mix li:nth-child(7) {
+.balboa .mix li:nth-child(7) {
   background-color: #6a267a; }
 
-.darken li:nth-child(8) {
+.balboa .darken li:nth-child(8) {
   background-color: #171b2d; }
 
-.fade li:nth-child(8) {
+.balboa .fade li:nth-child(8) {
   background-color: rgba(125, 212, 226, 0.24); }
 
-.hue li:nth-child(8) {
+.balboa .hue li:nth-child(8) {
   background-color: #7d9ee2; }
 
-.mix li:nth-child(8) {
+.balboa .mix li:nth-child(8) {
   background-color: #72197c; }
 
-.darken li:nth-child(9) {
+.balboa .darken li:nth-child(9) {
   background-color: #141726; }
 
-.fade li:nth-child(9) {
+.balboa .fade li:nth-child(9) {
   background-color: rgba(125, 212, 226, 0.145); }
 
-.hue li:nth-child(9) {
+.balboa .hue li:nth-child(9) {
   background-color: #7d97e2; }
 
-.mix li:nth-child(9) {
+.balboa .mix li:nth-child(9) {
   background-color: #790d7e; }
 
-.darken li:nth-child(10) {
+.balboa .darken li:nth-child(10) {
   background-color: #101320; }
 
-.fade li:nth-child(10) {
+.balboa .fade li:nth-child(10) {
   background-color: rgba(125, 212, 226, 0.05); }
 
-.hue li:nth-child(10) {
+.balboa .hue li:nth-child(10) {
   background-color: #7d91e2; }
 
-.mix li:nth-child(10) {
+.balboa .mix li:nth-child(10) {
   background-color: purple; }
 
 .hero {
@@ -598,6 +598,10 @@
     overflow: hidden;
     -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1); }
+    .color-specs ul li:first-child {
+      height: 80px; }
+    .color-specs ul li:nth-child(2) {
+      height: 60px; }
     .color-specs ul li p {
       display: block;
       position: absolute;
@@ -625,23 +629,28 @@
 
 .gradient-map {
   padding: 2em 0 0 0; }
-  .gradient-map-inner {
-    padding: 2em; }
+  .gradient-map-highlight, .gradient-map-low {
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; }
+  .gradient-map p {
+    line-height: 350px; }
 
 .carousel {
   cursor: move; }
 
+.btn-styles {
+  padding-top: 25px; }
+
 .btn {
+  position: relative;
   padding: 10px 5px;
-  margin: 15px 0; }
-  .btn-light {
-    background-color: #7DD4E2; }
-    .btn-light-transparent {
-      background-color: rgba(125, 212, 226, 0.6); }
-  .btn-dark {
-    background-color: #333B63; }
-    .btn-dark-transparent {
-      background-color: rgba(51, 59, 99, 0.6); }
+  display: inline-block;
+  border: 5px solid #fff; }
+
+.image-guides {
+  padding-top: 25px; }
 
 .color-specs ul {
   margin: 0;
@@ -649,14 +658,8 @@
   .color-specs ul li {
     list-style-type: none; }
 
-.gradient-map-inner {
-  padding: 2em; }
-
-.gradient-map-highlight {
-  background-color: #7DD4E2; }
-
-.gradient-map-low {
-  background-color: #333B63; }
+.type {
+  padding-top: 25px; }
 
 .gradient-map-inner p {
   display: block;
@@ -664,6 +667,28 @@
 
 .btn {
   text-align: center; }
+
+.balboa .color-specs ul {
+  background-color: #333B63; }
+
+.balboa .gradient-map-highlight {
+  background-color: #7DD4E2;
+  background-image: url("/img/balboa/gradient-map-balboa-light.jpg"); }
+
+.balboa .gradient-map-low {
+  background-color: #333B63;
+  background-image: url("/img/balboa/gradient-map-balboa-dark.jpg"); }
+
+.balboa .btn {
+  border-radius: 3px; }
+  .balboa .btn-light {
+    background-color: #7DD4E2; }
+    .balboa .btn-light-transparent {
+      background-color: rgba(125, 212, 226, 0.6); }
+  .balboa .btn-dark {
+    background-color: #333B63; }
+    .balboa .btn-dark-transparent {
+      background-color: rgba(51, 59, 99, 0.6); }
 
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 /* Document
@@ -1159,11 +1184,13 @@ pre {
   .row::after {
     clear: both; }
   .row.collapse > .column, .row.collapse > .columns, .row.collapse > .container, .row.collapse > .project-grid, .row.collapse > .desktop-mock, .row.collapse >
-  .type, .row.collapse > .mobile-mock, .row.collapse >
+  .type, .row.collapse >
+  .gradient-map, .row.collapse >
+  .image-guides, .row.collapse >
+  .intro, .row.collapse > .mobile-mock, .row.collapse >
   .logo-square, .row.collapse >
   .color-specs, .row.collapse >
-  .gradient-map, .row.collapse >
-  .btn-styles, .color-specs .row.collapse > ul, .color-specs ul .row.collapse > li {
+  .btn-styles, .color-specs .row.collapse > ul, .color-specs ul .row.collapse > li, .row.collapse > .btn {
     padding-right: 0;
     padding-left: 0; }
   .row .row {
@@ -1188,70 +1215,86 @@ pre {
   .row:not(.expanded) .row {
     max-width: none; }
   .row.gutter-small > .column, .row.gutter-small > .columns, .row.gutter-small > .container, .row.gutter-small > .project-grid, .row.gutter-small > .desktop-mock, .row.gutter-small >
-  .type, .row.gutter-small > .mobile-mock, .row.gutter-small >
+  .type, .row.gutter-small >
+  .gradient-map, .row.gutter-small >
+  .image-guides, .row.gutter-small >
+  .intro, .row.gutter-small > .mobile-mock, .row.gutter-small >
   .logo-square, .row.gutter-small >
   .color-specs, .row.gutter-small >
-  .gradient-map, .row.gutter-small >
-  .btn-styles, .color-specs .row.gutter-small > ul, .color-specs ul .row.gutter-small > li {
+  .btn-styles, .color-specs .row.gutter-small > ul, .color-specs ul .row.gutter-small > li, .row.gutter-small > .btn {
     padding-right: 0.625rem;
     padding-left: 0.625rem; }
   .row.gutter-medium > .column, .row.gutter-medium > .columns, .row.gutter-medium > .container, .row.gutter-medium > .project-grid, .row.gutter-medium > .desktop-mock, .row.gutter-medium >
-  .type, .row.gutter-medium > .mobile-mock, .row.gutter-medium >
+  .type, .row.gutter-medium >
+  .gradient-map, .row.gutter-medium >
+  .image-guides, .row.gutter-medium >
+  .intro, .row.gutter-medium > .mobile-mock, .row.gutter-medium >
   .logo-square, .row.gutter-medium >
   .color-specs, .row.gutter-medium >
-  .gradient-map, .row.gutter-medium >
-  .btn-styles, .color-specs .row.gutter-medium > ul, .color-specs ul .row.gutter-medium > li {
+  .btn-styles, .color-specs .row.gutter-medium > ul, .color-specs ul .row.gutter-medium > li, .row.gutter-medium > .btn {
     padding-right: 0.9375rem;
     padding-left: 0.9375rem; }
 
 .column, .columns, .container, .project-grid, .desktop-mock,
-.type, .mobile-mock,
+.type,
+.gradient-map,
+.image-guides,
+.intro, .mobile-mock,
 .logo-square,
 .color-specs,
-.gradient-map,
-.btn-styles, .color-specs ul, .color-specs ul li {
+.btn-styles, .color-specs ul, .color-specs ul li, .btn {
   width: 100%;
   float: left;
   padding-right: 0.625rem;
   padding-left: 0.625rem; }
   @media print, screen and (min-width: 40em) {
     .column, .columns, .container, .project-grid, .desktop-mock,
-    .type, .mobile-mock,
+    .type,
+    .gradient-map,
+    .image-guides,
+    .intro, .mobile-mock,
     .logo-square,
     .color-specs,
-    .gradient-map,
-    .btn-styles, .color-specs ul, .color-specs ul li {
+    .btn-styles, .color-specs ul, .color-specs ul li, .btn {
       padding-right: 0.9375rem;
       padding-left: 0.9375rem; } }
   .column:last-child:not(:first-child), .columns:last-child:not(:first-child), .container:last-child:not(:first-child), .project-grid:last-child:not(:first-child), .desktop-mock:last-child:not(:first-child),
-  .type:last-child:not(:first-child), .mobile-mock:last-child:not(:first-child),
+  .type:last-child:not(:first-child),
+  .gradient-map:last-child:not(:first-child),
+  .image-guides:last-child:not(:first-child),
+  .intro:last-child:not(:first-child), .mobile-mock:last-child:not(:first-child),
   .logo-square:last-child:not(:first-child),
   .color-specs:last-child:not(:first-child),
-  .gradient-map:last-child:not(:first-child),
-  .btn-styles:last-child:not(:first-child), .color-specs ul:last-child:not(:first-child), .color-specs ul li:last-child:not(:first-child) {
+  .btn-styles:last-child:not(:first-child), .color-specs ul:last-child:not(:first-child), .color-specs ul li:last-child:not(:first-child), .btn:last-child:not(:first-child) {
     float: right; }
   .column.end:last-child:last-child, .end.columns:last-child:last-child, .end.container:last-child:last-child, .end.project-grid:last-child:last-child, .end.desktop-mock:last-child:last-child,
-  .end.type:last-child:last-child, .end.mobile-mock:last-child:last-child,
+  .end.type:last-child:last-child,
+  .end.gradient-map:last-child:last-child,
+  .end.image-guides:last-child:last-child,
+  .end.intro:last-child:last-child, .end.mobile-mock:last-child:last-child,
   .end.logo-square:last-child:last-child,
   .end.color-specs:last-child:last-child,
-  .end.gradient-map:last-child:last-child,
-  .end.btn-styles:last-child:last-child, .color-specs ul.end:last-child:last-child, .color-specs ul li.end:last-child:last-child {
+  .end.btn-styles:last-child:last-child, .color-specs ul.end:last-child:last-child, .color-specs ul li.end:last-child:last-child, .end.btn:last-child:last-child {
     float: left; }
 
 .column.row.row, .row.row.columns, .row.row.container, .row.row.project-grid, .row.row.desktop-mock,
-.row.row.type, .row.row.mobile-mock,
+.row.row.type,
+.row.row.gradient-map,
+.row.row.image-guides,
+.row.row.intro, .row.row.mobile-mock,
 .row.row.logo-square,
 .row.row.color-specs,
-.row.row.gradient-map,
-.row.row.btn-styles, .color-specs ul.row.row, .color-specs ul li.row.row {
+.row.row.btn-styles, .color-specs ul.row.row, .color-specs ul li.row.row, .row.row.btn {
   float: none; }
 
 .row .column.row.row, .row .row.row.columns, .row .row.row.container, .row .row.row.project-grid, .row .row.row.desktop-mock, .row
-.row.row.type, .row .row.row.mobile-mock, .row
+.row.row.type, .row
+.row.row.gradient-map, .row
+.row.row.image-guides, .row
+.row.row.intro, .row .row.row.mobile-mock, .row
 .row.row.logo-square, .row
 .row.row.color-specs, .row
-.row.row.gradient-map, .row
-.row.row.btn-styles, .row .color-specs ul.row.row, .color-specs .row ul.row.row, .row .color-specs ul li.row.row, .color-specs ul .row li.row.row {
+.row.row.btn-styles, .row .color-specs ul.row.row, .color-specs .row ul.row.row, .row .color-specs ul li.row.row, .color-specs ul .row li.row.row, .row .row.row.btn {
   margin-right: 0;
   margin-left: 0;
   padding-right: 0;
@@ -1418,251 +1461,317 @@ pre {
   margin-left: 91.6666666667%; }
 
 .small-up-1 > .column, .small-up-1 > .columns, .small-up-1 > .container, .small-up-1 > .project-grid, .small-up-1 > .desktop-mock, .small-up-1 >
-.type, .small-up-1 > .mobile-mock, .small-up-1 >
+.type, .small-up-1 >
+.gradient-map, .small-up-1 >
+.image-guides, .small-up-1 >
+.intro, .small-up-1 > .mobile-mock, .small-up-1 >
 .logo-square, .small-up-1 >
 .color-specs, .small-up-1 >
-.gradient-map, .small-up-1 >
-.btn-styles, .color-specs .small-up-1 > ul, .color-specs ul .small-up-1 > li {
+.btn-styles, .color-specs .small-up-1 > ul, .color-specs ul .small-up-1 > li, .small-up-1 > .btn {
   float: left;
   width: 100%; }
   .small-up-1 > .column:nth-of-type(1n), .small-up-1 > .columns:nth-of-type(1n), .small-up-1 > .container:nth-of-type(1n), .small-up-1 > .project-grid:nth-of-type(1n), .small-up-1 > .desktop-mock:nth-of-type(1n), .small-up-1 >
-  .type:nth-of-type(1n), .small-up-1 > .mobile-mock:nth-of-type(1n), .small-up-1 >
+  .type:nth-of-type(1n), .small-up-1 >
+  .gradient-map:nth-of-type(1n), .small-up-1 >
+  .image-guides:nth-of-type(1n), .small-up-1 >
+  .intro:nth-of-type(1n), .small-up-1 > .mobile-mock:nth-of-type(1n), .small-up-1 >
   .logo-square:nth-of-type(1n), .small-up-1 >
   .color-specs:nth-of-type(1n), .small-up-1 >
-  .gradient-map:nth-of-type(1n), .small-up-1 >
-  .btn-styles:nth-of-type(1n), .color-specs .small-up-1 > ul:nth-of-type(1n), .color-specs ul .small-up-1 > li:nth-of-type(1n) {
+  .btn-styles:nth-of-type(1n), .color-specs .small-up-1 > ul:nth-of-type(1n), .color-specs ul .small-up-1 > li:nth-of-type(1n), .small-up-1 > .btn:nth-of-type(1n) {
     clear: none; }
   .small-up-1 > .column:nth-of-type(1n+1), .small-up-1 > .columns:nth-of-type(1n+1), .small-up-1 > .container:nth-of-type(1n+1), .small-up-1 > .project-grid:nth-of-type(1n+1), .small-up-1 > .desktop-mock:nth-of-type(1n+1), .small-up-1 >
-  .type:nth-of-type(1n+1), .small-up-1 > .mobile-mock:nth-of-type(1n+1), .small-up-1 >
+  .type:nth-of-type(1n+1), .small-up-1 >
+  .gradient-map:nth-of-type(1n+1), .small-up-1 >
+  .image-guides:nth-of-type(1n+1), .small-up-1 >
+  .intro:nth-of-type(1n+1), .small-up-1 > .mobile-mock:nth-of-type(1n+1), .small-up-1 >
   .logo-square:nth-of-type(1n+1), .small-up-1 >
   .color-specs:nth-of-type(1n+1), .small-up-1 >
-  .gradient-map:nth-of-type(1n+1), .small-up-1 >
-  .btn-styles:nth-of-type(1n+1), .color-specs .small-up-1 > ul:nth-of-type(1n+1), .color-specs ul .small-up-1 > li:nth-of-type(1n+1) {
+  .btn-styles:nth-of-type(1n+1), .color-specs .small-up-1 > ul:nth-of-type(1n+1), .color-specs ul .small-up-1 > li:nth-of-type(1n+1), .small-up-1 > .btn:nth-of-type(1n+1) {
     clear: both; }
   .small-up-1 > .column:last-child, .small-up-1 > .columns:last-child, .small-up-1 > .container:last-child, .small-up-1 > .project-grid:last-child, .small-up-1 > .desktop-mock:last-child, .small-up-1 >
-  .type:last-child, .small-up-1 > .mobile-mock:last-child, .small-up-1 >
+  .type:last-child, .small-up-1 >
+  .gradient-map:last-child, .small-up-1 >
+  .image-guides:last-child, .small-up-1 >
+  .intro:last-child, .small-up-1 > .mobile-mock:last-child, .small-up-1 >
   .logo-square:last-child, .small-up-1 >
   .color-specs:last-child, .small-up-1 >
-  .gradient-map:last-child, .small-up-1 >
-  .btn-styles:last-child, .color-specs .small-up-1 > ul:last-child, .color-specs ul .small-up-1 > li:last-child {
+  .btn-styles:last-child, .color-specs .small-up-1 > ul:last-child, .color-specs ul .small-up-1 > li:last-child, .small-up-1 > .btn:last-child {
     float: left; }
 
 .small-up-2 > .column, .small-up-2 > .columns, .small-up-2 > .container, .small-up-2 > .project-grid, .small-up-2 > .desktop-mock, .small-up-2 >
-.type, .small-up-2 > .mobile-mock, .small-up-2 >
+.type, .small-up-2 >
+.gradient-map, .small-up-2 >
+.image-guides, .small-up-2 >
+.intro, .small-up-2 > .mobile-mock, .small-up-2 >
 .logo-square, .small-up-2 >
 .color-specs, .small-up-2 >
-.gradient-map, .small-up-2 >
-.btn-styles, .color-specs .small-up-2 > ul, .color-specs ul .small-up-2 > li {
+.btn-styles, .color-specs .small-up-2 > ul, .color-specs ul .small-up-2 > li, .small-up-2 > .btn {
   float: left;
   width: 50%; }
   .small-up-2 > .column:nth-of-type(1n), .small-up-2 > .columns:nth-of-type(1n), .small-up-2 > .container:nth-of-type(1n), .small-up-2 > .project-grid:nth-of-type(1n), .small-up-2 > .desktop-mock:nth-of-type(1n), .small-up-2 >
-  .type:nth-of-type(1n), .small-up-2 > .mobile-mock:nth-of-type(1n), .small-up-2 >
+  .type:nth-of-type(1n), .small-up-2 >
+  .gradient-map:nth-of-type(1n), .small-up-2 >
+  .image-guides:nth-of-type(1n), .small-up-2 >
+  .intro:nth-of-type(1n), .small-up-2 > .mobile-mock:nth-of-type(1n), .small-up-2 >
   .logo-square:nth-of-type(1n), .small-up-2 >
   .color-specs:nth-of-type(1n), .small-up-2 >
-  .gradient-map:nth-of-type(1n), .small-up-2 >
-  .btn-styles:nth-of-type(1n), .color-specs .small-up-2 > ul:nth-of-type(1n), .color-specs ul .small-up-2 > li:nth-of-type(1n) {
+  .btn-styles:nth-of-type(1n), .color-specs .small-up-2 > ul:nth-of-type(1n), .color-specs ul .small-up-2 > li:nth-of-type(1n), .small-up-2 > .btn:nth-of-type(1n) {
     clear: none; }
   .small-up-2 > .column:nth-of-type(2n+1), .small-up-2 > .columns:nth-of-type(2n+1), .small-up-2 > .container:nth-of-type(2n+1), .small-up-2 > .project-grid:nth-of-type(2n+1), .small-up-2 > .desktop-mock:nth-of-type(2n+1), .small-up-2 >
-  .type:nth-of-type(2n+1), .small-up-2 > .mobile-mock:nth-of-type(2n+1), .small-up-2 >
+  .type:nth-of-type(2n+1), .small-up-2 >
+  .gradient-map:nth-of-type(2n+1), .small-up-2 >
+  .image-guides:nth-of-type(2n+1), .small-up-2 >
+  .intro:nth-of-type(2n+1), .small-up-2 > .mobile-mock:nth-of-type(2n+1), .small-up-2 >
   .logo-square:nth-of-type(2n+1), .small-up-2 >
   .color-specs:nth-of-type(2n+1), .small-up-2 >
-  .gradient-map:nth-of-type(2n+1), .small-up-2 >
-  .btn-styles:nth-of-type(2n+1), .color-specs .small-up-2 > ul:nth-of-type(2n+1), .color-specs ul .small-up-2 > li:nth-of-type(2n+1) {
+  .btn-styles:nth-of-type(2n+1), .color-specs .small-up-2 > ul:nth-of-type(2n+1), .color-specs ul .small-up-2 > li:nth-of-type(2n+1), .small-up-2 > .btn:nth-of-type(2n+1) {
     clear: both; }
   .small-up-2 > .column:last-child, .small-up-2 > .columns:last-child, .small-up-2 > .container:last-child, .small-up-2 > .project-grid:last-child, .small-up-2 > .desktop-mock:last-child, .small-up-2 >
-  .type:last-child, .small-up-2 > .mobile-mock:last-child, .small-up-2 >
+  .type:last-child, .small-up-2 >
+  .gradient-map:last-child, .small-up-2 >
+  .image-guides:last-child, .small-up-2 >
+  .intro:last-child, .small-up-2 > .mobile-mock:last-child, .small-up-2 >
   .logo-square:last-child, .small-up-2 >
   .color-specs:last-child, .small-up-2 >
-  .gradient-map:last-child, .small-up-2 >
-  .btn-styles:last-child, .color-specs .small-up-2 > ul:last-child, .color-specs ul .small-up-2 > li:last-child {
+  .btn-styles:last-child, .color-specs .small-up-2 > ul:last-child, .color-specs ul .small-up-2 > li:last-child, .small-up-2 > .btn:last-child {
     float: left; }
 
 .small-up-3 > .column, .small-up-3 > .columns, .small-up-3 > .container, .small-up-3 > .project-grid, .small-up-3 > .desktop-mock, .small-up-3 >
-.type, .small-up-3 > .mobile-mock, .small-up-3 >
+.type, .small-up-3 >
+.gradient-map, .small-up-3 >
+.image-guides, .small-up-3 >
+.intro, .small-up-3 > .mobile-mock, .small-up-3 >
 .logo-square, .small-up-3 >
 .color-specs, .small-up-3 >
-.gradient-map, .small-up-3 >
-.btn-styles, .color-specs .small-up-3 > ul, .color-specs ul .small-up-3 > li {
+.btn-styles, .color-specs .small-up-3 > ul, .color-specs ul .small-up-3 > li, .small-up-3 > .btn {
   float: left;
   width: 33.3333333333%; }
   .small-up-3 > .column:nth-of-type(1n), .small-up-3 > .columns:nth-of-type(1n), .small-up-3 > .container:nth-of-type(1n), .small-up-3 > .project-grid:nth-of-type(1n), .small-up-3 > .desktop-mock:nth-of-type(1n), .small-up-3 >
-  .type:nth-of-type(1n), .small-up-3 > .mobile-mock:nth-of-type(1n), .small-up-3 >
+  .type:nth-of-type(1n), .small-up-3 >
+  .gradient-map:nth-of-type(1n), .small-up-3 >
+  .image-guides:nth-of-type(1n), .small-up-3 >
+  .intro:nth-of-type(1n), .small-up-3 > .mobile-mock:nth-of-type(1n), .small-up-3 >
   .logo-square:nth-of-type(1n), .small-up-3 >
   .color-specs:nth-of-type(1n), .small-up-3 >
-  .gradient-map:nth-of-type(1n), .small-up-3 >
-  .btn-styles:nth-of-type(1n), .color-specs .small-up-3 > ul:nth-of-type(1n), .color-specs ul .small-up-3 > li:nth-of-type(1n) {
+  .btn-styles:nth-of-type(1n), .color-specs .small-up-3 > ul:nth-of-type(1n), .color-specs ul .small-up-3 > li:nth-of-type(1n), .small-up-3 > .btn:nth-of-type(1n) {
     clear: none; }
   .small-up-3 > .column:nth-of-type(3n+1), .small-up-3 > .columns:nth-of-type(3n+1), .small-up-3 > .container:nth-of-type(3n+1), .small-up-3 > .project-grid:nth-of-type(3n+1), .small-up-3 > .desktop-mock:nth-of-type(3n+1), .small-up-3 >
-  .type:nth-of-type(3n+1), .small-up-3 > .mobile-mock:nth-of-type(3n+1), .small-up-3 >
+  .type:nth-of-type(3n+1), .small-up-3 >
+  .gradient-map:nth-of-type(3n+1), .small-up-3 >
+  .image-guides:nth-of-type(3n+1), .small-up-3 >
+  .intro:nth-of-type(3n+1), .small-up-3 > .mobile-mock:nth-of-type(3n+1), .small-up-3 >
   .logo-square:nth-of-type(3n+1), .small-up-3 >
   .color-specs:nth-of-type(3n+1), .small-up-3 >
-  .gradient-map:nth-of-type(3n+1), .small-up-3 >
-  .btn-styles:nth-of-type(3n+1), .color-specs .small-up-3 > ul:nth-of-type(3n+1), .color-specs ul .small-up-3 > li:nth-of-type(3n+1) {
+  .btn-styles:nth-of-type(3n+1), .color-specs .small-up-3 > ul:nth-of-type(3n+1), .color-specs ul .small-up-3 > li:nth-of-type(3n+1), .small-up-3 > .btn:nth-of-type(3n+1) {
     clear: both; }
   .small-up-3 > .column:last-child, .small-up-3 > .columns:last-child, .small-up-3 > .container:last-child, .small-up-3 > .project-grid:last-child, .small-up-3 > .desktop-mock:last-child, .small-up-3 >
-  .type:last-child, .small-up-3 > .mobile-mock:last-child, .small-up-3 >
+  .type:last-child, .small-up-3 >
+  .gradient-map:last-child, .small-up-3 >
+  .image-guides:last-child, .small-up-3 >
+  .intro:last-child, .small-up-3 > .mobile-mock:last-child, .small-up-3 >
   .logo-square:last-child, .small-up-3 >
   .color-specs:last-child, .small-up-3 >
-  .gradient-map:last-child, .small-up-3 >
-  .btn-styles:last-child, .color-specs .small-up-3 > ul:last-child, .color-specs ul .small-up-3 > li:last-child {
+  .btn-styles:last-child, .color-specs .small-up-3 > ul:last-child, .color-specs ul .small-up-3 > li:last-child, .small-up-3 > .btn:last-child {
     float: left; }
 
 .small-up-4 > .column, .small-up-4 > .columns, .small-up-4 > .container, .small-up-4 > .project-grid, .small-up-4 > .desktop-mock, .small-up-4 >
-.type, .small-up-4 > .mobile-mock, .small-up-4 >
+.type, .small-up-4 >
+.gradient-map, .small-up-4 >
+.image-guides, .small-up-4 >
+.intro, .small-up-4 > .mobile-mock, .small-up-4 >
 .logo-square, .small-up-4 >
 .color-specs, .small-up-4 >
-.gradient-map, .small-up-4 >
-.btn-styles, .color-specs .small-up-4 > ul, .color-specs ul .small-up-4 > li {
+.btn-styles, .color-specs .small-up-4 > ul, .color-specs ul .small-up-4 > li, .small-up-4 > .btn {
   float: left;
   width: 25%; }
   .small-up-4 > .column:nth-of-type(1n), .small-up-4 > .columns:nth-of-type(1n), .small-up-4 > .container:nth-of-type(1n), .small-up-4 > .project-grid:nth-of-type(1n), .small-up-4 > .desktop-mock:nth-of-type(1n), .small-up-4 >
-  .type:nth-of-type(1n), .small-up-4 > .mobile-mock:nth-of-type(1n), .small-up-4 >
+  .type:nth-of-type(1n), .small-up-4 >
+  .gradient-map:nth-of-type(1n), .small-up-4 >
+  .image-guides:nth-of-type(1n), .small-up-4 >
+  .intro:nth-of-type(1n), .small-up-4 > .mobile-mock:nth-of-type(1n), .small-up-4 >
   .logo-square:nth-of-type(1n), .small-up-4 >
   .color-specs:nth-of-type(1n), .small-up-4 >
-  .gradient-map:nth-of-type(1n), .small-up-4 >
-  .btn-styles:nth-of-type(1n), .color-specs .small-up-4 > ul:nth-of-type(1n), .color-specs ul .small-up-4 > li:nth-of-type(1n) {
+  .btn-styles:nth-of-type(1n), .color-specs .small-up-4 > ul:nth-of-type(1n), .color-specs ul .small-up-4 > li:nth-of-type(1n), .small-up-4 > .btn:nth-of-type(1n) {
     clear: none; }
   .small-up-4 > .column:nth-of-type(4n+1), .small-up-4 > .columns:nth-of-type(4n+1), .small-up-4 > .container:nth-of-type(4n+1), .small-up-4 > .project-grid:nth-of-type(4n+1), .small-up-4 > .desktop-mock:nth-of-type(4n+1), .small-up-4 >
-  .type:nth-of-type(4n+1), .small-up-4 > .mobile-mock:nth-of-type(4n+1), .small-up-4 >
+  .type:nth-of-type(4n+1), .small-up-4 >
+  .gradient-map:nth-of-type(4n+1), .small-up-4 >
+  .image-guides:nth-of-type(4n+1), .small-up-4 >
+  .intro:nth-of-type(4n+1), .small-up-4 > .mobile-mock:nth-of-type(4n+1), .small-up-4 >
   .logo-square:nth-of-type(4n+1), .small-up-4 >
   .color-specs:nth-of-type(4n+1), .small-up-4 >
-  .gradient-map:nth-of-type(4n+1), .small-up-4 >
-  .btn-styles:nth-of-type(4n+1), .color-specs .small-up-4 > ul:nth-of-type(4n+1), .color-specs ul .small-up-4 > li:nth-of-type(4n+1) {
+  .btn-styles:nth-of-type(4n+1), .color-specs .small-up-4 > ul:nth-of-type(4n+1), .color-specs ul .small-up-4 > li:nth-of-type(4n+1), .small-up-4 > .btn:nth-of-type(4n+1) {
     clear: both; }
   .small-up-4 > .column:last-child, .small-up-4 > .columns:last-child, .small-up-4 > .container:last-child, .small-up-4 > .project-grid:last-child, .small-up-4 > .desktop-mock:last-child, .small-up-4 >
-  .type:last-child, .small-up-4 > .mobile-mock:last-child, .small-up-4 >
+  .type:last-child, .small-up-4 >
+  .gradient-map:last-child, .small-up-4 >
+  .image-guides:last-child, .small-up-4 >
+  .intro:last-child, .small-up-4 > .mobile-mock:last-child, .small-up-4 >
   .logo-square:last-child, .small-up-4 >
   .color-specs:last-child, .small-up-4 >
-  .gradient-map:last-child, .small-up-4 >
-  .btn-styles:last-child, .color-specs .small-up-4 > ul:last-child, .color-specs ul .small-up-4 > li:last-child {
+  .btn-styles:last-child, .color-specs .small-up-4 > ul:last-child, .color-specs ul .small-up-4 > li:last-child, .small-up-4 > .btn:last-child {
     float: left; }
 
 .small-up-5 > .column, .small-up-5 > .columns, .small-up-5 > .container, .small-up-5 > .project-grid, .small-up-5 > .desktop-mock, .small-up-5 >
-.type, .small-up-5 > .mobile-mock, .small-up-5 >
+.type, .small-up-5 >
+.gradient-map, .small-up-5 >
+.image-guides, .small-up-5 >
+.intro, .small-up-5 > .mobile-mock, .small-up-5 >
 .logo-square, .small-up-5 >
 .color-specs, .small-up-5 >
-.gradient-map, .small-up-5 >
-.btn-styles, .color-specs .small-up-5 > ul, .color-specs ul .small-up-5 > li {
+.btn-styles, .color-specs .small-up-5 > ul, .color-specs ul .small-up-5 > li, .small-up-5 > .btn {
   float: left;
   width: 20%; }
   .small-up-5 > .column:nth-of-type(1n), .small-up-5 > .columns:nth-of-type(1n), .small-up-5 > .container:nth-of-type(1n), .small-up-5 > .project-grid:nth-of-type(1n), .small-up-5 > .desktop-mock:nth-of-type(1n), .small-up-5 >
-  .type:nth-of-type(1n), .small-up-5 > .mobile-mock:nth-of-type(1n), .small-up-5 >
+  .type:nth-of-type(1n), .small-up-5 >
+  .gradient-map:nth-of-type(1n), .small-up-5 >
+  .image-guides:nth-of-type(1n), .small-up-5 >
+  .intro:nth-of-type(1n), .small-up-5 > .mobile-mock:nth-of-type(1n), .small-up-5 >
   .logo-square:nth-of-type(1n), .small-up-5 >
   .color-specs:nth-of-type(1n), .small-up-5 >
-  .gradient-map:nth-of-type(1n), .small-up-5 >
-  .btn-styles:nth-of-type(1n), .color-specs .small-up-5 > ul:nth-of-type(1n), .color-specs ul .small-up-5 > li:nth-of-type(1n) {
+  .btn-styles:nth-of-type(1n), .color-specs .small-up-5 > ul:nth-of-type(1n), .color-specs ul .small-up-5 > li:nth-of-type(1n), .small-up-5 > .btn:nth-of-type(1n) {
     clear: none; }
   .small-up-5 > .column:nth-of-type(5n+1), .small-up-5 > .columns:nth-of-type(5n+1), .small-up-5 > .container:nth-of-type(5n+1), .small-up-5 > .project-grid:nth-of-type(5n+1), .small-up-5 > .desktop-mock:nth-of-type(5n+1), .small-up-5 >
-  .type:nth-of-type(5n+1), .small-up-5 > .mobile-mock:nth-of-type(5n+1), .small-up-5 >
+  .type:nth-of-type(5n+1), .small-up-5 >
+  .gradient-map:nth-of-type(5n+1), .small-up-5 >
+  .image-guides:nth-of-type(5n+1), .small-up-5 >
+  .intro:nth-of-type(5n+1), .small-up-5 > .mobile-mock:nth-of-type(5n+1), .small-up-5 >
   .logo-square:nth-of-type(5n+1), .small-up-5 >
   .color-specs:nth-of-type(5n+1), .small-up-5 >
-  .gradient-map:nth-of-type(5n+1), .small-up-5 >
-  .btn-styles:nth-of-type(5n+1), .color-specs .small-up-5 > ul:nth-of-type(5n+1), .color-specs ul .small-up-5 > li:nth-of-type(5n+1) {
+  .btn-styles:nth-of-type(5n+1), .color-specs .small-up-5 > ul:nth-of-type(5n+1), .color-specs ul .small-up-5 > li:nth-of-type(5n+1), .small-up-5 > .btn:nth-of-type(5n+1) {
     clear: both; }
   .small-up-5 > .column:last-child, .small-up-5 > .columns:last-child, .small-up-5 > .container:last-child, .small-up-5 > .project-grid:last-child, .small-up-5 > .desktop-mock:last-child, .small-up-5 >
-  .type:last-child, .small-up-5 > .mobile-mock:last-child, .small-up-5 >
+  .type:last-child, .small-up-5 >
+  .gradient-map:last-child, .small-up-5 >
+  .image-guides:last-child, .small-up-5 >
+  .intro:last-child, .small-up-5 > .mobile-mock:last-child, .small-up-5 >
   .logo-square:last-child, .small-up-5 >
   .color-specs:last-child, .small-up-5 >
-  .gradient-map:last-child, .small-up-5 >
-  .btn-styles:last-child, .color-specs .small-up-5 > ul:last-child, .color-specs ul .small-up-5 > li:last-child {
+  .btn-styles:last-child, .color-specs .small-up-5 > ul:last-child, .color-specs ul .small-up-5 > li:last-child, .small-up-5 > .btn:last-child {
     float: left; }
 
 .small-up-6 > .column, .small-up-6 > .columns, .small-up-6 > .container, .small-up-6 > .project-grid, .small-up-6 > .desktop-mock, .small-up-6 >
-.type, .small-up-6 > .mobile-mock, .small-up-6 >
+.type, .small-up-6 >
+.gradient-map, .small-up-6 >
+.image-guides, .small-up-6 >
+.intro, .small-up-6 > .mobile-mock, .small-up-6 >
 .logo-square, .small-up-6 >
 .color-specs, .small-up-6 >
-.gradient-map, .small-up-6 >
-.btn-styles, .color-specs .small-up-6 > ul, .color-specs ul .small-up-6 > li {
+.btn-styles, .color-specs .small-up-6 > ul, .color-specs ul .small-up-6 > li, .small-up-6 > .btn {
   float: left;
   width: 16.6666666667%; }
   .small-up-6 > .column:nth-of-type(1n), .small-up-6 > .columns:nth-of-type(1n), .small-up-6 > .container:nth-of-type(1n), .small-up-6 > .project-grid:nth-of-type(1n), .small-up-6 > .desktop-mock:nth-of-type(1n), .small-up-6 >
-  .type:nth-of-type(1n), .small-up-6 > .mobile-mock:nth-of-type(1n), .small-up-6 >
+  .type:nth-of-type(1n), .small-up-6 >
+  .gradient-map:nth-of-type(1n), .small-up-6 >
+  .image-guides:nth-of-type(1n), .small-up-6 >
+  .intro:nth-of-type(1n), .small-up-6 > .mobile-mock:nth-of-type(1n), .small-up-6 >
   .logo-square:nth-of-type(1n), .small-up-6 >
   .color-specs:nth-of-type(1n), .small-up-6 >
-  .gradient-map:nth-of-type(1n), .small-up-6 >
-  .btn-styles:nth-of-type(1n), .color-specs .small-up-6 > ul:nth-of-type(1n), .color-specs ul .small-up-6 > li:nth-of-type(1n) {
+  .btn-styles:nth-of-type(1n), .color-specs .small-up-6 > ul:nth-of-type(1n), .color-specs ul .small-up-6 > li:nth-of-type(1n), .small-up-6 > .btn:nth-of-type(1n) {
     clear: none; }
   .small-up-6 > .column:nth-of-type(6n+1), .small-up-6 > .columns:nth-of-type(6n+1), .small-up-6 > .container:nth-of-type(6n+1), .small-up-6 > .project-grid:nth-of-type(6n+1), .small-up-6 > .desktop-mock:nth-of-type(6n+1), .small-up-6 >
-  .type:nth-of-type(6n+1), .small-up-6 > .mobile-mock:nth-of-type(6n+1), .small-up-6 >
+  .type:nth-of-type(6n+1), .small-up-6 >
+  .gradient-map:nth-of-type(6n+1), .small-up-6 >
+  .image-guides:nth-of-type(6n+1), .small-up-6 >
+  .intro:nth-of-type(6n+1), .small-up-6 > .mobile-mock:nth-of-type(6n+1), .small-up-6 >
   .logo-square:nth-of-type(6n+1), .small-up-6 >
   .color-specs:nth-of-type(6n+1), .small-up-6 >
-  .gradient-map:nth-of-type(6n+1), .small-up-6 >
-  .btn-styles:nth-of-type(6n+1), .color-specs .small-up-6 > ul:nth-of-type(6n+1), .color-specs ul .small-up-6 > li:nth-of-type(6n+1) {
+  .btn-styles:nth-of-type(6n+1), .color-specs .small-up-6 > ul:nth-of-type(6n+1), .color-specs ul .small-up-6 > li:nth-of-type(6n+1), .small-up-6 > .btn:nth-of-type(6n+1) {
     clear: both; }
   .small-up-6 > .column:last-child, .small-up-6 > .columns:last-child, .small-up-6 > .container:last-child, .small-up-6 > .project-grid:last-child, .small-up-6 > .desktop-mock:last-child, .small-up-6 >
-  .type:last-child, .small-up-6 > .mobile-mock:last-child, .small-up-6 >
+  .type:last-child, .small-up-6 >
+  .gradient-map:last-child, .small-up-6 >
+  .image-guides:last-child, .small-up-6 >
+  .intro:last-child, .small-up-6 > .mobile-mock:last-child, .small-up-6 >
   .logo-square:last-child, .small-up-6 >
   .color-specs:last-child, .small-up-6 >
-  .gradient-map:last-child, .small-up-6 >
-  .btn-styles:last-child, .color-specs .small-up-6 > ul:last-child, .color-specs ul .small-up-6 > li:last-child {
+  .btn-styles:last-child, .color-specs .small-up-6 > ul:last-child, .color-specs ul .small-up-6 > li:last-child, .small-up-6 > .btn:last-child {
     float: left; }
 
 .small-up-7 > .column, .small-up-7 > .columns, .small-up-7 > .container, .small-up-7 > .project-grid, .small-up-7 > .desktop-mock, .small-up-7 >
-.type, .small-up-7 > .mobile-mock, .small-up-7 >
+.type, .small-up-7 >
+.gradient-map, .small-up-7 >
+.image-guides, .small-up-7 >
+.intro, .small-up-7 > .mobile-mock, .small-up-7 >
 .logo-square, .small-up-7 >
 .color-specs, .small-up-7 >
-.gradient-map, .small-up-7 >
-.btn-styles, .color-specs .small-up-7 > ul, .color-specs ul .small-up-7 > li {
+.btn-styles, .color-specs .small-up-7 > ul, .color-specs ul .small-up-7 > li, .small-up-7 > .btn {
   float: left;
   width: 14.2857142857%; }
   .small-up-7 > .column:nth-of-type(1n), .small-up-7 > .columns:nth-of-type(1n), .small-up-7 > .container:nth-of-type(1n), .small-up-7 > .project-grid:nth-of-type(1n), .small-up-7 > .desktop-mock:nth-of-type(1n), .small-up-7 >
-  .type:nth-of-type(1n), .small-up-7 > .mobile-mock:nth-of-type(1n), .small-up-7 >
+  .type:nth-of-type(1n), .small-up-7 >
+  .gradient-map:nth-of-type(1n), .small-up-7 >
+  .image-guides:nth-of-type(1n), .small-up-7 >
+  .intro:nth-of-type(1n), .small-up-7 > .mobile-mock:nth-of-type(1n), .small-up-7 >
   .logo-square:nth-of-type(1n), .small-up-7 >
   .color-specs:nth-of-type(1n), .small-up-7 >
-  .gradient-map:nth-of-type(1n), .small-up-7 >
-  .btn-styles:nth-of-type(1n), .color-specs .small-up-7 > ul:nth-of-type(1n), .color-specs ul .small-up-7 > li:nth-of-type(1n) {
+  .btn-styles:nth-of-type(1n), .color-specs .small-up-7 > ul:nth-of-type(1n), .color-specs ul .small-up-7 > li:nth-of-type(1n), .small-up-7 > .btn:nth-of-type(1n) {
     clear: none; }
   .small-up-7 > .column:nth-of-type(7n+1), .small-up-7 > .columns:nth-of-type(7n+1), .small-up-7 > .container:nth-of-type(7n+1), .small-up-7 > .project-grid:nth-of-type(7n+1), .small-up-7 > .desktop-mock:nth-of-type(7n+1), .small-up-7 >
-  .type:nth-of-type(7n+1), .small-up-7 > .mobile-mock:nth-of-type(7n+1), .small-up-7 >
+  .type:nth-of-type(7n+1), .small-up-7 >
+  .gradient-map:nth-of-type(7n+1), .small-up-7 >
+  .image-guides:nth-of-type(7n+1), .small-up-7 >
+  .intro:nth-of-type(7n+1), .small-up-7 > .mobile-mock:nth-of-type(7n+1), .small-up-7 >
   .logo-square:nth-of-type(7n+1), .small-up-7 >
   .color-specs:nth-of-type(7n+1), .small-up-7 >
-  .gradient-map:nth-of-type(7n+1), .small-up-7 >
-  .btn-styles:nth-of-type(7n+1), .color-specs .small-up-7 > ul:nth-of-type(7n+1), .color-specs ul .small-up-7 > li:nth-of-type(7n+1) {
+  .btn-styles:nth-of-type(7n+1), .color-specs .small-up-7 > ul:nth-of-type(7n+1), .color-specs ul .small-up-7 > li:nth-of-type(7n+1), .small-up-7 > .btn:nth-of-type(7n+1) {
     clear: both; }
   .small-up-7 > .column:last-child, .small-up-7 > .columns:last-child, .small-up-7 > .container:last-child, .small-up-7 > .project-grid:last-child, .small-up-7 > .desktop-mock:last-child, .small-up-7 >
-  .type:last-child, .small-up-7 > .mobile-mock:last-child, .small-up-7 >
+  .type:last-child, .small-up-7 >
+  .gradient-map:last-child, .small-up-7 >
+  .image-guides:last-child, .small-up-7 >
+  .intro:last-child, .small-up-7 > .mobile-mock:last-child, .small-up-7 >
   .logo-square:last-child, .small-up-7 >
   .color-specs:last-child, .small-up-7 >
-  .gradient-map:last-child, .small-up-7 >
-  .btn-styles:last-child, .color-specs .small-up-7 > ul:last-child, .color-specs ul .small-up-7 > li:last-child {
+  .btn-styles:last-child, .color-specs .small-up-7 > ul:last-child, .color-specs ul .small-up-7 > li:last-child, .small-up-7 > .btn:last-child {
     float: left; }
 
 .small-up-8 > .column, .small-up-8 > .columns, .small-up-8 > .container, .small-up-8 > .project-grid, .small-up-8 > .desktop-mock, .small-up-8 >
-.type, .small-up-8 > .mobile-mock, .small-up-8 >
+.type, .small-up-8 >
+.gradient-map, .small-up-8 >
+.image-guides, .small-up-8 >
+.intro, .small-up-8 > .mobile-mock, .small-up-8 >
 .logo-square, .small-up-8 >
 .color-specs, .small-up-8 >
-.gradient-map, .small-up-8 >
-.btn-styles, .color-specs .small-up-8 > ul, .color-specs ul .small-up-8 > li {
+.btn-styles, .color-specs .small-up-8 > ul, .color-specs ul .small-up-8 > li, .small-up-8 > .btn {
   float: left;
   width: 12.5%; }
   .small-up-8 > .column:nth-of-type(1n), .small-up-8 > .columns:nth-of-type(1n), .small-up-8 > .container:nth-of-type(1n), .small-up-8 > .project-grid:nth-of-type(1n), .small-up-8 > .desktop-mock:nth-of-type(1n), .small-up-8 >
-  .type:nth-of-type(1n), .small-up-8 > .mobile-mock:nth-of-type(1n), .small-up-8 >
+  .type:nth-of-type(1n), .small-up-8 >
+  .gradient-map:nth-of-type(1n), .small-up-8 >
+  .image-guides:nth-of-type(1n), .small-up-8 >
+  .intro:nth-of-type(1n), .small-up-8 > .mobile-mock:nth-of-type(1n), .small-up-8 >
   .logo-square:nth-of-type(1n), .small-up-8 >
   .color-specs:nth-of-type(1n), .small-up-8 >
-  .gradient-map:nth-of-type(1n), .small-up-8 >
-  .btn-styles:nth-of-type(1n), .color-specs .small-up-8 > ul:nth-of-type(1n), .color-specs ul .small-up-8 > li:nth-of-type(1n) {
+  .btn-styles:nth-of-type(1n), .color-specs .small-up-8 > ul:nth-of-type(1n), .color-specs ul .small-up-8 > li:nth-of-type(1n), .small-up-8 > .btn:nth-of-type(1n) {
     clear: none; }
   .small-up-8 > .column:nth-of-type(8n+1), .small-up-8 > .columns:nth-of-type(8n+1), .small-up-8 > .container:nth-of-type(8n+1), .small-up-8 > .project-grid:nth-of-type(8n+1), .small-up-8 > .desktop-mock:nth-of-type(8n+1), .small-up-8 >
-  .type:nth-of-type(8n+1), .small-up-8 > .mobile-mock:nth-of-type(8n+1), .small-up-8 >
+  .type:nth-of-type(8n+1), .small-up-8 >
+  .gradient-map:nth-of-type(8n+1), .small-up-8 >
+  .image-guides:nth-of-type(8n+1), .small-up-8 >
+  .intro:nth-of-type(8n+1), .small-up-8 > .mobile-mock:nth-of-type(8n+1), .small-up-8 >
   .logo-square:nth-of-type(8n+1), .small-up-8 >
   .color-specs:nth-of-type(8n+1), .small-up-8 >
-  .gradient-map:nth-of-type(8n+1), .small-up-8 >
-  .btn-styles:nth-of-type(8n+1), .color-specs .small-up-8 > ul:nth-of-type(8n+1), .color-specs ul .small-up-8 > li:nth-of-type(8n+1) {
+  .btn-styles:nth-of-type(8n+1), .color-specs .small-up-8 > ul:nth-of-type(8n+1), .color-specs ul .small-up-8 > li:nth-of-type(8n+1), .small-up-8 > .btn:nth-of-type(8n+1) {
     clear: both; }
   .small-up-8 > .column:last-child, .small-up-8 > .columns:last-child, .small-up-8 > .container:last-child, .small-up-8 > .project-grid:last-child, .small-up-8 > .desktop-mock:last-child, .small-up-8 >
-  .type:last-child, .small-up-8 > .mobile-mock:last-child, .small-up-8 >
+  .type:last-child, .small-up-8 >
+  .gradient-map:last-child, .small-up-8 >
+  .image-guides:last-child, .small-up-8 >
+  .intro:last-child, .small-up-8 > .mobile-mock:last-child, .small-up-8 >
   .logo-square:last-child, .small-up-8 >
   .color-specs:last-child, .small-up-8 >
-  .gradient-map:last-child, .small-up-8 >
-  .btn-styles:last-child, .color-specs .small-up-8 > ul:last-child, .color-specs ul .small-up-8 > li:last-child {
+  .btn-styles:last-child, .color-specs .small-up-8 > ul:last-child, .color-specs ul .small-up-8 > li:last-child, .small-up-8 > .btn:last-child {
     float: left; }
 
 .small-collapse > .column, .small-collapse > .columns, .small-collapse > .container, .small-collapse > .project-grid, .small-collapse > .desktop-mock, .small-collapse >
-.type, .small-collapse > .mobile-mock, .small-collapse >
+.type, .small-collapse >
+.gradient-map, .small-collapse >
+.image-guides, .small-collapse >
+.intro, .small-collapse > .mobile-mock, .small-collapse >
 .logo-square, .small-collapse >
 .color-specs, .small-collapse >
-.gradient-map, .small-collapse >
-.btn-styles, .color-specs .small-collapse > ul, .color-specs ul .small-collapse > li {
+.btn-styles, .color-specs .small-collapse > ul, .color-specs ul .small-collapse > li, .small-collapse > .btn {
   padding-right: 0;
   padding-left: 0; }
 
@@ -1675,11 +1784,13 @@ pre {
   margin-left: 0; }
 
 .small-uncollapse > .column, .small-uncollapse > .columns, .small-uncollapse > .container, .small-uncollapse > .project-grid, .small-uncollapse > .desktop-mock, .small-uncollapse >
-.type, .small-uncollapse > .mobile-mock, .small-uncollapse >
+.type, .small-uncollapse >
+.gradient-map, .small-uncollapse >
+.image-guides, .small-uncollapse >
+.intro, .small-uncollapse > .mobile-mock, .small-uncollapse >
 .logo-square, .small-uncollapse >
 .color-specs, .small-uncollapse >
-.gradient-map, .small-uncollapse >
-.btn-styles, .color-specs .small-uncollapse > ul, .color-specs ul .small-uncollapse > li {
+.btn-styles, .color-specs .small-uncollapse > ul, .color-specs ul .small-uncollapse > li, .small-uncollapse > .btn {
   padding-right: 0.625rem;
   padding-left: 0.625rem; }
 
@@ -1732,7 +1843,6 @@ pre {
   .medium-4, .mobile-mock,
   .logo-square,
   .color-specs,
-  .gradient-map,
   .btn-styles {
     width: 33.3333333333%; }
   .medium-push-4 {
@@ -1753,7 +1863,7 @@ pre {
     left: -41.6666666667%; }
   .medium-offset-4 {
     margin-left: 33.3333333333%; }
-  .medium-6, .color-specs ul {
+  .medium-6, .color-specs ul, .btn {
     width: 50%; }
   .medium-push-6 {
     position: relative;
@@ -1774,7 +1884,10 @@ pre {
   .medium-offset-6 {
     margin-left: 50%; }
   .medium-8, .desktop-mock,
-  .type {
+  .type,
+  .gradient-map,
+  .image-guides,
+  .intro {
     width: 66.6666666667%; }
   .medium-push-8 {
     position: relative;
@@ -1819,243 +1932,309 @@ pre {
   .medium-offset-11 {
     margin-left: 91.6666666667%; }
   .medium-up-1 > .column, .medium-up-1 > .columns, .medium-up-1 > .container, .medium-up-1 > .project-grid, .medium-up-1 > .desktop-mock, .medium-up-1 >
-  .type, .medium-up-1 > .mobile-mock, .medium-up-1 >
+  .type, .medium-up-1 >
+  .gradient-map, .medium-up-1 >
+  .image-guides, .medium-up-1 >
+  .intro, .medium-up-1 > .mobile-mock, .medium-up-1 >
   .logo-square, .medium-up-1 >
   .color-specs, .medium-up-1 >
-  .gradient-map, .medium-up-1 >
-  .btn-styles, .color-specs .medium-up-1 > ul, .color-specs ul .medium-up-1 > li {
+  .btn-styles, .color-specs .medium-up-1 > ul, .color-specs ul .medium-up-1 > li, .medium-up-1 > .btn {
     float: left;
     width: 100%; }
     .medium-up-1 > .column:nth-of-type(1n), .medium-up-1 > .columns:nth-of-type(1n), .medium-up-1 > .container:nth-of-type(1n), .medium-up-1 > .project-grid:nth-of-type(1n), .medium-up-1 > .desktop-mock:nth-of-type(1n), .medium-up-1 >
-    .type:nth-of-type(1n), .medium-up-1 > .mobile-mock:nth-of-type(1n), .medium-up-1 >
+    .type:nth-of-type(1n), .medium-up-1 >
+    .gradient-map:nth-of-type(1n), .medium-up-1 >
+    .image-guides:nth-of-type(1n), .medium-up-1 >
+    .intro:nth-of-type(1n), .medium-up-1 > .mobile-mock:nth-of-type(1n), .medium-up-1 >
     .logo-square:nth-of-type(1n), .medium-up-1 >
     .color-specs:nth-of-type(1n), .medium-up-1 >
-    .gradient-map:nth-of-type(1n), .medium-up-1 >
-    .btn-styles:nth-of-type(1n), .color-specs .medium-up-1 > ul:nth-of-type(1n), .color-specs ul .medium-up-1 > li:nth-of-type(1n) {
+    .btn-styles:nth-of-type(1n), .color-specs .medium-up-1 > ul:nth-of-type(1n), .color-specs ul .medium-up-1 > li:nth-of-type(1n), .medium-up-1 > .btn:nth-of-type(1n) {
       clear: none; }
     .medium-up-1 > .column:nth-of-type(1n+1), .medium-up-1 > .columns:nth-of-type(1n+1), .medium-up-1 > .container:nth-of-type(1n+1), .medium-up-1 > .project-grid:nth-of-type(1n+1), .medium-up-1 > .desktop-mock:nth-of-type(1n+1), .medium-up-1 >
-    .type:nth-of-type(1n+1), .medium-up-1 > .mobile-mock:nth-of-type(1n+1), .medium-up-1 >
+    .type:nth-of-type(1n+1), .medium-up-1 >
+    .gradient-map:nth-of-type(1n+1), .medium-up-1 >
+    .image-guides:nth-of-type(1n+1), .medium-up-1 >
+    .intro:nth-of-type(1n+1), .medium-up-1 > .mobile-mock:nth-of-type(1n+1), .medium-up-1 >
     .logo-square:nth-of-type(1n+1), .medium-up-1 >
     .color-specs:nth-of-type(1n+1), .medium-up-1 >
-    .gradient-map:nth-of-type(1n+1), .medium-up-1 >
-    .btn-styles:nth-of-type(1n+1), .color-specs .medium-up-1 > ul:nth-of-type(1n+1), .color-specs ul .medium-up-1 > li:nth-of-type(1n+1) {
+    .btn-styles:nth-of-type(1n+1), .color-specs .medium-up-1 > ul:nth-of-type(1n+1), .color-specs ul .medium-up-1 > li:nth-of-type(1n+1), .medium-up-1 > .btn:nth-of-type(1n+1) {
       clear: both; }
     .medium-up-1 > .column:last-child, .medium-up-1 > .columns:last-child, .medium-up-1 > .container:last-child, .medium-up-1 > .project-grid:last-child, .medium-up-1 > .desktop-mock:last-child, .medium-up-1 >
-    .type:last-child, .medium-up-1 > .mobile-mock:last-child, .medium-up-1 >
+    .type:last-child, .medium-up-1 >
+    .gradient-map:last-child, .medium-up-1 >
+    .image-guides:last-child, .medium-up-1 >
+    .intro:last-child, .medium-up-1 > .mobile-mock:last-child, .medium-up-1 >
     .logo-square:last-child, .medium-up-1 >
     .color-specs:last-child, .medium-up-1 >
-    .gradient-map:last-child, .medium-up-1 >
-    .btn-styles:last-child, .color-specs .medium-up-1 > ul:last-child, .color-specs ul .medium-up-1 > li:last-child {
+    .btn-styles:last-child, .color-specs .medium-up-1 > ul:last-child, .color-specs ul .medium-up-1 > li:last-child, .medium-up-1 > .btn:last-child {
       float: left; }
   .medium-up-2 > .column, .medium-up-2 > .columns, .medium-up-2 > .container, .medium-up-2 > .project-grid, .medium-up-2 > .desktop-mock, .medium-up-2 >
-  .type, .medium-up-2 > .mobile-mock, .medium-up-2 >
+  .type, .medium-up-2 >
+  .gradient-map, .medium-up-2 >
+  .image-guides, .medium-up-2 >
+  .intro, .medium-up-2 > .mobile-mock, .medium-up-2 >
   .logo-square, .medium-up-2 >
   .color-specs, .medium-up-2 >
-  .gradient-map, .medium-up-2 >
-  .btn-styles, .color-specs .medium-up-2 > ul, .color-specs ul .medium-up-2 > li {
+  .btn-styles, .color-specs .medium-up-2 > ul, .color-specs ul .medium-up-2 > li, .medium-up-2 > .btn {
     float: left;
     width: 50%; }
     .medium-up-2 > .column:nth-of-type(1n), .medium-up-2 > .columns:nth-of-type(1n), .medium-up-2 > .container:nth-of-type(1n), .medium-up-2 > .project-grid:nth-of-type(1n), .medium-up-2 > .desktop-mock:nth-of-type(1n), .medium-up-2 >
-    .type:nth-of-type(1n), .medium-up-2 > .mobile-mock:nth-of-type(1n), .medium-up-2 >
+    .type:nth-of-type(1n), .medium-up-2 >
+    .gradient-map:nth-of-type(1n), .medium-up-2 >
+    .image-guides:nth-of-type(1n), .medium-up-2 >
+    .intro:nth-of-type(1n), .medium-up-2 > .mobile-mock:nth-of-type(1n), .medium-up-2 >
     .logo-square:nth-of-type(1n), .medium-up-2 >
     .color-specs:nth-of-type(1n), .medium-up-2 >
-    .gradient-map:nth-of-type(1n), .medium-up-2 >
-    .btn-styles:nth-of-type(1n), .color-specs .medium-up-2 > ul:nth-of-type(1n), .color-specs ul .medium-up-2 > li:nth-of-type(1n) {
+    .btn-styles:nth-of-type(1n), .color-specs .medium-up-2 > ul:nth-of-type(1n), .color-specs ul .medium-up-2 > li:nth-of-type(1n), .medium-up-2 > .btn:nth-of-type(1n) {
       clear: none; }
     .medium-up-2 > .column:nth-of-type(2n+1), .medium-up-2 > .columns:nth-of-type(2n+1), .medium-up-2 > .container:nth-of-type(2n+1), .medium-up-2 > .project-grid:nth-of-type(2n+1), .medium-up-2 > .desktop-mock:nth-of-type(2n+1), .medium-up-2 >
-    .type:nth-of-type(2n+1), .medium-up-2 > .mobile-mock:nth-of-type(2n+1), .medium-up-2 >
+    .type:nth-of-type(2n+1), .medium-up-2 >
+    .gradient-map:nth-of-type(2n+1), .medium-up-2 >
+    .image-guides:nth-of-type(2n+1), .medium-up-2 >
+    .intro:nth-of-type(2n+1), .medium-up-2 > .mobile-mock:nth-of-type(2n+1), .medium-up-2 >
     .logo-square:nth-of-type(2n+1), .medium-up-2 >
     .color-specs:nth-of-type(2n+1), .medium-up-2 >
-    .gradient-map:nth-of-type(2n+1), .medium-up-2 >
-    .btn-styles:nth-of-type(2n+1), .color-specs .medium-up-2 > ul:nth-of-type(2n+1), .color-specs ul .medium-up-2 > li:nth-of-type(2n+1) {
+    .btn-styles:nth-of-type(2n+1), .color-specs .medium-up-2 > ul:nth-of-type(2n+1), .color-specs ul .medium-up-2 > li:nth-of-type(2n+1), .medium-up-2 > .btn:nth-of-type(2n+1) {
       clear: both; }
     .medium-up-2 > .column:last-child, .medium-up-2 > .columns:last-child, .medium-up-2 > .container:last-child, .medium-up-2 > .project-grid:last-child, .medium-up-2 > .desktop-mock:last-child, .medium-up-2 >
-    .type:last-child, .medium-up-2 > .mobile-mock:last-child, .medium-up-2 >
+    .type:last-child, .medium-up-2 >
+    .gradient-map:last-child, .medium-up-2 >
+    .image-guides:last-child, .medium-up-2 >
+    .intro:last-child, .medium-up-2 > .mobile-mock:last-child, .medium-up-2 >
     .logo-square:last-child, .medium-up-2 >
     .color-specs:last-child, .medium-up-2 >
-    .gradient-map:last-child, .medium-up-2 >
-    .btn-styles:last-child, .color-specs .medium-up-2 > ul:last-child, .color-specs ul .medium-up-2 > li:last-child {
+    .btn-styles:last-child, .color-specs .medium-up-2 > ul:last-child, .color-specs ul .medium-up-2 > li:last-child, .medium-up-2 > .btn:last-child {
       float: left; }
   .medium-up-3 > .column, .medium-up-3 > .columns, .medium-up-3 > .container, .medium-up-3 > .project-grid, .medium-up-3 > .desktop-mock, .medium-up-3 >
-  .type, .medium-up-3 > .mobile-mock, .medium-up-3 >
+  .type, .medium-up-3 >
+  .gradient-map, .medium-up-3 >
+  .image-guides, .medium-up-3 >
+  .intro, .medium-up-3 > .mobile-mock, .medium-up-3 >
   .logo-square, .medium-up-3 >
   .color-specs, .medium-up-3 >
-  .gradient-map, .medium-up-3 >
-  .btn-styles, .color-specs .medium-up-3 > ul, .color-specs ul .medium-up-3 > li {
+  .btn-styles, .color-specs .medium-up-3 > ul, .color-specs ul .medium-up-3 > li, .medium-up-3 > .btn {
     float: left;
     width: 33.3333333333%; }
     .medium-up-3 > .column:nth-of-type(1n), .medium-up-3 > .columns:nth-of-type(1n), .medium-up-3 > .container:nth-of-type(1n), .medium-up-3 > .project-grid:nth-of-type(1n), .medium-up-3 > .desktop-mock:nth-of-type(1n), .medium-up-3 >
-    .type:nth-of-type(1n), .medium-up-3 > .mobile-mock:nth-of-type(1n), .medium-up-3 >
+    .type:nth-of-type(1n), .medium-up-3 >
+    .gradient-map:nth-of-type(1n), .medium-up-3 >
+    .image-guides:nth-of-type(1n), .medium-up-3 >
+    .intro:nth-of-type(1n), .medium-up-3 > .mobile-mock:nth-of-type(1n), .medium-up-3 >
     .logo-square:nth-of-type(1n), .medium-up-3 >
     .color-specs:nth-of-type(1n), .medium-up-3 >
-    .gradient-map:nth-of-type(1n), .medium-up-3 >
-    .btn-styles:nth-of-type(1n), .color-specs .medium-up-3 > ul:nth-of-type(1n), .color-specs ul .medium-up-3 > li:nth-of-type(1n) {
+    .btn-styles:nth-of-type(1n), .color-specs .medium-up-3 > ul:nth-of-type(1n), .color-specs ul .medium-up-3 > li:nth-of-type(1n), .medium-up-3 > .btn:nth-of-type(1n) {
       clear: none; }
     .medium-up-3 > .column:nth-of-type(3n+1), .medium-up-3 > .columns:nth-of-type(3n+1), .medium-up-3 > .container:nth-of-type(3n+1), .medium-up-3 > .project-grid:nth-of-type(3n+1), .medium-up-3 > .desktop-mock:nth-of-type(3n+1), .medium-up-3 >
-    .type:nth-of-type(3n+1), .medium-up-3 > .mobile-mock:nth-of-type(3n+1), .medium-up-3 >
+    .type:nth-of-type(3n+1), .medium-up-3 >
+    .gradient-map:nth-of-type(3n+1), .medium-up-3 >
+    .image-guides:nth-of-type(3n+1), .medium-up-3 >
+    .intro:nth-of-type(3n+1), .medium-up-3 > .mobile-mock:nth-of-type(3n+1), .medium-up-3 >
     .logo-square:nth-of-type(3n+1), .medium-up-3 >
     .color-specs:nth-of-type(3n+1), .medium-up-3 >
-    .gradient-map:nth-of-type(3n+1), .medium-up-3 >
-    .btn-styles:nth-of-type(3n+1), .color-specs .medium-up-3 > ul:nth-of-type(3n+1), .color-specs ul .medium-up-3 > li:nth-of-type(3n+1) {
+    .btn-styles:nth-of-type(3n+1), .color-specs .medium-up-3 > ul:nth-of-type(3n+1), .color-specs ul .medium-up-3 > li:nth-of-type(3n+1), .medium-up-3 > .btn:nth-of-type(3n+1) {
       clear: both; }
     .medium-up-3 > .column:last-child, .medium-up-3 > .columns:last-child, .medium-up-3 > .container:last-child, .medium-up-3 > .project-grid:last-child, .medium-up-3 > .desktop-mock:last-child, .medium-up-3 >
-    .type:last-child, .medium-up-3 > .mobile-mock:last-child, .medium-up-3 >
+    .type:last-child, .medium-up-3 >
+    .gradient-map:last-child, .medium-up-3 >
+    .image-guides:last-child, .medium-up-3 >
+    .intro:last-child, .medium-up-3 > .mobile-mock:last-child, .medium-up-3 >
     .logo-square:last-child, .medium-up-3 >
     .color-specs:last-child, .medium-up-3 >
-    .gradient-map:last-child, .medium-up-3 >
-    .btn-styles:last-child, .color-specs .medium-up-3 > ul:last-child, .color-specs ul .medium-up-3 > li:last-child {
+    .btn-styles:last-child, .color-specs .medium-up-3 > ul:last-child, .color-specs ul .medium-up-3 > li:last-child, .medium-up-3 > .btn:last-child {
       float: left; }
   .medium-up-4 > .column, .medium-up-4 > .columns, .medium-up-4 > .container, .medium-up-4 > .project-grid, .medium-up-4 > .desktop-mock, .medium-up-4 >
-  .type, .medium-up-4 > .mobile-mock, .medium-up-4 >
+  .type, .medium-up-4 >
+  .gradient-map, .medium-up-4 >
+  .image-guides, .medium-up-4 >
+  .intro, .medium-up-4 > .mobile-mock, .medium-up-4 >
   .logo-square, .medium-up-4 >
   .color-specs, .medium-up-4 >
-  .gradient-map, .medium-up-4 >
-  .btn-styles, .color-specs .medium-up-4 > ul, .color-specs ul .medium-up-4 > li {
+  .btn-styles, .color-specs .medium-up-4 > ul, .color-specs ul .medium-up-4 > li, .medium-up-4 > .btn {
     float: left;
     width: 25%; }
     .medium-up-4 > .column:nth-of-type(1n), .medium-up-4 > .columns:nth-of-type(1n), .medium-up-4 > .container:nth-of-type(1n), .medium-up-4 > .project-grid:nth-of-type(1n), .medium-up-4 > .desktop-mock:nth-of-type(1n), .medium-up-4 >
-    .type:nth-of-type(1n), .medium-up-4 > .mobile-mock:nth-of-type(1n), .medium-up-4 >
+    .type:nth-of-type(1n), .medium-up-4 >
+    .gradient-map:nth-of-type(1n), .medium-up-4 >
+    .image-guides:nth-of-type(1n), .medium-up-4 >
+    .intro:nth-of-type(1n), .medium-up-4 > .mobile-mock:nth-of-type(1n), .medium-up-4 >
     .logo-square:nth-of-type(1n), .medium-up-4 >
     .color-specs:nth-of-type(1n), .medium-up-4 >
-    .gradient-map:nth-of-type(1n), .medium-up-4 >
-    .btn-styles:nth-of-type(1n), .color-specs .medium-up-4 > ul:nth-of-type(1n), .color-specs ul .medium-up-4 > li:nth-of-type(1n) {
+    .btn-styles:nth-of-type(1n), .color-specs .medium-up-4 > ul:nth-of-type(1n), .color-specs ul .medium-up-4 > li:nth-of-type(1n), .medium-up-4 > .btn:nth-of-type(1n) {
       clear: none; }
     .medium-up-4 > .column:nth-of-type(4n+1), .medium-up-4 > .columns:nth-of-type(4n+1), .medium-up-4 > .container:nth-of-type(4n+1), .medium-up-4 > .project-grid:nth-of-type(4n+1), .medium-up-4 > .desktop-mock:nth-of-type(4n+1), .medium-up-4 >
-    .type:nth-of-type(4n+1), .medium-up-4 > .mobile-mock:nth-of-type(4n+1), .medium-up-4 >
+    .type:nth-of-type(4n+1), .medium-up-4 >
+    .gradient-map:nth-of-type(4n+1), .medium-up-4 >
+    .image-guides:nth-of-type(4n+1), .medium-up-4 >
+    .intro:nth-of-type(4n+1), .medium-up-4 > .mobile-mock:nth-of-type(4n+1), .medium-up-4 >
     .logo-square:nth-of-type(4n+1), .medium-up-4 >
     .color-specs:nth-of-type(4n+1), .medium-up-4 >
-    .gradient-map:nth-of-type(4n+1), .medium-up-4 >
-    .btn-styles:nth-of-type(4n+1), .color-specs .medium-up-4 > ul:nth-of-type(4n+1), .color-specs ul .medium-up-4 > li:nth-of-type(4n+1) {
+    .btn-styles:nth-of-type(4n+1), .color-specs .medium-up-4 > ul:nth-of-type(4n+1), .color-specs ul .medium-up-4 > li:nth-of-type(4n+1), .medium-up-4 > .btn:nth-of-type(4n+1) {
       clear: both; }
     .medium-up-4 > .column:last-child, .medium-up-4 > .columns:last-child, .medium-up-4 > .container:last-child, .medium-up-4 > .project-grid:last-child, .medium-up-4 > .desktop-mock:last-child, .medium-up-4 >
-    .type:last-child, .medium-up-4 > .mobile-mock:last-child, .medium-up-4 >
+    .type:last-child, .medium-up-4 >
+    .gradient-map:last-child, .medium-up-4 >
+    .image-guides:last-child, .medium-up-4 >
+    .intro:last-child, .medium-up-4 > .mobile-mock:last-child, .medium-up-4 >
     .logo-square:last-child, .medium-up-4 >
     .color-specs:last-child, .medium-up-4 >
-    .gradient-map:last-child, .medium-up-4 >
-    .btn-styles:last-child, .color-specs .medium-up-4 > ul:last-child, .color-specs ul .medium-up-4 > li:last-child {
+    .btn-styles:last-child, .color-specs .medium-up-4 > ul:last-child, .color-specs ul .medium-up-4 > li:last-child, .medium-up-4 > .btn:last-child {
       float: left; }
   .medium-up-5 > .column, .medium-up-5 > .columns, .medium-up-5 > .container, .medium-up-5 > .project-grid, .medium-up-5 > .desktop-mock, .medium-up-5 >
-  .type, .medium-up-5 > .mobile-mock, .medium-up-5 >
+  .type, .medium-up-5 >
+  .gradient-map, .medium-up-5 >
+  .image-guides, .medium-up-5 >
+  .intro, .medium-up-5 > .mobile-mock, .medium-up-5 >
   .logo-square, .medium-up-5 >
   .color-specs, .medium-up-5 >
-  .gradient-map, .medium-up-5 >
-  .btn-styles, .color-specs .medium-up-5 > ul, .color-specs ul .medium-up-5 > li {
+  .btn-styles, .color-specs .medium-up-5 > ul, .color-specs ul .medium-up-5 > li, .medium-up-5 > .btn {
     float: left;
     width: 20%; }
     .medium-up-5 > .column:nth-of-type(1n), .medium-up-5 > .columns:nth-of-type(1n), .medium-up-5 > .container:nth-of-type(1n), .medium-up-5 > .project-grid:nth-of-type(1n), .medium-up-5 > .desktop-mock:nth-of-type(1n), .medium-up-5 >
-    .type:nth-of-type(1n), .medium-up-5 > .mobile-mock:nth-of-type(1n), .medium-up-5 >
+    .type:nth-of-type(1n), .medium-up-5 >
+    .gradient-map:nth-of-type(1n), .medium-up-5 >
+    .image-guides:nth-of-type(1n), .medium-up-5 >
+    .intro:nth-of-type(1n), .medium-up-5 > .mobile-mock:nth-of-type(1n), .medium-up-5 >
     .logo-square:nth-of-type(1n), .medium-up-5 >
     .color-specs:nth-of-type(1n), .medium-up-5 >
-    .gradient-map:nth-of-type(1n), .medium-up-5 >
-    .btn-styles:nth-of-type(1n), .color-specs .medium-up-5 > ul:nth-of-type(1n), .color-specs ul .medium-up-5 > li:nth-of-type(1n) {
+    .btn-styles:nth-of-type(1n), .color-specs .medium-up-5 > ul:nth-of-type(1n), .color-specs ul .medium-up-5 > li:nth-of-type(1n), .medium-up-5 > .btn:nth-of-type(1n) {
       clear: none; }
     .medium-up-5 > .column:nth-of-type(5n+1), .medium-up-5 > .columns:nth-of-type(5n+1), .medium-up-5 > .container:nth-of-type(5n+1), .medium-up-5 > .project-grid:nth-of-type(5n+1), .medium-up-5 > .desktop-mock:nth-of-type(5n+1), .medium-up-5 >
-    .type:nth-of-type(5n+1), .medium-up-5 > .mobile-mock:nth-of-type(5n+1), .medium-up-5 >
+    .type:nth-of-type(5n+1), .medium-up-5 >
+    .gradient-map:nth-of-type(5n+1), .medium-up-5 >
+    .image-guides:nth-of-type(5n+1), .medium-up-5 >
+    .intro:nth-of-type(5n+1), .medium-up-5 > .mobile-mock:nth-of-type(5n+1), .medium-up-5 >
     .logo-square:nth-of-type(5n+1), .medium-up-5 >
     .color-specs:nth-of-type(5n+1), .medium-up-5 >
-    .gradient-map:nth-of-type(5n+1), .medium-up-5 >
-    .btn-styles:nth-of-type(5n+1), .color-specs .medium-up-5 > ul:nth-of-type(5n+1), .color-specs ul .medium-up-5 > li:nth-of-type(5n+1) {
+    .btn-styles:nth-of-type(5n+1), .color-specs .medium-up-5 > ul:nth-of-type(5n+1), .color-specs ul .medium-up-5 > li:nth-of-type(5n+1), .medium-up-5 > .btn:nth-of-type(5n+1) {
       clear: both; }
     .medium-up-5 > .column:last-child, .medium-up-5 > .columns:last-child, .medium-up-5 > .container:last-child, .medium-up-5 > .project-grid:last-child, .medium-up-5 > .desktop-mock:last-child, .medium-up-5 >
-    .type:last-child, .medium-up-5 > .mobile-mock:last-child, .medium-up-5 >
+    .type:last-child, .medium-up-5 >
+    .gradient-map:last-child, .medium-up-5 >
+    .image-guides:last-child, .medium-up-5 >
+    .intro:last-child, .medium-up-5 > .mobile-mock:last-child, .medium-up-5 >
     .logo-square:last-child, .medium-up-5 >
     .color-specs:last-child, .medium-up-5 >
-    .gradient-map:last-child, .medium-up-5 >
-    .btn-styles:last-child, .color-specs .medium-up-5 > ul:last-child, .color-specs ul .medium-up-5 > li:last-child {
+    .btn-styles:last-child, .color-specs .medium-up-5 > ul:last-child, .color-specs ul .medium-up-5 > li:last-child, .medium-up-5 > .btn:last-child {
       float: left; }
   .medium-up-6 > .column, .medium-up-6 > .columns, .medium-up-6 > .container, .medium-up-6 > .project-grid, .medium-up-6 > .desktop-mock, .medium-up-6 >
-  .type, .medium-up-6 > .mobile-mock, .medium-up-6 >
+  .type, .medium-up-6 >
+  .gradient-map, .medium-up-6 >
+  .image-guides, .medium-up-6 >
+  .intro, .medium-up-6 > .mobile-mock, .medium-up-6 >
   .logo-square, .medium-up-6 >
   .color-specs, .medium-up-6 >
-  .gradient-map, .medium-up-6 >
-  .btn-styles, .color-specs .medium-up-6 > ul, .color-specs ul .medium-up-6 > li {
+  .btn-styles, .color-specs .medium-up-6 > ul, .color-specs ul .medium-up-6 > li, .medium-up-6 > .btn {
     float: left;
     width: 16.6666666667%; }
     .medium-up-6 > .column:nth-of-type(1n), .medium-up-6 > .columns:nth-of-type(1n), .medium-up-6 > .container:nth-of-type(1n), .medium-up-6 > .project-grid:nth-of-type(1n), .medium-up-6 > .desktop-mock:nth-of-type(1n), .medium-up-6 >
-    .type:nth-of-type(1n), .medium-up-6 > .mobile-mock:nth-of-type(1n), .medium-up-6 >
+    .type:nth-of-type(1n), .medium-up-6 >
+    .gradient-map:nth-of-type(1n), .medium-up-6 >
+    .image-guides:nth-of-type(1n), .medium-up-6 >
+    .intro:nth-of-type(1n), .medium-up-6 > .mobile-mock:nth-of-type(1n), .medium-up-6 >
     .logo-square:nth-of-type(1n), .medium-up-6 >
     .color-specs:nth-of-type(1n), .medium-up-6 >
-    .gradient-map:nth-of-type(1n), .medium-up-6 >
-    .btn-styles:nth-of-type(1n), .color-specs .medium-up-6 > ul:nth-of-type(1n), .color-specs ul .medium-up-6 > li:nth-of-type(1n) {
+    .btn-styles:nth-of-type(1n), .color-specs .medium-up-6 > ul:nth-of-type(1n), .color-specs ul .medium-up-6 > li:nth-of-type(1n), .medium-up-6 > .btn:nth-of-type(1n) {
       clear: none; }
     .medium-up-6 > .column:nth-of-type(6n+1), .medium-up-6 > .columns:nth-of-type(6n+1), .medium-up-6 > .container:nth-of-type(6n+1), .medium-up-6 > .project-grid:nth-of-type(6n+1), .medium-up-6 > .desktop-mock:nth-of-type(6n+1), .medium-up-6 >
-    .type:nth-of-type(6n+1), .medium-up-6 > .mobile-mock:nth-of-type(6n+1), .medium-up-6 >
+    .type:nth-of-type(6n+1), .medium-up-6 >
+    .gradient-map:nth-of-type(6n+1), .medium-up-6 >
+    .image-guides:nth-of-type(6n+1), .medium-up-6 >
+    .intro:nth-of-type(6n+1), .medium-up-6 > .mobile-mock:nth-of-type(6n+1), .medium-up-6 >
     .logo-square:nth-of-type(6n+1), .medium-up-6 >
     .color-specs:nth-of-type(6n+1), .medium-up-6 >
-    .gradient-map:nth-of-type(6n+1), .medium-up-6 >
-    .btn-styles:nth-of-type(6n+1), .color-specs .medium-up-6 > ul:nth-of-type(6n+1), .color-specs ul .medium-up-6 > li:nth-of-type(6n+1) {
+    .btn-styles:nth-of-type(6n+1), .color-specs .medium-up-6 > ul:nth-of-type(6n+1), .color-specs ul .medium-up-6 > li:nth-of-type(6n+1), .medium-up-6 > .btn:nth-of-type(6n+1) {
       clear: both; }
     .medium-up-6 > .column:last-child, .medium-up-6 > .columns:last-child, .medium-up-6 > .container:last-child, .medium-up-6 > .project-grid:last-child, .medium-up-6 > .desktop-mock:last-child, .medium-up-6 >
-    .type:last-child, .medium-up-6 > .mobile-mock:last-child, .medium-up-6 >
+    .type:last-child, .medium-up-6 >
+    .gradient-map:last-child, .medium-up-6 >
+    .image-guides:last-child, .medium-up-6 >
+    .intro:last-child, .medium-up-6 > .mobile-mock:last-child, .medium-up-6 >
     .logo-square:last-child, .medium-up-6 >
     .color-specs:last-child, .medium-up-6 >
-    .gradient-map:last-child, .medium-up-6 >
-    .btn-styles:last-child, .color-specs .medium-up-6 > ul:last-child, .color-specs ul .medium-up-6 > li:last-child {
+    .btn-styles:last-child, .color-specs .medium-up-6 > ul:last-child, .color-specs ul .medium-up-6 > li:last-child, .medium-up-6 > .btn:last-child {
       float: left; }
   .medium-up-7 > .column, .medium-up-7 > .columns, .medium-up-7 > .container, .medium-up-7 > .project-grid, .medium-up-7 > .desktop-mock, .medium-up-7 >
-  .type, .medium-up-7 > .mobile-mock, .medium-up-7 >
+  .type, .medium-up-7 >
+  .gradient-map, .medium-up-7 >
+  .image-guides, .medium-up-7 >
+  .intro, .medium-up-7 > .mobile-mock, .medium-up-7 >
   .logo-square, .medium-up-7 >
   .color-specs, .medium-up-7 >
-  .gradient-map, .medium-up-7 >
-  .btn-styles, .color-specs .medium-up-7 > ul, .color-specs ul .medium-up-7 > li {
+  .btn-styles, .color-specs .medium-up-7 > ul, .color-specs ul .medium-up-7 > li, .medium-up-7 > .btn {
     float: left;
     width: 14.2857142857%; }
     .medium-up-7 > .column:nth-of-type(1n), .medium-up-7 > .columns:nth-of-type(1n), .medium-up-7 > .container:nth-of-type(1n), .medium-up-7 > .project-grid:nth-of-type(1n), .medium-up-7 > .desktop-mock:nth-of-type(1n), .medium-up-7 >
-    .type:nth-of-type(1n), .medium-up-7 > .mobile-mock:nth-of-type(1n), .medium-up-7 >
+    .type:nth-of-type(1n), .medium-up-7 >
+    .gradient-map:nth-of-type(1n), .medium-up-7 >
+    .image-guides:nth-of-type(1n), .medium-up-7 >
+    .intro:nth-of-type(1n), .medium-up-7 > .mobile-mock:nth-of-type(1n), .medium-up-7 >
     .logo-square:nth-of-type(1n), .medium-up-7 >
     .color-specs:nth-of-type(1n), .medium-up-7 >
-    .gradient-map:nth-of-type(1n), .medium-up-7 >
-    .btn-styles:nth-of-type(1n), .color-specs .medium-up-7 > ul:nth-of-type(1n), .color-specs ul .medium-up-7 > li:nth-of-type(1n) {
+    .btn-styles:nth-of-type(1n), .color-specs .medium-up-7 > ul:nth-of-type(1n), .color-specs ul .medium-up-7 > li:nth-of-type(1n), .medium-up-7 > .btn:nth-of-type(1n) {
       clear: none; }
     .medium-up-7 > .column:nth-of-type(7n+1), .medium-up-7 > .columns:nth-of-type(7n+1), .medium-up-7 > .container:nth-of-type(7n+1), .medium-up-7 > .project-grid:nth-of-type(7n+1), .medium-up-7 > .desktop-mock:nth-of-type(7n+1), .medium-up-7 >
-    .type:nth-of-type(7n+1), .medium-up-7 > .mobile-mock:nth-of-type(7n+1), .medium-up-7 >
+    .type:nth-of-type(7n+1), .medium-up-7 >
+    .gradient-map:nth-of-type(7n+1), .medium-up-7 >
+    .image-guides:nth-of-type(7n+1), .medium-up-7 >
+    .intro:nth-of-type(7n+1), .medium-up-7 > .mobile-mock:nth-of-type(7n+1), .medium-up-7 >
     .logo-square:nth-of-type(7n+1), .medium-up-7 >
     .color-specs:nth-of-type(7n+1), .medium-up-7 >
-    .gradient-map:nth-of-type(7n+1), .medium-up-7 >
-    .btn-styles:nth-of-type(7n+1), .color-specs .medium-up-7 > ul:nth-of-type(7n+1), .color-specs ul .medium-up-7 > li:nth-of-type(7n+1) {
+    .btn-styles:nth-of-type(7n+1), .color-specs .medium-up-7 > ul:nth-of-type(7n+1), .color-specs ul .medium-up-7 > li:nth-of-type(7n+1), .medium-up-7 > .btn:nth-of-type(7n+1) {
       clear: both; }
     .medium-up-7 > .column:last-child, .medium-up-7 > .columns:last-child, .medium-up-7 > .container:last-child, .medium-up-7 > .project-grid:last-child, .medium-up-7 > .desktop-mock:last-child, .medium-up-7 >
-    .type:last-child, .medium-up-7 > .mobile-mock:last-child, .medium-up-7 >
+    .type:last-child, .medium-up-7 >
+    .gradient-map:last-child, .medium-up-7 >
+    .image-guides:last-child, .medium-up-7 >
+    .intro:last-child, .medium-up-7 > .mobile-mock:last-child, .medium-up-7 >
     .logo-square:last-child, .medium-up-7 >
     .color-specs:last-child, .medium-up-7 >
-    .gradient-map:last-child, .medium-up-7 >
-    .btn-styles:last-child, .color-specs .medium-up-7 > ul:last-child, .color-specs ul .medium-up-7 > li:last-child {
+    .btn-styles:last-child, .color-specs .medium-up-7 > ul:last-child, .color-specs ul .medium-up-7 > li:last-child, .medium-up-7 > .btn:last-child {
       float: left; }
   .medium-up-8 > .column, .medium-up-8 > .columns, .medium-up-8 > .container, .medium-up-8 > .project-grid, .medium-up-8 > .desktop-mock, .medium-up-8 >
-  .type, .medium-up-8 > .mobile-mock, .medium-up-8 >
+  .type, .medium-up-8 >
+  .gradient-map, .medium-up-8 >
+  .image-guides, .medium-up-8 >
+  .intro, .medium-up-8 > .mobile-mock, .medium-up-8 >
   .logo-square, .medium-up-8 >
   .color-specs, .medium-up-8 >
-  .gradient-map, .medium-up-8 >
-  .btn-styles, .color-specs .medium-up-8 > ul, .color-specs ul .medium-up-8 > li {
+  .btn-styles, .color-specs .medium-up-8 > ul, .color-specs ul .medium-up-8 > li, .medium-up-8 > .btn {
     float: left;
     width: 12.5%; }
     .medium-up-8 > .column:nth-of-type(1n), .medium-up-8 > .columns:nth-of-type(1n), .medium-up-8 > .container:nth-of-type(1n), .medium-up-8 > .project-grid:nth-of-type(1n), .medium-up-8 > .desktop-mock:nth-of-type(1n), .medium-up-8 >
-    .type:nth-of-type(1n), .medium-up-8 > .mobile-mock:nth-of-type(1n), .medium-up-8 >
+    .type:nth-of-type(1n), .medium-up-8 >
+    .gradient-map:nth-of-type(1n), .medium-up-8 >
+    .image-guides:nth-of-type(1n), .medium-up-8 >
+    .intro:nth-of-type(1n), .medium-up-8 > .mobile-mock:nth-of-type(1n), .medium-up-8 >
     .logo-square:nth-of-type(1n), .medium-up-8 >
     .color-specs:nth-of-type(1n), .medium-up-8 >
-    .gradient-map:nth-of-type(1n), .medium-up-8 >
-    .btn-styles:nth-of-type(1n), .color-specs .medium-up-8 > ul:nth-of-type(1n), .color-specs ul .medium-up-8 > li:nth-of-type(1n) {
+    .btn-styles:nth-of-type(1n), .color-specs .medium-up-8 > ul:nth-of-type(1n), .color-specs ul .medium-up-8 > li:nth-of-type(1n), .medium-up-8 > .btn:nth-of-type(1n) {
       clear: none; }
     .medium-up-8 > .column:nth-of-type(8n+1), .medium-up-8 > .columns:nth-of-type(8n+1), .medium-up-8 > .container:nth-of-type(8n+1), .medium-up-8 > .project-grid:nth-of-type(8n+1), .medium-up-8 > .desktop-mock:nth-of-type(8n+1), .medium-up-8 >
-    .type:nth-of-type(8n+1), .medium-up-8 > .mobile-mock:nth-of-type(8n+1), .medium-up-8 >
+    .type:nth-of-type(8n+1), .medium-up-8 >
+    .gradient-map:nth-of-type(8n+1), .medium-up-8 >
+    .image-guides:nth-of-type(8n+1), .medium-up-8 >
+    .intro:nth-of-type(8n+1), .medium-up-8 > .mobile-mock:nth-of-type(8n+1), .medium-up-8 >
     .logo-square:nth-of-type(8n+1), .medium-up-8 >
     .color-specs:nth-of-type(8n+1), .medium-up-8 >
-    .gradient-map:nth-of-type(8n+1), .medium-up-8 >
-    .btn-styles:nth-of-type(8n+1), .color-specs .medium-up-8 > ul:nth-of-type(8n+1), .color-specs ul .medium-up-8 > li:nth-of-type(8n+1) {
+    .btn-styles:nth-of-type(8n+1), .color-specs .medium-up-8 > ul:nth-of-type(8n+1), .color-specs ul .medium-up-8 > li:nth-of-type(8n+1), .medium-up-8 > .btn:nth-of-type(8n+1) {
       clear: both; }
     .medium-up-8 > .column:last-child, .medium-up-8 > .columns:last-child, .medium-up-8 > .container:last-child, .medium-up-8 > .project-grid:last-child, .medium-up-8 > .desktop-mock:last-child, .medium-up-8 >
-    .type:last-child, .medium-up-8 > .mobile-mock:last-child, .medium-up-8 >
+    .type:last-child, .medium-up-8 >
+    .gradient-map:last-child, .medium-up-8 >
+    .image-guides:last-child, .medium-up-8 >
+    .intro:last-child, .medium-up-8 > .mobile-mock:last-child, .medium-up-8 >
     .logo-square:last-child, .medium-up-8 >
     .color-specs:last-child, .medium-up-8 >
-    .gradient-map:last-child, .medium-up-8 >
-    .btn-styles:last-child, .color-specs .medium-up-8 > ul:last-child, .color-specs ul .medium-up-8 > li:last-child {
+    .btn-styles:last-child, .color-specs .medium-up-8 > ul:last-child, .color-specs ul .medium-up-8 > li:last-child, .medium-up-8 > .btn:last-child {
       float: left; }
   .medium-collapse > .column, .medium-collapse > .columns, .medium-collapse > .container, .medium-collapse > .project-grid, .medium-collapse > .desktop-mock, .medium-collapse >
-  .type, .medium-collapse > .mobile-mock, .medium-collapse >
+  .type, .medium-collapse >
+  .gradient-map, .medium-collapse >
+  .image-guides, .medium-collapse >
+  .intro, .medium-collapse > .mobile-mock, .medium-collapse >
   .logo-square, .medium-collapse >
   .color-specs, .medium-collapse >
-  .gradient-map, .medium-collapse >
-  .btn-styles, .color-specs .medium-collapse > ul, .color-specs ul .medium-collapse > li {
+  .btn-styles, .color-specs .medium-collapse > ul, .color-specs ul .medium-collapse > li, .medium-collapse > .btn {
     padding-right: 0;
     padding-left: 0; }
   .medium-collapse .row {
@@ -2065,11 +2244,13 @@ pre {
     margin-right: 0;
     margin-left: 0; }
   .medium-uncollapse > .column, .medium-uncollapse > .columns, .medium-uncollapse > .container, .medium-uncollapse > .project-grid, .medium-uncollapse > .desktop-mock, .medium-uncollapse >
-  .type, .medium-uncollapse > .mobile-mock, .medium-uncollapse >
+  .type, .medium-uncollapse >
+  .gradient-map, .medium-uncollapse >
+  .image-guides, .medium-uncollapse >
+  .intro, .medium-uncollapse > .mobile-mock, .medium-uncollapse >
   .logo-square, .medium-uncollapse >
   .color-specs, .medium-uncollapse >
-  .gradient-map, .medium-uncollapse >
-  .btn-styles, .color-specs .medium-uncollapse > ul, .color-specs ul .medium-uncollapse > li {
+  .btn-styles, .color-specs .medium-uncollapse > ul, .color-specs ul .medium-uncollapse > li, .medium-uncollapse > .btn {
     padding-right: 0.9375rem;
     padding-left: 0.9375rem; }
   .medium-centered {
@@ -2120,7 +2301,6 @@ pre {
   .large-4, .mobile-mock,
   .logo-square,
   .color-specs,
-  .gradient-map,
   .btn-styles {
     width: 33.3333333333%; }
   .large-push-4 {
@@ -2141,7 +2321,7 @@ pre {
     left: -41.6666666667%; }
   .large-offset-4 {
     margin-left: 33.3333333333%; }
-  .large-6, .color-specs ul {
+  .large-6, .color-specs ul, .btn {
     width: 50%; }
   .large-push-6 {
     position: relative;
@@ -2162,7 +2342,10 @@ pre {
   .large-offset-6 {
     margin-left: 50%; }
   .large-8, .desktop-mock,
-  .type {
+  .type,
+  .gradient-map,
+  .image-guides,
+  .intro {
     width: 66.6666666667%; }
   .large-push-8 {
     position: relative;
@@ -2207,243 +2390,309 @@ pre {
   .large-offset-11 {
     margin-left: 91.6666666667%; }
   .large-up-1 > .column, .large-up-1 > .columns, .large-up-1 > .container, .large-up-1 > .project-grid, .large-up-1 > .desktop-mock, .large-up-1 >
-  .type, .large-up-1 > .mobile-mock, .large-up-1 >
+  .type, .large-up-1 >
+  .gradient-map, .large-up-1 >
+  .image-guides, .large-up-1 >
+  .intro, .large-up-1 > .mobile-mock, .large-up-1 >
   .logo-square, .large-up-1 >
   .color-specs, .large-up-1 >
-  .gradient-map, .large-up-1 >
-  .btn-styles, .color-specs .large-up-1 > ul, .color-specs ul .large-up-1 > li {
+  .btn-styles, .color-specs .large-up-1 > ul, .color-specs ul .large-up-1 > li, .large-up-1 > .btn {
     float: left;
     width: 100%; }
     .large-up-1 > .column:nth-of-type(1n), .large-up-1 > .columns:nth-of-type(1n), .large-up-1 > .container:nth-of-type(1n), .large-up-1 > .project-grid:nth-of-type(1n), .large-up-1 > .desktop-mock:nth-of-type(1n), .large-up-1 >
-    .type:nth-of-type(1n), .large-up-1 > .mobile-mock:nth-of-type(1n), .large-up-1 >
+    .type:nth-of-type(1n), .large-up-1 >
+    .gradient-map:nth-of-type(1n), .large-up-1 >
+    .image-guides:nth-of-type(1n), .large-up-1 >
+    .intro:nth-of-type(1n), .large-up-1 > .mobile-mock:nth-of-type(1n), .large-up-1 >
     .logo-square:nth-of-type(1n), .large-up-1 >
     .color-specs:nth-of-type(1n), .large-up-1 >
-    .gradient-map:nth-of-type(1n), .large-up-1 >
-    .btn-styles:nth-of-type(1n), .color-specs .large-up-1 > ul:nth-of-type(1n), .color-specs ul .large-up-1 > li:nth-of-type(1n) {
+    .btn-styles:nth-of-type(1n), .color-specs .large-up-1 > ul:nth-of-type(1n), .color-specs ul .large-up-1 > li:nth-of-type(1n), .large-up-1 > .btn:nth-of-type(1n) {
       clear: none; }
     .large-up-1 > .column:nth-of-type(1n+1), .large-up-1 > .columns:nth-of-type(1n+1), .large-up-1 > .container:nth-of-type(1n+1), .large-up-1 > .project-grid:nth-of-type(1n+1), .large-up-1 > .desktop-mock:nth-of-type(1n+1), .large-up-1 >
-    .type:nth-of-type(1n+1), .large-up-1 > .mobile-mock:nth-of-type(1n+1), .large-up-1 >
+    .type:nth-of-type(1n+1), .large-up-1 >
+    .gradient-map:nth-of-type(1n+1), .large-up-1 >
+    .image-guides:nth-of-type(1n+1), .large-up-1 >
+    .intro:nth-of-type(1n+1), .large-up-1 > .mobile-mock:nth-of-type(1n+1), .large-up-1 >
     .logo-square:nth-of-type(1n+1), .large-up-1 >
     .color-specs:nth-of-type(1n+1), .large-up-1 >
-    .gradient-map:nth-of-type(1n+1), .large-up-1 >
-    .btn-styles:nth-of-type(1n+1), .color-specs .large-up-1 > ul:nth-of-type(1n+1), .color-specs ul .large-up-1 > li:nth-of-type(1n+1) {
+    .btn-styles:nth-of-type(1n+1), .color-specs .large-up-1 > ul:nth-of-type(1n+1), .color-specs ul .large-up-1 > li:nth-of-type(1n+1), .large-up-1 > .btn:nth-of-type(1n+1) {
       clear: both; }
     .large-up-1 > .column:last-child, .large-up-1 > .columns:last-child, .large-up-1 > .container:last-child, .large-up-1 > .project-grid:last-child, .large-up-1 > .desktop-mock:last-child, .large-up-1 >
-    .type:last-child, .large-up-1 > .mobile-mock:last-child, .large-up-1 >
+    .type:last-child, .large-up-1 >
+    .gradient-map:last-child, .large-up-1 >
+    .image-guides:last-child, .large-up-1 >
+    .intro:last-child, .large-up-1 > .mobile-mock:last-child, .large-up-1 >
     .logo-square:last-child, .large-up-1 >
     .color-specs:last-child, .large-up-1 >
-    .gradient-map:last-child, .large-up-1 >
-    .btn-styles:last-child, .color-specs .large-up-1 > ul:last-child, .color-specs ul .large-up-1 > li:last-child {
+    .btn-styles:last-child, .color-specs .large-up-1 > ul:last-child, .color-specs ul .large-up-1 > li:last-child, .large-up-1 > .btn:last-child {
       float: left; }
   .large-up-2 > .column, .large-up-2 > .columns, .large-up-2 > .container, .large-up-2 > .project-grid, .large-up-2 > .desktop-mock, .large-up-2 >
-  .type, .large-up-2 > .mobile-mock, .large-up-2 >
+  .type, .large-up-2 >
+  .gradient-map, .large-up-2 >
+  .image-guides, .large-up-2 >
+  .intro, .large-up-2 > .mobile-mock, .large-up-2 >
   .logo-square, .large-up-2 >
   .color-specs, .large-up-2 >
-  .gradient-map, .large-up-2 >
-  .btn-styles, .color-specs .large-up-2 > ul, .color-specs ul .large-up-2 > li {
+  .btn-styles, .color-specs .large-up-2 > ul, .color-specs ul .large-up-2 > li, .large-up-2 > .btn {
     float: left;
     width: 50%; }
     .large-up-2 > .column:nth-of-type(1n), .large-up-2 > .columns:nth-of-type(1n), .large-up-2 > .container:nth-of-type(1n), .large-up-2 > .project-grid:nth-of-type(1n), .large-up-2 > .desktop-mock:nth-of-type(1n), .large-up-2 >
-    .type:nth-of-type(1n), .large-up-2 > .mobile-mock:nth-of-type(1n), .large-up-2 >
+    .type:nth-of-type(1n), .large-up-2 >
+    .gradient-map:nth-of-type(1n), .large-up-2 >
+    .image-guides:nth-of-type(1n), .large-up-2 >
+    .intro:nth-of-type(1n), .large-up-2 > .mobile-mock:nth-of-type(1n), .large-up-2 >
     .logo-square:nth-of-type(1n), .large-up-2 >
     .color-specs:nth-of-type(1n), .large-up-2 >
-    .gradient-map:nth-of-type(1n), .large-up-2 >
-    .btn-styles:nth-of-type(1n), .color-specs .large-up-2 > ul:nth-of-type(1n), .color-specs ul .large-up-2 > li:nth-of-type(1n) {
+    .btn-styles:nth-of-type(1n), .color-specs .large-up-2 > ul:nth-of-type(1n), .color-specs ul .large-up-2 > li:nth-of-type(1n), .large-up-2 > .btn:nth-of-type(1n) {
       clear: none; }
     .large-up-2 > .column:nth-of-type(2n+1), .large-up-2 > .columns:nth-of-type(2n+1), .large-up-2 > .container:nth-of-type(2n+1), .large-up-2 > .project-grid:nth-of-type(2n+1), .large-up-2 > .desktop-mock:nth-of-type(2n+1), .large-up-2 >
-    .type:nth-of-type(2n+1), .large-up-2 > .mobile-mock:nth-of-type(2n+1), .large-up-2 >
+    .type:nth-of-type(2n+1), .large-up-2 >
+    .gradient-map:nth-of-type(2n+1), .large-up-2 >
+    .image-guides:nth-of-type(2n+1), .large-up-2 >
+    .intro:nth-of-type(2n+1), .large-up-2 > .mobile-mock:nth-of-type(2n+1), .large-up-2 >
     .logo-square:nth-of-type(2n+1), .large-up-2 >
     .color-specs:nth-of-type(2n+1), .large-up-2 >
-    .gradient-map:nth-of-type(2n+1), .large-up-2 >
-    .btn-styles:nth-of-type(2n+1), .color-specs .large-up-2 > ul:nth-of-type(2n+1), .color-specs ul .large-up-2 > li:nth-of-type(2n+1) {
+    .btn-styles:nth-of-type(2n+1), .color-specs .large-up-2 > ul:nth-of-type(2n+1), .color-specs ul .large-up-2 > li:nth-of-type(2n+1), .large-up-2 > .btn:nth-of-type(2n+1) {
       clear: both; }
     .large-up-2 > .column:last-child, .large-up-2 > .columns:last-child, .large-up-2 > .container:last-child, .large-up-2 > .project-grid:last-child, .large-up-2 > .desktop-mock:last-child, .large-up-2 >
-    .type:last-child, .large-up-2 > .mobile-mock:last-child, .large-up-2 >
+    .type:last-child, .large-up-2 >
+    .gradient-map:last-child, .large-up-2 >
+    .image-guides:last-child, .large-up-2 >
+    .intro:last-child, .large-up-2 > .mobile-mock:last-child, .large-up-2 >
     .logo-square:last-child, .large-up-2 >
     .color-specs:last-child, .large-up-2 >
-    .gradient-map:last-child, .large-up-2 >
-    .btn-styles:last-child, .color-specs .large-up-2 > ul:last-child, .color-specs ul .large-up-2 > li:last-child {
+    .btn-styles:last-child, .color-specs .large-up-2 > ul:last-child, .color-specs ul .large-up-2 > li:last-child, .large-up-2 > .btn:last-child {
       float: left; }
   .large-up-3 > .column, .large-up-3 > .columns, .large-up-3 > .container, .large-up-3 > .project-grid, .large-up-3 > .desktop-mock, .large-up-3 >
-  .type, .large-up-3 > .mobile-mock, .large-up-3 >
+  .type, .large-up-3 >
+  .gradient-map, .large-up-3 >
+  .image-guides, .large-up-3 >
+  .intro, .large-up-3 > .mobile-mock, .large-up-3 >
   .logo-square, .large-up-3 >
   .color-specs, .large-up-3 >
-  .gradient-map, .large-up-3 >
-  .btn-styles, .color-specs .large-up-3 > ul, .color-specs ul .large-up-3 > li {
+  .btn-styles, .color-specs .large-up-3 > ul, .color-specs ul .large-up-3 > li, .large-up-3 > .btn {
     float: left;
     width: 33.3333333333%; }
     .large-up-3 > .column:nth-of-type(1n), .large-up-3 > .columns:nth-of-type(1n), .large-up-3 > .container:nth-of-type(1n), .large-up-3 > .project-grid:nth-of-type(1n), .large-up-3 > .desktop-mock:nth-of-type(1n), .large-up-3 >
-    .type:nth-of-type(1n), .large-up-3 > .mobile-mock:nth-of-type(1n), .large-up-3 >
+    .type:nth-of-type(1n), .large-up-3 >
+    .gradient-map:nth-of-type(1n), .large-up-3 >
+    .image-guides:nth-of-type(1n), .large-up-3 >
+    .intro:nth-of-type(1n), .large-up-3 > .mobile-mock:nth-of-type(1n), .large-up-3 >
     .logo-square:nth-of-type(1n), .large-up-3 >
     .color-specs:nth-of-type(1n), .large-up-3 >
-    .gradient-map:nth-of-type(1n), .large-up-3 >
-    .btn-styles:nth-of-type(1n), .color-specs .large-up-3 > ul:nth-of-type(1n), .color-specs ul .large-up-3 > li:nth-of-type(1n) {
+    .btn-styles:nth-of-type(1n), .color-specs .large-up-3 > ul:nth-of-type(1n), .color-specs ul .large-up-3 > li:nth-of-type(1n), .large-up-3 > .btn:nth-of-type(1n) {
       clear: none; }
     .large-up-3 > .column:nth-of-type(3n+1), .large-up-3 > .columns:nth-of-type(3n+1), .large-up-3 > .container:nth-of-type(3n+1), .large-up-3 > .project-grid:nth-of-type(3n+1), .large-up-3 > .desktop-mock:nth-of-type(3n+1), .large-up-3 >
-    .type:nth-of-type(3n+1), .large-up-3 > .mobile-mock:nth-of-type(3n+1), .large-up-3 >
+    .type:nth-of-type(3n+1), .large-up-3 >
+    .gradient-map:nth-of-type(3n+1), .large-up-3 >
+    .image-guides:nth-of-type(3n+1), .large-up-3 >
+    .intro:nth-of-type(3n+1), .large-up-3 > .mobile-mock:nth-of-type(3n+1), .large-up-3 >
     .logo-square:nth-of-type(3n+1), .large-up-3 >
     .color-specs:nth-of-type(3n+1), .large-up-3 >
-    .gradient-map:nth-of-type(3n+1), .large-up-3 >
-    .btn-styles:nth-of-type(3n+1), .color-specs .large-up-3 > ul:nth-of-type(3n+1), .color-specs ul .large-up-3 > li:nth-of-type(3n+1) {
+    .btn-styles:nth-of-type(3n+1), .color-specs .large-up-3 > ul:nth-of-type(3n+1), .color-specs ul .large-up-3 > li:nth-of-type(3n+1), .large-up-3 > .btn:nth-of-type(3n+1) {
       clear: both; }
     .large-up-3 > .column:last-child, .large-up-3 > .columns:last-child, .large-up-3 > .container:last-child, .large-up-3 > .project-grid:last-child, .large-up-3 > .desktop-mock:last-child, .large-up-3 >
-    .type:last-child, .large-up-3 > .mobile-mock:last-child, .large-up-3 >
+    .type:last-child, .large-up-3 >
+    .gradient-map:last-child, .large-up-3 >
+    .image-guides:last-child, .large-up-3 >
+    .intro:last-child, .large-up-3 > .mobile-mock:last-child, .large-up-3 >
     .logo-square:last-child, .large-up-3 >
     .color-specs:last-child, .large-up-3 >
-    .gradient-map:last-child, .large-up-3 >
-    .btn-styles:last-child, .color-specs .large-up-3 > ul:last-child, .color-specs ul .large-up-3 > li:last-child {
+    .btn-styles:last-child, .color-specs .large-up-3 > ul:last-child, .color-specs ul .large-up-3 > li:last-child, .large-up-3 > .btn:last-child {
       float: left; }
   .large-up-4 > .column, .large-up-4 > .columns, .large-up-4 > .container, .large-up-4 > .project-grid, .large-up-4 > .desktop-mock, .large-up-4 >
-  .type, .large-up-4 > .mobile-mock, .large-up-4 >
+  .type, .large-up-4 >
+  .gradient-map, .large-up-4 >
+  .image-guides, .large-up-4 >
+  .intro, .large-up-4 > .mobile-mock, .large-up-4 >
   .logo-square, .large-up-4 >
   .color-specs, .large-up-4 >
-  .gradient-map, .large-up-4 >
-  .btn-styles, .color-specs .large-up-4 > ul, .color-specs ul .large-up-4 > li {
+  .btn-styles, .color-specs .large-up-4 > ul, .color-specs ul .large-up-4 > li, .large-up-4 > .btn {
     float: left;
     width: 25%; }
     .large-up-4 > .column:nth-of-type(1n), .large-up-4 > .columns:nth-of-type(1n), .large-up-4 > .container:nth-of-type(1n), .large-up-4 > .project-grid:nth-of-type(1n), .large-up-4 > .desktop-mock:nth-of-type(1n), .large-up-4 >
-    .type:nth-of-type(1n), .large-up-4 > .mobile-mock:nth-of-type(1n), .large-up-4 >
+    .type:nth-of-type(1n), .large-up-4 >
+    .gradient-map:nth-of-type(1n), .large-up-4 >
+    .image-guides:nth-of-type(1n), .large-up-4 >
+    .intro:nth-of-type(1n), .large-up-4 > .mobile-mock:nth-of-type(1n), .large-up-4 >
     .logo-square:nth-of-type(1n), .large-up-4 >
     .color-specs:nth-of-type(1n), .large-up-4 >
-    .gradient-map:nth-of-type(1n), .large-up-4 >
-    .btn-styles:nth-of-type(1n), .color-specs .large-up-4 > ul:nth-of-type(1n), .color-specs ul .large-up-4 > li:nth-of-type(1n) {
+    .btn-styles:nth-of-type(1n), .color-specs .large-up-4 > ul:nth-of-type(1n), .color-specs ul .large-up-4 > li:nth-of-type(1n), .large-up-4 > .btn:nth-of-type(1n) {
       clear: none; }
     .large-up-4 > .column:nth-of-type(4n+1), .large-up-4 > .columns:nth-of-type(4n+1), .large-up-4 > .container:nth-of-type(4n+1), .large-up-4 > .project-grid:nth-of-type(4n+1), .large-up-4 > .desktop-mock:nth-of-type(4n+1), .large-up-4 >
-    .type:nth-of-type(4n+1), .large-up-4 > .mobile-mock:nth-of-type(4n+1), .large-up-4 >
+    .type:nth-of-type(4n+1), .large-up-4 >
+    .gradient-map:nth-of-type(4n+1), .large-up-4 >
+    .image-guides:nth-of-type(4n+1), .large-up-4 >
+    .intro:nth-of-type(4n+1), .large-up-4 > .mobile-mock:nth-of-type(4n+1), .large-up-4 >
     .logo-square:nth-of-type(4n+1), .large-up-4 >
     .color-specs:nth-of-type(4n+1), .large-up-4 >
-    .gradient-map:nth-of-type(4n+1), .large-up-4 >
-    .btn-styles:nth-of-type(4n+1), .color-specs .large-up-4 > ul:nth-of-type(4n+1), .color-specs ul .large-up-4 > li:nth-of-type(4n+1) {
+    .btn-styles:nth-of-type(4n+1), .color-specs .large-up-4 > ul:nth-of-type(4n+1), .color-specs ul .large-up-4 > li:nth-of-type(4n+1), .large-up-4 > .btn:nth-of-type(4n+1) {
       clear: both; }
     .large-up-4 > .column:last-child, .large-up-4 > .columns:last-child, .large-up-4 > .container:last-child, .large-up-4 > .project-grid:last-child, .large-up-4 > .desktop-mock:last-child, .large-up-4 >
-    .type:last-child, .large-up-4 > .mobile-mock:last-child, .large-up-4 >
+    .type:last-child, .large-up-4 >
+    .gradient-map:last-child, .large-up-4 >
+    .image-guides:last-child, .large-up-4 >
+    .intro:last-child, .large-up-4 > .mobile-mock:last-child, .large-up-4 >
     .logo-square:last-child, .large-up-4 >
     .color-specs:last-child, .large-up-4 >
-    .gradient-map:last-child, .large-up-4 >
-    .btn-styles:last-child, .color-specs .large-up-4 > ul:last-child, .color-specs ul .large-up-4 > li:last-child {
+    .btn-styles:last-child, .color-specs .large-up-4 > ul:last-child, .color-specs ul .large-up-4 > li:last-child, .large-up-4 > .btn:last-child {
       float: left; }
   .large-up-5 > .column, .large-up-5 > .columns, .large-up-5 > .container, .large-up-5 > .project-grid, .large-up-5 > .desktop-mock, .large-up-5 >
-  .type, .large-up-5 > .mobile-mock, .large-up-5 >
+  .type, .large-up-5 >
+  .gradient-map, .large-up-5 >
+  .image-guides, .large-up-5 >
+  .intro, .large-up-5 > .mobile-mock, .large-up-5 >
   .logo-square, .large-up-5 >
   .color-specs, .large-up-5 >
-  .gradient-map, .large-up-5 >
-  .btn-styles, .color-specs .large-up-5 > ul, .color-specs ul .large-up-5 > li {
+  .btn-styles, .color-specs .large-up-5 > ul, .color-specs ul .large-up-5 > li, .large-up-5 > .btn {
     float: left;
     width: 20%; }
     .large-up-5 > .column:nth-of-type(1n), .large-up-5 > .columns:nth-of-type(1n), .large-up-5 > .container:nth-of-type(1n), .large-up-5 > .project-grid:nth-of-type(1n), .large-up-5 > .desktop-mock:nth-of-type(1n), .large-up-5 >
-    .type:nth-of-type(1n), .large-up-5 > .mobile-mock:nth-of-type(1n), .large-up-5 >
+    .type:nth-of-type(1n), .large-up-5 >
+    .gradient-map:nth-of-type(1n), .large-up-5 >
+    .image-guides:nth-of-type(1n), .large-up-5 >
+    .intro:nth-of-type(1n), .large-up-5 > .mobile-mock:nth-of-type(1n), .large-up-5 >
     .logo-square:nth-of-type(1n), .large-up-5 >
     .color-specs:nth-of-type(1n), .large-up-5 >
-    .gradient-map:nth-of-type(1n), .large-up-5 >
-    .btn-styles:nth-of-type(1n), .color-specs .large-up-5 > ul:nth-of-type(1n), .color-specs ul .large-up-5 > li:nth-of-type(1n) {
+    .btn-styles:nth-of-type(1n), .color-specs .large-up-5 > ul:nth-of-type(1n), .color-specs ul .large-up-5 > li:nth-of-type(1n), .large-up-5 > .btn:nth-of-type(1n) {
       clear: none; }
     .large-up-5 > .column:nth-of-type(5n+1), .large-up-5 > .columns:nth-of-type(5n+1), .large-up-5 > .container:nth-of-type(5n+1), .large-up-5 > .project-grid:nth-of-type(5n+1), .large-up-5 > .desktop-mock:nth-of-type(5n+1), .large-up-5 >
-    .type:nth-of-type(5n+1), .large-up-5 > .mobile-mock:nth-of-type(5n+1), .large-up-5 >
+    .type:nth-of-type(5n+1), .large-up-5 >
+    .gradient-map:nth-of-type(5n+1), .large-up-5 >
+    .image-guides:nth-of-type(5n+1), .large-up-5 >
+    .intro:nth-of-type(5n+1), .large-up-5 > .mobile-mock:nth-of-type(5n+1), .large-up-5 >
     .logo-square:nth-of-type(5n+1), .large-up-5 >
     .color-specs:nth-of-type(5n+1), .large-up-5 >
-    .gradient-map:nth-of-type(5n+1), .large-up-5 >
-    .btn-styles:nth-of-type(5n+1), .color-specs .large-up-5 > ul:nth-of-type(5n+1), .color-specs ul .large-up-5 > li:nth-of-type(5n+1) {
+    .btn-styles:nth-of-type(5n+1), .color-specs .large-up-5 > ul:nth-of-type(5n+1), .color-specs ul .large-up-5 > li:nth-of-type(5n+1), .large-up-5 > .btn:nth-of-type(5n+1) {
       clear: both; }
     .large-up-5 > .column:last-child, .large-up-5 > .columns:last-child, .large-up-5 > .container:last-child, .large-up-5 > .project-grid:last-child, .large-up-5 > .desktop-mock:last-child, .large-up-5 >
-    .type:last-child, .large-up-5 > .mobile-mock:last-child, .large-up-5 >
+    .type:last-child, .large-up-5 >
+    .gradient-map:last-child, .large-up-5 >
+    .image-guides:last-child, .large-up-5 >
+    .intro:last-child, .large-up-5 > .mobile-mock:last-child, .large-up-5 >
     .logo-square:last-child, .large-up-5 >
     .color-specs:last-child, .large-up-5 >
-    .gradient-map:last-child, .large-up-5 >
-    .btn-styles:last-child, .color-specs .large-up-5 > ul:last-child, .color-specs ul .large-up-5 > li:last-child {
+    .btn-styles:last-child, .color-specs .large-up-5 > ul:last-child, .color-specs ul .large-up-5 > li:last-child, .large-up-5 > .btn:last-child {
       float: left; }
   .large-up-6 > .column, .large-up-6 > .columns, .large-up-6 > .container, .large-up-6 > .project-grid, .large-up-6 > .desktop-mock, .large-up-6 >
-  .type, .large-up-6 > .mobile-mock, .large-up-6 >
+  .type, .large-up-6 >
+  .gradient-map, .large-up-6 >
+  .image-guides, .large-up-6 >
+  .intro, .large-up-6 > .mobile-mock, .large-up-6 >
   .logo-square, .large-up-6 >
   .color-specs, .large-up-6 >
-  .gradient-map, .large-up-6 >
-  .btn-styles, .color-specs .large-up-6 > ul, .color-specs ul .large-up-6 > li {
+  .btn-styles, .color-specs .large-up-6 > ul, .color-specs ul .large-up-6 > li, .large-up-6 > .btn {
     float: left;
     width: 16.6666666667%; }
     .large-up-6 > .column:nth-of-type(1n), .large-up-6 > .columns:nth-of-type(1n), .large-up-6 > .container:nth-of-type(1n), .large-up-6 > .project-grid:nth-of-type(1n), .large-up-6 > .desktop-mock:nth-of-type(1n), .large-up-6 >
-    .type:nth-of-type(1n), .large-up-6 > .mobile-mock:nth-of-type(1n), .large-up-6 >
+    .type:nth-of-type(1n), .large-up-6 >
+    .gradient-map:nth-of-type(1n), .large-up-6 >
+    .image-guides:nth-of-type(1n), .large-up-6 >
+    .intro:nth-of-type(1n), .large-up-6 > .mobile-mock:nth-of-type(1n), .large-up-6 >
     .logo-square:nth-of-type(1n), .large-up-6 >
     .color-specs:nth-of-type(1n), .large-up-6 >
-    .gradient-map:nth-of-type(1n), .large-up-6 >
-    .btn-styles:nth-of-type(1n), .color-specs .large-up-6 > ul:nth-of-type(1n), .color-specs ul .large-up-6 > li:nth-of-type(1n) {
+    .btn-styles:nth-of-type(1n), .color-specs .large-up-6 > ul:nth-of-type(1n), .color-specs ul .large-up-6 > li:nth-of-type(1n), .large-up-6 > .btn:nth-of-type(1n) {
       clear: none; }
     .large-up-6 > .column:nth-of-type(6n+1), .large-up-6 > .columns:nth-of-type(6n+1), .large-up-6 > .container:nth-of-type(6n+1), .large-up-6 > .project-grid:nth-of-type(6n+1), .large-up-6 > .desktop-mock:nth-of-type(6n+1), .large-up-6 >
-    .type:nth-of-type(6n+1), .large-up-6 > .mobile-mock:nth-of-type(6n+1), .large-up-6 >
+    .type:nth-of-type(6n+1), .large-up-6 >
+    .gradient-map:nth-of-type(6n+1), .large-up-6 >
+    .image-guides:nth-of-type(6n+1), .large-up-6 >
+    .intro:nth-of-type(6n+1), .large-up-6 > .mobile-mock:nth-of-type(6n+1), .large-up-6 >
     .logo-square:nth-of-type(6n+1), .large-up-6 >
     .color-specs:nth-of-type(6n+1), .large-up-6 >
-    .gradient-map:nth-of-type(6n+1), .large-up-6 >
-    .btn-styles:nth-of-type(6n+1), .color-specs .large-up-6 > ul:nth-of-type(6n+1), .color-specs ul .large-up-6 > li:nth-of-type(6n+1) {
+    .btn-styles:nth-of-type(6n+1), .color-specs .large-up-6 > ul:nth-of-type(6n+1), .color-specs ul .large-up-6 > li:nth-of-type(6n+1), .large-up-6 > .btn:nth-of-type(6n+1) {
       clear: both; }
     .large-up-6 > .column:last-child, .large-up-6 > .columns:last-child, .large-up-6 > .container:last-child, .large-up-6 > .project-grid:last-child, .large-up-6 > .desktop-mock:last-child, .large-up-6 >
-    .type:last-child, .large-up-6 > .mobile-mock:last-child, .large-up-6 >
+    .type:last-child, .large-up-6 >
+    .gradient-map:last-child, .large-up-6 >
+    .image-guides:last-child, .large-up-6 >
+    .intro:last-child, .large-up-6 > .mobile-mock:last-child, .large-up-6 >
     .logo-square:last-child, .large-up-6 >
     .color-specs:last-child, .large-up-6 >
-    .gradient-map:last-child, .large-up-6 >
-    .btn-styles:last-child, .color-specs .large-up-6 > ul:last-child, .color-specs ul .large-up-6 > li:last-child {
+    .btn-styles:last-child, .color-specs .large-up-6 > ul:last-child, .color-specs ul .large-up-6 > li:last-child, .large-up-6 > .btn:last-child {
       float: left; }
   .large-up-7 > .column, .large-up-7 > .columns, .large-up-7 > .container, .large-up-7 > .project-grid, .large-up-7 > .desktop-mock, .large-up-7 >
-  .type, .large-up-7 > .mobile-mock, .large-up-7 >
+  .type, .large-up-7 >
+  .gradient-map, .large-up-7 >
+  .image-guides, .large-up-7 >
+  .intro, .large-up-7 > .mobile-mock, .large-up-7 >
   .logo-square, .large-up-7 >
   .color-specs, .large-up-7 >
-  .gradient-map, .large-up-7 >
-  .btn-styles, .color-specs .large-up-7 > ul, .color-specs ul .large-up-7 > li {
+  .btn-styles, .color-specs .large-up-7 > ul, .color-specs ul .large-up-7 > li, .large-up-7 > .btn {
     float: left;
     width: 14.2857142857%; }
     .large-up-7 > .column:nth-of-type(1n), .large-up-7 > .columns:nth-of-type(1n), .large-up-7 > .container:nth-of-type(1n), .large-up-7 > .project-grid:nth-of-type(1n), .large-up-7 > .desktop-mock:nth-of-type(1n), .large-up-7 >
-    .type:nth-of-type(1n), .large-up-7 > .mobile-mock:nth-of-type(1n), .large-up-7 >
+    .type:nth-of-type(1n), .large-up-7 >
+    .gradient-map:nth-of-type(1n), .large-up-7 >
+    .image-guides:nth-of-type(1n), .large-up-7 >
+    .intro:nth-of-type(1n), .large-up-7 > .mobile-mock:nth-of-type(1n), .large-up-7 >
     .logo-square:nth-of-type(1n), .large-up-7 >
     .color-specs:nth-of-type(1n), .large-up-7 >
-    .gradient-map:nth-of-type(1n), .large-up-7 >
-    .btn-styles:nth-of-type(1n), .color-specs .large-up-7 > ul:nth-of-type(1n), .color-specs ul .large-up-7 > li:nth-of-type(1n) {
+    .btn-styles:nth-of-type(1n), .color-specs .large-up-7 > ul:nth-of-type(1n), .color-specs ul .large-up-7 > li:nth-of-type(1n), .large-up-7 > .btn:nth-of-type(1n) {
       clear: none; }
     .large-up-7 > .column:nth-of-type(7n+1), .large-up-7 > .columns:nth-of-type(7n+1), .large-up-7 > .container:nth-of-type(7n+1), .large-up-7 > .project-grid:nth-of-type(7n+1), .large-up-7 > .desktop-mock:nth-of-type(7n+1), .large-up-7 >
-    .type:nth-of-type(7n+1), .large-up-7 > .mobile-mock:nth-of-type(7n+1), .large-up-7 >
+    .type:nth-of-type(7n+1), .large-up-7 >
+    .gradient-map:nth-of-type(7n+1), .large-up-7 >
+    .image-guides:nth-of-type(7n+1), .large-up-7 >
+    .intro:nth-of-type(7n+1), .large-up-7 > .mobile-mock:nth-of-type(7n+1), .large-up-7 >
     .logo-square:nth-of-type(7n+1), .large-up-7 >
     .color-specs:nth-of-type(7n+1), .large-up-7 >
-    .gradient-map:nth-of-type(7n+1), .large-up-7 >
-    .btn-styles:nth-of-type(7n+1), .color-specs .large-up-7 > ul:nth-of-type(7n+1), .color-specs ul .large-up-7 > li:nth-of-type(7n+1) {
+    .btn-styles:nth-of-type(7n+1), .color-specs .large-up-7 > ul:nth-of-type(7n+1), .color-specs ul .large-up-7 > li:nth-of-type(7n+1), .large-up-7 > .btn:nth-of-type(7n+1) {
       clear: both; }
     .large-up-7 > .column:last-child, .large-up-7 > .columns:last-child, .large-up-7 > .container:last-child, .large-up-7 > .project-grid:last-child, .large-up-7 > .desktop-mock:last-child, .large-up-7 >
-    .type:last-child, .large-up-7 > .mobile-mock:last-child, .large-up-7 >
+    .type:last-child, .large-up-7 >
+    .gradient-map:last-child, .large-up-7 >
+    .image-guides:last-child, .large-up-7 >
+    .intro:last-child, .large-up-7 > .mobile-mock:last-child, .large-up-7 >
     .logo-square:last-child, .large-up-7 >
     .color-specs:last-child, .large-up-7 >
-    .gradient-map:last-child, .large-up-7 >
-    .btn-styles:last-child, .color-specs .large-up-7 > ul:last-child, .color-specs ul .large-up-7 > li:last-child {
+    .btn-styles:last-child, .color-specs .large-up-7 > ul:last-child, .color-specs ul .large-up-7 > li:last-child, .large-up-7 > .btn:last-child {
       float: left; }
   .large-up-8 > .column, .large-up-8 > .columns, .large-up-8 > .container, .large-up-8 > .project-grid, .large-up-8 > .desktop-mock, .large-up-8 >
-  .type, .large-up-8 > .mobile-mock, .large-up-8 >
+  .type, .large-up-8 >
+  .gradient-map, .large-up-8 >
+  .image-guides, .large-up-8 >
+  .intro, .large-up-8 > .mobile-mock, .large-up-8 >
   .logo-square, .large-up-8 >
   .color-specs, .large-up-8 >
-  .gradient-map, .large-up-8 >
-  .btn-styles, .color-specs .large-up-8 > ul, .color-specs ul .large-up-8 > li {
+  .btn-styles, .color-specs .large-up-8 > ul, .color-specs ul .large-up-8 > li, .large-up-8 > .btn {
     float: left;
     width: 12.5%; }
     .large-up-8 > .column:nth-of-type(1n), .large-up-8 > .columns:nth-of-type(1n), .large-up-8 > .container:nth-of-type(1n), .large-up-8 > .project-grid:nth-of-type(1n), .large-up-8 > .desktop-mock:nth-of-type(1n), .large-up-8 >
-    .type:nth-of-type(1n), .large-up-8 > .mobile-mock:nth-of-type(1n), .large-up-8 >
+    .type:nth-of-type(1n), .large-up-8 >
+    .gradient-map:nth-of-type(1n), .large-up-8 >
+    .image-guides:nth-of-type(1n), .large-up-8 >
+    .intro:nth-of-type(1n), .large-up-8 > .mobile-mock:nth-of-type(1n), .large-up-8 >
     .logo-square:nth-of-type(1n), .large-up-8 >
     .color-specs:nth-of-type(1n), .large-up-8 >
-    .gradient-map:nth-of-type(1n), .large-up-8 >
-    .btn-styles:nth-of-type(1n), .color-specs .large-up-8 > ul:nth-of-type(1n), .color-specs ul .large-up-8 > li:nth-of-type(1n) {
+    .btn-styles:nth-of-type(1n), .color-specs .large-up-8 > ul:nth-of-type(1n), .color-specs ul .large-up-8 > li:nth-of-type(1n), .large-up-8 > .btn:nth-of-type(1n) {
       clear: none; }
     .large-up-8 > .column:nth-of-type(8n+1), .large-up-8 > .columns:nth-of-type(8n+1), .large-up-8 > .container:nth-of-type(8n+1), .large-up-8 > .project-grid:nth-of-type(8n+1), .large-up-8 > .desktop-mock:nth-of-type(8n+1), .large-up-8 >
-    .type:nth-of-type(8n+1), .large-up-8 > .mobile-mock:nth-of-type(8n+1), .large-up-8 >
+    .type:nth-of-type(8n+1), .large-up-8 >
+    .gradient-map:nth-of-type(8n+1), .large-up-8 >
+    .image-guides:nth-of-type(8n+1), .large-up-8 >
+    .intro:nth-of-type(8n+1), .large-up-8 > .mobile-mock:nth-of-type(8n+1), .large-up-8 >
     .logo-square:nth-of-type(8n+1), .large-up-8 >
     .color-specs:nth-of-type(8n+1), .large-up-8 >
-    .gradient-map:nth-of-type(8n+1), .large-up-8 >
-    .btn-styles:nth-of-type(8n+1), .color-specs .large-up-8 > ul:nth-of-type(8n+1), .color-specs ul .large-up-8 > li:nth-of-type(8n+1) {
+    .btn-styles:nth-of-type(8n+1), .color-specs .large-up-8 > ul:nth-of-type(8n+1), .color-specs ul .large-up-8 > li:nth-of-type(8n+1), .large-up-8 > .btn:nth-of-type(8n+1) {
       clear: both; }
     .large-up-8 > .column:last-child, .large-up-8 > .columns:last-child, .large-up-8 > .container:last-child, .large-up-8 > .project-grid:last-child, .large-up-8 > .desktop-mock:last-child, .large-up-8 >
-    .type:last-child, .large-up-8 > .mobile-mock:last-child, .large-up-8 >
+    .type:last-child, .large-up-8 >
+    .gradient-map:last-child, .large-up-8 >
+    .image-guides:last-child, .large-up-8 >
+    .intro:last-child, .large-up-8 > .mobile-mock:last-child, .large-up-8 >
     .logo-square:last-child, .large-up-8 >
     .color-specs:last-child, .large-up-8 >
-    .gradient-map:last-child, .large-up-8 >
-    .btn-styles:last-child, .color-specs .large-up-8 > ul:last-child, .color-specs ul .large-up-8 > li:last-child {
+    .btn-styles:last-child, .color-specs .large-up-8 > ul:last-child, .color-specs ul .large-up-8 > li:last-child, .large-up-8 > .btn:last-child {
       float: left; }
   .large-collapse > .column, .large-collapse > .columns, .large-collapse > .container, .large-collapse > .project-grid, .large-collapse > .desktop-mock, .large-collapse >
-  .type, .large-collapse > .mobile-mock, .large-collapse >
+  .type, .large-collapse >
+  .gradient-map, .large-collapse >
+  .image-guides, .large-collapse >
+  .intro, .large-collapse > .mobile-mock, .large-collapse >
   .logo-square, .large-collapse >
   .color-specs, .large-collapse >
-  .gradient-map, .large-collapse >
-  .btn-styles, .color-specs .large-collapse > ul, .color-specs ul .large-collapse > li {
+  .btn-styles, .color-specs .large-collapse > ul, .color-specs ul .large-collapse > li, .large-collapse > .btn {
     padding-right: 0;
     padding-left: 0; }
   .large-collapse .row {
@@ -2453,11 +2702,13 @@ pre {
     margin-right: 0;
     margin-left: 0; }
   .large-uncollapse > .column, .large-uncollapse > .columns, .large-uncollapse > .container, .large-uncollapse > .project-grid, .large-uncollapse > .desktop-mock, .large-uncollapse >
-  .type, .large-uncollapse > .mobile-mock, .large-uncollapse >
+  .type, .large-uncollapse >
+  .gradient-map, .large-uncollapse >
+  .image-guides, .large-uncollapse >
+  .intro, .large-uncollapse > .mobile-mock, .large-uncollapse >
   .logo-square, .large-uncollapse >
   .color-specs, .large-uncollapse >
-  .gradient-map, .large-uncollapse >
-  .btn-styles, .color-specs .large-uncollapse > ul, .color-specs ul .large-uncollapse > li {
+  .btn-styles, .color-specs .large-uncollapse > ul, .color-specs ul .large-uncollapse > li, .large-uncollapse > .btn {
     padding-right: 0.9375rem;
     padding-left: 0.9375rem; }
   .large-centered {
@@ -2937,7 +3188,7 @@ kbd {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
-    border-color: white transparent transparent;
+    border-color: #fefefe transparent transparent;
     position: relative;
     top: 0.4em;
     display: inline-block;
@@ -3161,7 +3412,7 @@ select {
 
 .is-invalid-input:not(:focus) {
   border-color: #cc4b37;
-  background-color: #faedeb; }
+  background-color: #f9ecea; }
   .is-invalid-input:not(:focus)::placeholder {
     color: #cc4b37; }
 
@@ -4249,7 +4500,7 @@ select {
   margin-bottom: 0;
   padding: 1rem;
   background-color: rgba(10, 10, 10, 0.5);
-  color: white; }
+  color: #fefefe; }
 
 .orbit-previous, .orbit-next {
   position: absolute;
@@ -4257,7 +4508,7 @@ select {
   transform: translateY(-50%);
   z-index: 10;
   padding: 1rem;
-  color: white; }
+  color: #fefefe; }
   [data-whatinput='mouse'] .orbit-previous, [data-whatinput='mouse'] .orbit-next {
     outline: 0; }
   .orbit-previous:hover, .orbit-next:hover, .orbit-previous:active, .orbit-next:active, .orbit-previous:focus, .orbit-next:focus {
@@ -4375,7 +4626,7 @@ select {
   margin: 0;
   font-size: 0.75rem;
   font-weight: bold;
-  color: white;
+  color: #fefefe;
   white-space: nowrap; }
 
 .slider {
@@ -4507,11 +4758,13 @@ html.is-reveal-open body {
     .reveal {
       min-height: 0; } }
   .reveal .column, .reveal .columns, .reveal .container, .reveal .project-grid, .reveal .desktop-mock, .reveal
-  .type, .reveal .mobile-mock, .reveal
+  .type, .reveal
+  .gradient-map, .reveal
+  .image-guides, .reveal
+  .intro, .reveal .mobile-mock, .reveal
   .logo-square, .reveal
   .color-specs, .reveal
-  .gradient-map, .reveal
-  .btn-styles, .reveal .color-specs ul, .color-specs .reveal ul, .reveal .color-specs ul li, .color-specs ul .reveal li {
+  .btn-styles, .reveal .color-specs ul, .color-specs .reveal ul, .reveal .color-specs ul li, .color-specs ul .reveal li, .reveal .btn {
     min-width: 0; }
   .reveal > :last-child {
     margin-bottom: 0; }
@@ -4571,7 +4824,7 @@ html.is-reveal-open body {
   outline: 0;
   font-size: 0.875rem;
   font-weight: bold;
-  color: white;
+  color: #fefefe;
   user-select: none; }
 
 .switch-input {
@@ -4761,7 +5014,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
 .tabs.primary {
   background: #1779ba; }
   .tabs.primary > li > a {
-    color: white; }
+    color: #fefefe; }
     .tabs.primary > li > a:hover, .tabs.primary > li > a:focus {
       background: #1673b1; }
 
