@@ -1,1 +1,1 @@
-"use strict";$(document).foundation();
+"use strict";$(document).foundation(),$(function(){$(".animsition").animsition({inClass:"fade-in-up-sm",outClass:"fade-out-down-sm",inDuration:500,outDuration:500,linkElement:".animsition-link",loading:!0,loadingParentElement:"body",loadingClass:"animsition-loading",unSupportCss:["animation-duration","-webkit-animation-duration","-o-animation-duration"]})});

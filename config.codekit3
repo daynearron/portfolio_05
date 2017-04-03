@@ -5025,6 +5025,16 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/css\/animsition.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/animsition-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/app.css": {
 		"aP": 1,
 		"bl": 0,
@@ -5032,6 +5042,166 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/app-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/base.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/base-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-down-lg.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-down-lg-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-down-sm.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-down-sm-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-down.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-down-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-left-lg.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-left-lg-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-left-sm-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-left-sm-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-left-sm.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-left-sm-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-left.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-left-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-right-lg.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-right-lg-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-right-sm.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-right-sm-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-right.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-right-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-up-lg.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-up-lg-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-up-sm.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-up-sm-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-up.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-up-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/loading.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/loading-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -5140,6 +5310,694 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/boys\/boys-01.jpg": {
+		"ft": 16384,
+		"iS": 509348,
+		"oA": 0,
+		"oAP": "\/img\/boys\/boys-01.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/boys\/boys-02.jpg": {
+		"ft": 16384,
+		"iS": 531644,
+		"oA": 0,
+		"oAP": "\/img\/boys\/boys-02.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/boys\/boys-03.jpg": {
+		"ft": 16384,
+		"iS": 422113,
+		"oA": 0,
+		"oAP": "\/img\/boys\/boys-03.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/boys\/boys-04.jpg": {
+		"ft": 16384,
+		"iS": 835968,
+		"oA": 0,
+		"oAP": "\/img\/boys\/boys-04.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/boys\/boys-05.jpg": {
+		"ft": 16384,
+		"iS": 407667,
+		"oA": 0,
+		"oAP": "\/img\/boys\/boys-05.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/boys\/boys-06.jpg": {
+		"ft": 16384,
+		"iS": 514532,
+		"oA": 0,
+		"oAP": "\/img\/boys\/boys-06.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/boys\/boys-07.jpg": {
+		"ft": 16384,
+		"iS": 222130,
+		"oA": 0,
+		"oAP": "\/img\/boys\/boys-07.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/boys\/boys-08.jpg": {
+		"ft": 16384,
+		"iS": 799362,
+		"oA": 0,
+		"oAP": "\/img\/boys\/boys-08.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/daynelogo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/daynelogo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/headshots\/.BridgeSort": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/headshots\/.BridgeSort",
+		"oF": 0
+		},
+	"\/img\/headshots\/headshots-01.jpg": {
+		"ft": 16384,
+		"iS": 1079891,
+		"oA": 0,
+		"oAP": "\/img\/headshots\/headshots-01.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/headshots\/headshots-02.jpg": {
+		"ft": 16384,
+		"iS": 1104025,
+		"oA": 0,
+		"oAP": "\/img\/headshots\/headshots-02.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/headshots\/headshots-03.jpg": {
+		"ft": 16384,
+		"iS": 770536,
+		"oA": 0,
+		"oAP": "\/img\/headshots\/headshots-03.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/headshots\/headshots-04.jpg": {
+		"ft": 16384,
+		"iS": 711721,
+		"oA": 1,
+		"oAP": "\/img\/headshots\/headshots-04.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/headshots\/headshots-05.jpg": {
+		"ft": 16384,
+		"iS": 29267757,
+		"oA": 0,
+		"oAP": "\/img\/headshots\/headshots-05.jpg",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/headshots\/headshots-06.jpg": {
+		"ft": 16384,
+		"iS": 1270361,
+		"oA": 0,
+		"oAP": "\/img\/headshots\/headshots-06.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/headshots\/headshots-07.jpg": {
+		"ft": 16384,
+		"iS": 589131,
+		"oA": 0,
+		"oAP": "\/img\/headshots\/headshots-07.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/headshots\/headshots-08.jpg": {
+		"ft": 16384,
+		"iS": 483412,
+		"oA": 0,
+		"oAP": "\/img\/headshots\/headshots-08.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/headshots\/headshots-09.jpg": {
+		"ft": 16384,
+		"iS": 609188,
+		"oA": 0,
+		"oAP": "\/img\/headshots\/headshots-09.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/jae\/jae01.jpg": {
+		"ft": 16384,
+		"iS": 1316934,
+		"oA": 0,
+		"oAP": "\/img\/jae\/jae01.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/jmarie\/jmarie-01.jpg": {
+		"ft": 16384,
+		"iS": 936024,
+		"oA": 0,
+		"oAP": "\/img\/jmarie\/jmarie-01.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/jmarie\/jmarie-02.jpg": {
+		"ft": 16384,
+		"iS": 918601,
+		"oA": 0,
+		"oAP": "\/img\/jmarie\/jmarie-02.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/jmarie\/jmarie-03.jpg": {
+		"ft": 16384,
+		"iS": 677052,
+		"oA": 0,
+		"oAP": "\/img\/jmarie\/jmarie-03.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/jvl\/jvl-01.jpg": {
+		"ft": 16384,
+		"iS": 1133468,
+		"oA": 0,
+		"oAP": "\/img\/jvl\/jvl-01.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/jvl\/jvl-02.jpg": {
+		"ft": 16384,
+		"iS": 1165034,
+		"oA": 0,
+		"oAP": "\/img\/jvl\/jvl-02.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/jvl\/jvl-03.jpg": {
+		"ft": 16384,
+		"iS": 1019723,
+		"oA": 0,
+		"oAP": "\/img\/jvl\/jvl-03.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/jvl\/jvl-04.jpg": {
+		"ft": 16384,
+		"iS": 976424,
+		"oA": 0,
+		"oAP": "\/img\/jvl\/jvl-04.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/jvl\/jvl-05.jpg": {
+		"ft": 16384,
+		"iS": 267041,
+		"oA": 0,
+		"oAP": "\/img\/jvl\/jvl-05.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/jvl\/jvl-06.jpg": {
+		"ft": 16384,
+		"iS": 179982,
+		"oA": 0,
+		"oAP": "\/img\/jvl\/jvl-06.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/luca\/luca-01.jpg": {
+		"ft": 16384,
+		"iS": 916939,
+		"oA": 0,
+		"oAP": "\/img\/luca\/luca-01.jpg",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/luca\/luca-02.jpg": {
+		"ft": 16384,
+		"iS": 642435,
+		"oA": 0,
+		"oAP": "\/img\/luca\/luca-02.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/luca\/luca-03.jpg": {
+		"ft": 16384,
+		"iS": 620856,
+		"oA": 0,
+		"oAP": "\/img\/luca\/luca-03.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/luca\/luca-04.jpg": {
+		"ft": 16384,
+		"iS": 964708,
+		"oA": 0,
+		"oAP": "\/img\/luca\/luca-04.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/luca\/luca-05.jpg": {
+		"ft": 16384,
+		"iS": 691538,
+		"oA": 0,
+		"oAP": "\/img\/luca\/luca-05.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/maddi\/maddi-01.jpg": {
+		"ft": 16384,
+		"iS": 1932809,
+		"oA": 0,
+		"oAP": "\/img\/maddi\/maddi-01.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/maddi\/maddi-02.jpg": {
+		"ft": 16384,
+		"iS": 6532607,
+		"oA": 0,
+		"oAP": "\/img\/maddi\/maddi-02.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/maddi\/maddi-03.jpg": {
+		"ft": 16384,
+		"iS": 2198183,
+		"oA": 0,
+		"oAP": "\/img\/maddi\/maddi-03.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/maddi\/maddi-04.jpg": {
+		"ft": 16384,
+		"iS": 1953982,
+		"oA": 0,
+		"oAP": "\/img\/maddi\/maddi-04.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/maddi\/maddi-05.jpg": {
+		"ft": 16384,
+		"iS": 2563419,
+		"oA": 0,
+		"oAP": "\/img\/maddi\/maddi-05.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/maddi\/maddi-06.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/maddi\/maddi-06.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/maddi\/maddi-07.jpg": {
+		"ft": 16384,
+		"iS": 131072,
+		"oA": 0,
+		"oAP": "\/img\/maddi\/maddi-07.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/maddi\/maddi-08.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/maddi\/maddi-08.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/madeline\/Layout-001.jpg": {
+		"ft": 16384,
+		"iS": 779078,
+		"oA": 0,
+		"oAP": "\/img\/madeline\/Layout-001.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/madeline\/Layout-002.jpg": {
+		"ft": 16384,
+		"iS": 679778,
+		"oA": 0,
+		"oAP": "\/img\/madeline\/Layout-002.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/madeline\/Layout-003.jpg": {
+		"ft": 16384,
+		"iS": 1363925,
+		"oA": 0,
+		"oAP": "\/img\/madeline\/Layout-003.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/madeline\/Layout-004.jpg": {
+		"ft": 16384,
+		"iS": 761244,
+		"oA": 0,
+		"oAP": "\/img\/madeline\/Layout-004.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/madeline\/Layout-005.jpg": {
+		"ft": 16384,
+		"iS": 811196,
+		"oA": 0,
+		"oAP": "\/img\/madeline\/Layout-005.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/madeline\/Layout-006.jpg": {
+		"ft": 16384,
+		"iS": 1029343,
+		"oA": 0,
+		"oAP": "\/img\/madeline\/Layout-006.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/madeline\/Layout-007.jpg": {
+		"ft": 16384,
+		"iS": 481913,
+		"oA": 0,
+		"oAP": "\/img\/madeline\/Layout-007.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/madeline\/Layout-008.jpg": {
+		"ft": 16384,
+		"iS": 248321,
+		"oA": 0,
+		"oAP": "\/img\/madeline\/Layout-008.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/madeline\/madeline-01.jpg": {
+		"ft": 16384,
+		"iS": 1322380,
+		"oA": 0,
+		"oAP": "\/img\/madeline\/madeline-01.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sam\/.BridgeSort": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/sam\/.BridgeSort",
+		"oF": 0
+		},
+	"\/img\/sam\/sam-01.jpg": {
+		"ft": 16384,
+		"iS": 897564,
+		"oA": 0,
+		"oAP": "\/img\/sam\/sam-01.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sam\/sam-010.jpg": {
+		"ft": 16384,
+		"iS": 916430,
+		"oA": 0,
+		"oAP": "\/img\/sam\/sam-010.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sam\/sam-02.jpg": {
+		"ft": 16384,
+		"iS": 788243,
+		"oA": 0,
+		"oAP": "\/img\/sam\/sam-02.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sam\/sam-03.jpg": {
+		"ft": 16384,
+		"iS": 781398,
+		"oA": 1,
+		"oAP": "\/img\/sam\/sam-03.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sam\/sam-04.jpg": {
+		"ft": 16384,
+		"iS": 916430,
+		"oA": 0,
+		"oAP": "\/img\/sam\/sam-04.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sam\/sam-05.jpg": {
+		"ft": 16384,
+		"iS": 541663,
+		"oA": 1,
+		"oAP": "\/img\/sam\/sam-05.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sam\/sam-06.jpg": {
+		"ft": 16384,
+		"iS": 591451,
+		"oA": 1,
+		"oAP": "\/img\/sam\/sam-06.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sam\/sam-07.jpg": {
+		"ft": 16384,
+		"iS": 649833,
+		"oA": 0,
+		"oAP": "\/img\/sam\/sam-07.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sam\/sam-08.jpg": {
+		"ft": 16384,
+		"iS": 1079835,
+		"oA": 0,
+		"oAP": "\/img\/sam\/sam-08.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sam\/sam-09.jpg": {
+		"ft": 16384,
+		"iS": 1017917,
+		"oA": 0,
+		"oAP": "\/img\/sam\/sam-09.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sam\/sam-11.jpg": {
+		"ft": 16384,
+		"iS": 897564,
+		"oA": 0,
+		"oAP": "\/img\/sam\/sam-00.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sam\/sam-12.jpg": {
+		"ft": 16384,
+		"iS": 743265,
+		"oA": 0,
+		"oAP": "\/img\/sam\/sam-12.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sam\/sam-13.jpg": {
+		"ft": 16384,
+		"iS": 762515,
+		"oA": 0,
+		"oAP": "\/img\/sam\/sam-13.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sam\/sam-14.jpg": {
+		"ft": 16384,
+		"iS": 1335956,
+		"oA": 0,
+		"oAP": "\/img\/sam\/sam-14.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sam\/sam-15.jpg": {
+		"ft": 16384,
+		"iS": 917943,
+		"oA": 0,
+		"oAP": "\/img\/sam\/sam-15.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sophia\/sophia-01.jpg": {
+		"ft": 16384,
+		"iS": 289398,
+		"oA": 0,
+		"oAP": "\/img\/sophia\/sophia-01.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sophia\/sophia-010.jpg": {
+		"ft": 16384,
+		"iS": 263498,
+		"oA": 0,
+		"oAP": "\/img\/sophia\/sophia-010.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sophia\/sophia-02.jpg": {
+		"ft": 16384,
+		"iS": 995823,
+		"oA": 0,
+		"oAP": "\/img\/sophia\/sophia-02.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sophia\/sophia-03.jpg": {
+		"ft": 16384,
+		"iS": 752714,
+		"oA": 0,
+		"oAP": "\/img\/sophia\/sophia-03.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sophia\/sophia-04.jpg": {
+		"ft": 16384,
+		"iS": 1196459,
+		"oA": 0,
+		"oAP": "\/img\/sophia\/sophia-04.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sophia\/sophia-05.jpg": {
+		"ft": 16384,
+		"iS": 314959,
+		"oA": 0,
+		"oAP": "\/img\/sophia\/sophia-05.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sophia\/sophia-06.jpg": {
+		"ft": 16384,
+		"iS": 268775,
+		"oA": 0,
+		"oAP": "\/img\/sophia\/sophia-06.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sophia\/sophia-07.jpg": {
+		"ft": 16384,
+		"iS": 581770,
+		"oA": 0,
+		"oAP": "\/img\/sophia\/sophia-07.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sophia\/sophia-08.jpg": {
+		"ft": 16384,
+		"iS": 469930,
+		"oA": 0,
+		"oAP": "\/img\/sophia\/sophia-08.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/sophia\/sophia-09.jpg": {
+		"ft": 16384,
+		"iS": 393978,
+		"oA": 0,
+		"oAP": "\/img\/sophia\/sophia-09.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/index.haml": {
 		"cDA": 0,
 		"eHT": 0,
@@ -5158,6 +6016,15 @@
 		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
+		},
+	"\/js\/animsition.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/animsition.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/js\/app.js": {
 		"ft": 64,

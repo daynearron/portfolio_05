@@ -8,141 +8,43 @@
 		%meta{:name => "pinterest", :content => "nopin"}/
 		%title Dayne Arron Watai
 		%link{:href => "css/app.css", :rel => "stylesheet"}/
+		%link{:href => "css/animsition.css", :rel => "stylesheet"}/
 		%link{:href => "bower_components/slick-carousel/slick/slick.css", :rel => "stylesheet"}
 		%link{:href => "bower_components/normalize-css/normalize.css", :rel => "stylesheet"}
-	%body.balboa
+	%body.welcome.animsition{:"data-animsition-out-class" => "fade-out-down-sm", :"data-animsition-out-duration"=>"1000", :"data-animsition-in-class" => "fade-in-up-sm", :"data-animsition-out-duration"=>"500"} 
 		.hero	
 			.row
 				.container
-					%span Case Study
-					%h1 Balboa Pacific Insurance
-					%p Independant Insurance Broker
+					%h1#logo Dayne-Arron Watai
 		.row
 			.container
-				.intro
-					%h2
-						Insurance you can trust.
-					%p
-						Balboa Pacific is an independent agency in the business of helping people feel secure without breaking the bank. They’ve built a reputation on trust via word of mouth.
-					%h3
-						How do we convey honesty?
-					%p
-						The objective of this rebrand was to explore, develop and define a brand vision for an independent insurance agency providing a learning experience for people in need of insurance. I built the Balboa Pacific identity from the concept of ease and trust, utilizing elements that flow into each other to create form. The design direction seeks to clarify the complexities of insurance, providing a clear view of what options are available to the insured.
-		.row
-			.container
-				.project-grid
-					.desktop-mock
-						.headline
-							Desktop	
-						.carousel	
-							%img{:src => "img/balboa/desktop_01.png", :alt => ""}/
-							%img{:src => "img/balboa/desktop_02.png", :alt => ""}/
-							%img{:src => "img/balboa/desktop_03.png", :alt => ""}/
-					.mobile-mock
-						.headline
-							Mobile
-						.carousel
-							%img{:src => "img/balboa/desktop_01.png", :alt => ""}/
-							%img{:src => "img/balboa/desktop_02.png", :alt => ""}/
-							%img{:src => "img/balboa/desktop_03.png", :alt => ""}/
-					.logo-square
-						.headline
-							Logo Variations
-						.logo-color-bg
-							%img{:src => "img/balboa/logo-color.svg", :alt => ""}/
-					.logo-square
-						.logo-color-bg.white
-							%img{:src => "img/balboa/logo-white.svg", :alt => ""}/
-					.color-specs
-						.headline
-							Color Palette
-						%ul.darken
-							%li
-								%p
-									fafafa
-							%li
-								%p
-									fafafa
-							%li
-								%p
-									fafafa
-							%li
-								%p
-									fafafa
-							%li
-								%p
-									fafafa
-							%li
-								%p
-									fafafa
-						%ul.fade
-							%li
-								%p
-									fafafa
-							%li
-								%p
-									fafafa
-							%li
-								%p
-									fafafa
-							%li
-								%p
-									fafafa
-							%li
-								%p
-									fafafa
-							%li
-								%p
-									fafafa
-					.btn-styles
-						.headline
-							Button Styles
-						%a{:class=>"btn btn-light", :href=>"javascript:void(0)"}
-							CTA
-						%a{:class=>"btn btn-light-transparent", :href=>"javascript:void(0)"}
-							CTA
-						%a{:class=>"btn btn-dark", :href=>"javascript:void(0)"}
-							CTA
-						%a{:class=>"btn btn-dark-transparent", :href=>"javascript:void(0)"}
-							CTA		
-		.row
-			.container
-				.project-grid
-					.gradient-map
-						.headline
-							Gradient Map
-						.gradient-map-inner.gradient-map-highlight
-							%p
-								Balboa Blue & Balboa Pop Blue					
-		.row
-			.container
-				.project-grid					
-					.type
-						.headline
-							Type Hierarchy
-						%h1
-							Headline
-						%h2
-							Sub-Header
-						%p
-							Paragraph
-						%span
-							Section Headers
-		.row
-			.container
-				.project-grid
-					.image-guides
-						.headline
-							Image Guidelines	
-						.carousel	
-							%img{:src => "img/balboa/sample-image-01.jpg", :alt => ""}/
-							%img{:src => "img/balboa/sample-image-02.jpg", :alt => ""}/
-							%img{:src => "img/balboa/sample-image-03.jpg", :alt => ""}/
-
+				.carousel	
+					%a{:href => "/"}
+						%img{:src => "img/sophia/sophia-01.jpg", :alt => ""}/
+					%a{:href => "/"}
+						%img{:src => "img/headshots/headshots-01.jpg", :alt => ""}/					
+					%a{:href => "/"}
+						%img{:src => "img/luca/luca-01.jpg", :alt => ""}/
+					%a{:href => "/"}
+						%img{:src => "img/jae/jae01.jpg", :alt => ""}/
+					%a{:href => "/"}
+						%img{:src => "img/maddi/maddi-01.jpg", :alt => ""}/
+					%a{:href => "/"}
+						%img{:src => "img/jmarie/jmarie-01.jpg", :alt => ""}/
+					%a{:href => "/"}
+						%img{:src => "img/madeline/madeline-01.jpg", :alt => ""}/
+					%a{:href => "/"}
+						%img{:src => "img/boys/boys-01.jpg", :alt => ""}/
+					%a{:href => "/"}
+						%img{:src => "img/sam/sam-01.jpg", :alt => ""}/
+					%a{:href => "/"}
+						%img{:src => "img/jvl/jvl-01.jpg", :alt => ""}/
+		%script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
 		%script{:src => "bower_components/jquery/dist/jquery.js"}
 		%script{:src => "bower_components/what-input/dist/what-input.js"}
 		%script{:src => "bower_components/foundation-sites/dist/js/foundation.js"}
 		%script{:src => "bower_components/slick-carousel/slick/slick.js"}
+		%script{:src => "https://cdnjs.cloudflare.com/ajax/libs/animsition/3.6.0/js/jquery.animsition.js"}
 		%script{:src => "js/min/app-min.js"}
 		:javascript
 			$(document).ready(function(){
@@ -151,7 +53,9 @@
 					infinite: true,
 					speed: 300,
 					slidesToShow: 1,
-					arrows : false,
-					adaptiveHeight: true
+					centerMode: false,
+					variableWidth: true,
+					autoplay: true,
+					autoplaySpeed: 4000,
 				});
 			});
