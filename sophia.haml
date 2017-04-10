@@ -1,0 +1,50 @@
+!!!
+%html.no-js{:lang => "en"}
+	%head
+		%meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+		%meta{:charset => "utf-8"}/
+		%meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
+		%meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+		%meta{:name => "pinterest", :content => "nopin"}/
+		%title Dayne Arron Watai - Editorial - Sophia
+		%link{:href => "css/app.css", :rel => "stylesheet"}/
+		%link{:href => "css/animsition.css", :rel => "stylesheet"}/
+		%link{:href => "bower_components/slick-carousel/slick/slick.css", :rel => "stylesheet"}
+		%link{:href => "bower_components/normalize-css/normalize.css", :rel => "stylesheet"}
+	%body.welcome
+		.hero.animsition	
+			.row
+				.container
+					%h1#logo Dayne-Arron Watai
+		.row.animsition
+			.container
+				.carousel	
+					%img{:src => "img/sophia/sophia-01.jpg", :alt => ""}/
+					%img{:src => "img/sophia/sophia-02.jpg", :alt => ""}/
+					%img{:src => "img/sophia/sophia-03.jpg", :alt => ""}/
+					%img{:src => "img/sophia/sophia-04.jpg", :alt => ""}/
+					%img{:src => "img/sophia/sophia-05.jpg", :alt => ""}/
+					%img{:src => "img/sophia/sophia-06.jpg", :alt => ""}/
+					%img{:src => "img/sophia/sophia-07.jpg", :alt => ""}/
+					%img{:src => "img/sophia/sophia-08.jpg", :alt => ""}/
+					%img{:src => "img/sophia/sophia-09.jpg", :alt => ""}/
+		%script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
+		%script{:src => "bower_components/jquery/dist/jquery.js"}
+		%script{:src => "bower_components/what-input/dist/what-input.js"}
+		%script{:src => "bower_components/foundation-sites/dist/js/foundation.js"}
+		%script{:src => "bower_components/slick-carousel/slick/slick.js"}
+		%script{:src => "https://cdnjs.cloudflare.com/ajax/libs/animsition/3.6.0/js/jquery.animsition.js"}
+		%script{:src => "js/min/app-min.js"}
+		:javascript
+			$(document).ready(function(){
+				$('.carousel').slick({
+					dots: false,
+					infinite: true,
+					speed: 300,
+					slidesToShow: 3,
+					centerMode: false,
+					variableWidth: true,
+					autoplay: true,
+					autoplaySpeed: 4000,
+				});
+			});

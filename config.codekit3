@@ -7,7 +7,7 @@
 		"uuidString": "30B9288C-DAAC-4145-A0D6-6777D7D54AE0"
 		}
 	],
-"creatorBuild": "25704",
+"creatorBuild": "25813",
 "files": {
 	"\/.bowerrc": {
 		"ft": 8192,
@@ -5205,34 +5205,66 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/headshots.haml": {
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/headshots.html",
+		"oF": 0,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
+	"\/headshots.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/headshots.html",
+		"oF": 0
+		},
+	"\/img\/_MG_5563.jpg": {
+		"ft": 16384,
+		"iS": 722537,
+		"oA": 1,
+		"oAP": "\/img\/_MG_5563.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/balboa\/desktop_01.png": {
 		"ft": 32768,
 		"iS": 2167601,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/balboa\/desktop_01.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/balboa\/desktop_02.png": {
 		"ft": 32768,
 		"iS": 3937663,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/balboa\/desktop_02.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/balboa\/desktop_03.png": {
 		"ft": 32768,
 		"iS": 899861,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/balboa\/desktop_03.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/balboa\/gradient-map-balboa-dark.jpg": {
@@ -5241,6 +5273,7 @@
 		"oA": 0,
 		"oAP": "\/img\/balboa\/gradient-map-balboa-dark.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5250,17 +5283,19 @@
 		"oA": 0,
 		"oAP": "\/img\/balboa\/gradient-map-balboa-light.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
 	"\/img\/balboa\/logo-color.png": {
 		"ft": 32768,
 		"iS": 6357,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/balboa\/logo-color.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/balboa\/logo-color.svg": {
@@ -5289,6 +5324,7 @@
 		"oA": 0,
 		"oAP": "\/img\/balboa\/sample-image-01.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5298,6 +5334,7 @@
 		"oA": 0,
 		"oAP": "\/img\/balboa\/sample-image-02.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5307,6 +5344,7 @@
 		"oA": 0,
 		"oAP": "\/img\/balboa\/sample-image-03.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5316,6 +5354,7 @@
 		"oA": 0,
 		"oAP": "\/img\/boys\/boys-01.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5325,6 +5364,7 @@
 		"oA": 0,
 		"oAP": "\/img\/boys\/boys-02.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5334,6 +5374,7 @@
 		"oA": 0,
 		"oAP": "\/img\/boys\/boys-03.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5343,6 +5384,7 @@
 		"oA": 0,
 		"oAP": "\/img\/boys\/boys-04.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5352,6 +5394,7 @@
 		"oA": 0,
 		"oAP": "\/img\/boys\/boys-05.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5361,6 +5404,7 @@
 		"oA": 0,
 		"oAP": "\/img\/boys\/boys-06.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5370,6 +5414,7 @@
 		"oA": 0,
 		"oAP": "\/img\/boys\/boys-07.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5379,6 +5424,7 @@
 		"oA": 0,
 		"oAP": "\/img\/boys\/boys-08.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5392,18 +5438,13 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/headshots\/.BridgeSort": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/img\/headshots\/.BridgeSort",
-		"oF": 0
-		},
 	"\/img\/headshots\/headshots-01.jpg": {
 		"ft": 16384,
 		"iS": 1079891,
 		"oA": 0,
 		"oAP": "\/img\/headshots\/headshots-01.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5413,6 +5454,7 @@
 		"oA": 0,
 		"oAP": "\/img\/headshots\/headshots-02.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5422,6 +5464,7 @@
 		"oA": 0,
 		"oAP": "\/img\/headshots\/headshots-03.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5431,6 +5474,7 @@
 		"oA": 1,
 		"oAP": "\/img\/headshots\/headshots-04.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5440,6 +5484,7 @@
 		"oA": 0,
 		"oAP": "\/img\/headshots\/headshots-05.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -5449,6 +5494,7 @@
 		"oA": 0,
 		"oAP": "\/img\/headshots\/headshots-06.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5458,6 +5504,7 @@
 		"oA": 0,
 		"oAP": "\/img\/headshots\/headshots-07.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5467,6 +5514,7 @@
 		"oA": 0,
 		"oAP": "\/img\/headshots\/headshots-08.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5476,6 +5524,7 @@
 		"oA": 0,
 		"oAP": "\/img\/headshots\/headshots-09.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5485,6 +5534,7 @@
 		"oA": 0,
 		"oAP": "\/img\/jae\/jae01.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5494,6 +5544,7 @@
 		"oA": 0,
 		"oAP": "\/img\/jmarie\/jmarie-01.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5503,6 +5554,7 @@
 		"oA": 0,
 		"oAP": "\/img\/jmarie\/jmarie-02.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5512,6 +5564,7 @@
 		"oA": 0,
 		"oAP": "\/img\/jmarie\/jmarie-03.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5521,6 +5574,7 @@
 		"oA": 0,
 		"oAP": "\/img\/jvl\/jvl-01.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5530,6 +5584,7 @@
 		"oA": 0,
 		"oAP": "\/img\/jvl\/jvl-02.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5539,6 +5594,7 @@
 		"oA": 0,
 		"oAP": "\/img\/jvl\/jvl-03.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5548,6 +5604,7 @@
 		"oA": 0,
 		"oAP": "\/img\/jvl\/jvl-04.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5557,6 +5614,7 @@
 		"oA": 0,
 		"oAP": "\/img\/jvl\/jvl-05.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5566,6 +5624,7 @@
 		"oA": 0,
 		"oAP": "\/img\/jvl\/jvl-06.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5575,6 +5634,7 @@
 		"oA": 0,
 		"oAP": "\/img\/luca\/luca-01.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -5584,6 +5644,7 @@
 		"oA": 0,
 		"oAP": "\/img\/luca\/luca-02.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5593,6 +5654,7 @@
 		"oA": 0,
 		"oAP": "\/img\/luca\/luca-03.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5602,6 +5664,7 @@
 		"oA": 0,
 		"oAP": "\/img\/luca\/luca-04.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5611,6 +5674,7 @@
 		"oA": 0,
 		"oAP": "\/img\/luca\/luca-05.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5620,6 +5684,7 @@
 		"oA": 0,
 		"oAP": "\/img\/maddi\/maddi-01.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5629,6 +5694,7 @@
 		"oA": 0,
 		"oAP": "\/img\/maddi\/maddi-02.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5638,6 +5704,7 @@
 		"oA": 0,
 		"oAP": "\/img\/maddi\/maddi-03.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5647,6 +5714,7 @@
 		"oA": 0,
 		"oAP": "\/img\/maddi\/maddi-04.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5656,6 +5724,7 @@
 		"oA": 0,
 		"oAP": "\/img\/maddi\/maddi-05.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5665,6 +5734,7 @@
 		"oA": 0,
 		"oAP": "\/img\/maddi\/maddi-06.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5674,6 +5744,7 @@
 		"oA": 0,
 		"oAP": "\/img\/maddi\/maddi-07.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5683,6 +5754,7 @@
 		"oA": 0,
 		"oAP": "\/img\/maddi\/maddi-08.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5692,6 +5764,7 @@
 		"oA": 0,
 		"oAP": "\/img\/madeline\/Layout-001.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5701,6 +5774,7 @@
 		"oA": 0,
 		"oAP": "\/img\/madeline\/Layout-002.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5710,6 +5784,7 @@
 		"oA": 0,
 		"oAP": "\/img\/madeline\/Layout-003.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5719,6 +5794,7 @@
 		"oA": 0,
 		"oAP": "\/img\/madeline\/Layout-004.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5728,6 +5804,7 @@
 		"oA": 0,
 		"oAP": "\/img\/madeline\/Layout-005.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5737,6 +5814,7 @@
 		"oA": 0,
 		"oAP": "\/img\/madeline\/Layout-006.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5746,6 +5824,7 @@
 		"oA": 0,
 		"oAP": "\/img\/madeline\/Layout-007.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5755,6 +5834,7 @@
 		"oA": 0,
 		"oAP": "\/img\/madeline\/Layout-008.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5764,6 +5844,7 @@
 		"oA": 0,
 		"oAP": "\/img\/madeline\/madeline-01.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5779,24 +5860,27 @@
 		"oA": 0,
 		"oAP": "\/img\/sam\/sam-01.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
 	"\/img\/sam\/sam-010.jpg": {
 		"ft": 16384,
-		"iS": 916430,
+		"iS": 911817,
 		"oA": 0,
 		"oAP": "\/img\/sam\/sam-010.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
 	"\/img\/sam\/sam-02.jpg": {
 		"ft": 16384,
-		"iS": 788243,
+		"iS": 917943,
 		"oA": 0,
 		"oAP": "\/img\/sam\/sam-02.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5806,6 +5890,7 @@
 		"oA": 1,
 		"oAP": "\/img\/sam\/sam-03.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5815,6 +5900,7 @@
 		"oA": 0,
 		"oAP": "\/img\/sam\/sam-04.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5824,6 +5910,7 @@
 		"oA": 1,
 		"oAP": "\/img\/sam\/sam-05.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5833,6 +5920,7 @@
 		"oA": 1,
 		"oAP": "\/img\/sam\/sam-06.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5842,6 +5930,7 @@
 		"oA": 0,
 		"oAP": "\/img\/sam\/sam-07.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5851,6 +5940,7 @@
 		"oA": 0,
 		"oAP": "\/img\/sam\/sam-08.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5860,15 +5950,17 @@
 		"oA": 0,
 		"oAP": "\/img\/sam\/sam-09.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
 	"\/img\/sam\/sam-11.jpg": {
 		"ft": 16384,
-		"iS": 897564,
+		"iS": 1017497,
 		"oA": 0,
 		"oAP": "\/img\/sam\/sam-00.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5878,6 +5970,7 @@
 		"oA": 0,
 		"oAP": "\/img\/sam\/sam-12.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5887,6 +5980,7 @@
 		"oA": 0,
 		"oAP": "\/img\/sam\/sam-13.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5896,6 +5990,7 @@
 		"oA": 0,
 		"oAP": "\/img\/sam\/sam-14.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5905,6 +6000,7 @@
 		"oA": 0,
 		"oAP": "\/img\/sam\/sam-15.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5914,6 +6010,7 @@
 		"oA": 0,
 		"oAP": "\/img\/sophia\/sophia-01.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5923,6 +6020,7 @@
 		"oA": 0,
 		"oAP": "\/img\/sophia\/sophia-010.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5932,6 +6030,7 @@
 		"oA": 0,
 		"oAP": "\/img\/sophia\/sophia-02.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5941,6 +6040,7 @@
 		"oA": 0,
 		"oAP": "\/img\/sophia\/sophia-03.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5950,6 +6050,7 @@
 		"oA": 0,
 		"oAP": "\/img\/sophia\/sophia-04.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5959,6 +6060,7 @@
 		"oA": 0,
 		"oAP": "\/img\/sophia\/sophia-05.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5968,6 +6070,7 @@
 		"oA": 0,
 		"oAP": "\/img\/sophia\/sophia-06.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5977,6 +6080,7 @@
 		"oA": 0,
 		"oAP": "\/img\/sophia\/sophia-07.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5986,6 +6090,7 @@
 		"oA": 0,
 		"oAP": "\/img\/sophia\/sophia-08.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5995,6 +6100,7 @@
 		"oA": 0,
 		"oAP": "\/img\/sophia\/sophia-09.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -6015,6 +6121,25 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/jae.haml": {
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/jae.html",
+		"oF": 0,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
+	"\/jae.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/jae.html",
 		"oF": 0
 		},
 	"\/js\/animsition.min.js": {
@@ -6048,6 +6173,82 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/js\/min\/app-min.js.map",
+		"oF": 0
+		},
+	"\/jvl.haml": {
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/jvl.html",
+		"oF": 0,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
+	"\/jvl.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/jvl.html",
+		"oF": 0
+		},
+	"\/Luca.haml": {
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/Luca.html",
+		"oF": 2,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
+	"\/Luca.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Luca.html",
+		"oF": 0
+		},
+	"\/maddi.haml": {
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/maddi.html",
+		"oF": 0,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
+	"\/maddi.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/maddi.html",
+		"oF": 0
+		},
+	"\/madeline.haml": {
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/madeline.html",
+		"oF": 2,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
+	"\/madeline.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/madeline.html",
 		"oF": 0
 		},
 	"\/package.json": {
@@ -6166,6 +6367,25 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/sophia.haml": {
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/sophia.html",
+		"oF": 0,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
+	"\/sophia.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sophia.html",
+		"oF": 0
 		},
 	"\/untitled.haml": {
 		"cDA": 0,
@@ -7149,6 +7369,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -7973,14 +8197,6 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
@@ -8043,7 +8259,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"enableLossy": 1,
+		"optimizerType": 1,
 		"quality": 100
 		},
 	"languageDefaultsPUG": {
